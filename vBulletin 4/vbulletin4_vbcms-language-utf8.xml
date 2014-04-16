@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language name="Polski (PL)" vbversion="4.2.2" product="vbcms" type="custom">
+	<settings>
+		<options><![CDATA[1]]></options>
+		<languagecode><![CDATA[pl]]></languagecode>
+		<charset><![CDATA[UTF-8]]></charset>
+		<imagesoverride />
+		<dateoverride />
+		<timeoverride><![CDATA[H:i]]></timeoverride>
+		<registereddateoverride />
+		<calformat1override />
+		<calformat2override />
+		<logdateoverride />
+		<locale />
+		<decimalsep><![CDATA[.]]></decimalsep>
+		<thousandsep><![CDATA[_]]></thousandsep>
+		<phrasegroupinfo><![CDATA[a:1:{s:8:"ckeditor";a:1:{s:11:"maxdateline";s:10:"1345457526";}}]]></phrasegroupinfo>
+	</settings>
+	<phrasetype name="Activity Stream" fieldname="activitystream">
+		<phrase name="guest_x_commented_on_an_article_y_in_z" date="1343917158" username="Mateusz K" version="4.2.0"><![CDATA[{1} skomentował artykuł <a href="{2}">{3}</a> w <a href="{4}">{5}</a>]]></phrase>
+		<phrase name="guest_x_created_an_article_y_in_z" date="1343917087" username="Mateusz K" version="4.2.0"><![CDATA[{1} stworzył artykuł <a href="{2}">{3}</a> w <a href="{4}">{5}</a>]]></phrase>
+		<phrase name="x_commented_on_an_article_y_in_z" date="1343917146" username="Mateusz K" version="4.2.0"><![CDATA[<a href="{1}" class="username">{2}</a> skomentował artykuł <a href="{3}">{4}</a> w <a href="{5}">{6}</a>]]></phrase>
+		<phrase name="x_created_an_article_y_in_z" date="1343917069" username="Mateusz K" version="4.2.0"><![CDATA[ <a href="{1}" class="username">{2}</a> stworzył artykuł <a href="{3}">{4}</a> w <a href="{5}">{6}</a>]]></phrase>
+	</phrasetype>
+	<phrasetype name="Content Types" fieldname="contenttypes">
+		<phrase name="contenttype_vbcms_article" date="1296824407" username="Mateusz" version="4.1.1"><![CDATA[Artykuł]]></phrase>
+		<phrase name="contenttype_vbcms_article_untitled" date="1301582912" username="Mateusz" version="4.1.1"><![CDATA[Artykuł bez tytułu]]></phrase>
+		<phrase name="contenttype_vbcms_category" date="1301582912" username="Mateusz" version="4.1.1"><![CDATA[Kategoria]]></phrase>
+		<phrase name="contenttype_vbcms_category_untitled" date="1301582912" username="Mateusz" version="4.1.1"><![CDATA[Kategoria bez tytułu]]></phrase>
+		<phrase name="contenttype_vbcms_cmscomment" date="1301582912" username="Mateusz" version="4.1.1"><![CDATA[Komentarze w CMS]]></phrase>
+		<phrase name="contenttype_vbcms_section" date="1301582912" username="Mateusz" version="4.1.1"><![CDATA[Sekcja]]></phrase>
+		<phrase name="contenttype_vbcms_staticpage" date="1301582912" username="Mateusz" version="4.1.1"><![CDATA[Statyczna strona]]></phrase>
+		<phrase name="contenttype_vbforum_visitormessage" date="1301582988" username="Mateusz" version="4.1.1"><![CDATA[Wpisy w profilu]]></phrase>
+	</phrasetype>
+	<phrasetype name="Content Management System AdminCP" fieldname="cpcms">
+		<phrase name="add_new_grid" date="1301583065" username="Mateusz" version="4.1.1"><![CDATA[Dodaj nową siatkę]]></phrase>
+		<phrase name="add_new_layout" date="1287175407" username="Mateusz" version="4.0.7"><![CDATA[Dodaj nowy układ]]></phrase>
+		<phrase name="add_subcategory" date="1287175435" username="Mateusz" version="4.0.7"><![CDATA[Dodaj podkategorię]]></phrase>
+		<phrase name="all_content" date="1301583065" username="Mateusz" version="4.1.1"><![CDATA[Cała treść]]></phrase>
+		<phrase name="all_sections" date="1287175501" username="Mateusz" version="4.0.7"><![CDATA[Wszystkie sekcje]]></phrase>
+		<phrase name="allow_html_widget_desc" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Zezwól na HTML (ta opcja będzie działać jeśli HTML jest włączony także dla forum).]]></phrase>
+		<phrase name="allow_overwrite_grid" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Zezwolić na nadpisywanie istniejących siatek mających takie same nazwy?]]></phrase>
+		<phrase name="allow_public_preview" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Zezwolenia podglądu]]></phrase>
+		<phrase name="any" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Dowolny]]></phrase>
+		<phrase name="any_author" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Dowolny autor]]></phrase>
+		<phrase name="any_type" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Dowolny typ]]></phrase>
+		<phrase name="apply" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Zastosuj]]></phrase>
+		<phrase name="are_you_sure_want_to_delete_grid_x" date="1301583277" username="Mateusz" version="4.1.1"><![CDATA[Czy jesteś <b>pewien</b>, że chcesz usunąć siatkę '{1}'?<br /><span class="smallfont">({2}: {3})</span><br /><br /> {4} Tej operacji nie można cofnąć!]]></phrase>
+		<phrase name="are_you_sure_want_to_delete_layoutid_x" date="1301583594" username="Mateusz" version="4.1.1"><![CDATA[Czy jesteś <b>pewien</b>, że chcesz usunąć układ '{1}'?<br /><span class="smallfont">({2}: {3})</span><br /><br /> {4} Tej operacji nie można cofnąć!]]></phrase>
+		<phrase name="are_you_sure_want_to_delete_widget_x" date="1301583594" username="Mateusz" version="4.1.1"><![CDATA[Czy jesteś <b>pewien</b>, że chcesz usunąć widżet '{1}'?<br /><br />
+Zostanie on usunięty ze wszystkich stron wraz z powiązanymi z nim danymi.<br /><br />
+Tej operacji nie można cofnąć!]]></phrase>
+		<phrase name="article_deleted" date="1301583594" username="Mateusz" version="4.1.1"><![CDATA[Ten artykuł został usunięty.]]></phrase>
+		<phrase name="articles" date="1287175538" username="Mateusz" version="4.0.7"><![CDATA[Artykuły]]></phrase>
+		<phrase name="author_label" date="1288275643" username="Mateusz" version="4.0.7"><![CDATA[Autor]]></phrase>
+		<phrase name="blog_post_ids" date="1301589131" username="Mateusz" version="4.1.1"><![CDATA[Blog Post IDs]]></phrase>
+		<phrase name="cache_life_minutes" date="1301583594" username="Mateusz" version="4.1.1"><![CDATA[Odświeżanie czasu buforowania (w minutach)]]></phrase>
+		<phrase name="can_download" date="1301583594" username="Mateusz" version="4.1.1"><![CDATA[Może pobierać załączniki]]></phrase>
+		<phrase name="can_publish" date="1301583594" username="Mateusz" version="4.1.1"><![CDATA[Może publikować]]></phrase>
+		<phrase name="can_read" date="1301583594" username="Mateusz" version="4.1.1"><![CDATA[Może czytać]]></phrase>
+		<phrase name="can_use_html" date="1301583911" username="Mateusz" version="4.1.1"><![CDATA[Może używać HTMLa w CMSie]]></phrase>
+		<phrase name="cannot_delete_with_subnodes" date="1301583911" username="Mateusz" version="4.1.1"><![CDATA[Przepraszamy, ale nie można usunąć sekcji z zwartością. Jeśli chcesz ją usunąć proszę najpierw usunąć całą jej treść.]]></phrase>
+		<phrase name="cannot_move_to_subnode" date="1301584230" username="Mateusz" version="4.1.1"><![CDATA[Nie możesz przenieść nadrzędnego węzła do podrzędnego. To by spowodowało poważne uszkodzenie danych.]]></phrase>
+		<phrase name="categories_everything" date="1301583911" username="Mateusz" version="4.1.1"><![CDATA[Wszystko]]></phrase>
+		<phrase name="categories_everything_sorted" date="1301583911" username="Mateusz" version="4.1.1"><![CDATA[Wszystko, posortowane]]></phrase>
+		<phrase name="categories_show" date="1301583911" username="Mateusz" version="4.1.1"><![CDATA[Pokaż]]></phrase>
+		<phrase name="categories_this_section" date="1301583911" username="Mateusz" version="4.1.1"><![CDATA[ta sekcja]]></phrase>
+		<phrase name="category_editor_section_navigator" date="1301583911" username="Mateusz" version="4.1.1"><![CDATA[Edytor kategorii / Nawigacja sekcji]]></phrase>
+		<phrase name="category_title" date="1301584545" username="Mateusz" version="4.1.1"><![CDATA[Tytuł kategorii]]></phrase>
+		<phrase name="check_lost_found" date="1301591823" username="Mateusz" version="4.1.1"><![CDATA[Niektóre węzły nie są poprawnie umieszczone. Proszę sprawdzić sekcję Zgubione / Znalezione, i przenieść je do poprawnej sekcji.]]></phrase>
+		<phrase name="choose_a_section" date="1287175569" username="Mateusz" version="4.0.7"><![CDATA[Wybierz sekcję]]></phrase>
+		<phrase name="choose_category_to_create" date="1301584545" username="Mateusz" version="4.1.1"><![CDATA[2. Wybierz kategorię aby stworzyć dla niej podkategorie]]></phrase>
+		<phrase name="choose_grid" date="1301584545" username="Mateusz" version="4.1.1"><![CDATA[Wybierz siatkę]]></phrase>
+		<phrase name="choose_new_section" date="1301584545" username="Mateusz" version="4.1.1"><![CDATA[Wybierz nową sekcję]]></phrase>
+		<phrase name="choose_sections_for_navbar" date="1301584545" username="Mateusz" version="4.1.1"><![CDATA[Wybierz sekcje i ustaw porządek ich wyświetlania w pasku nawigacji (navbar)]]></phrase>
+		<phrase name="cl_type_1" date="1301584545" username="Mateusz" version="4.1.1"><![CDATA[1 kolumna]]></phrase>
+		<phrase name="cl_type_2" date="1301584545" username="Mateusz" version="4.1.1"><![CDATA[2 kolumny]]></phrase>
+		<phrase name="cl_type_3" date="1301584551" username="Mateusz" version="4.1.1"><![CDATA[3 kolumny]]></phrase>
+		<phrase name="cl_type_4" date="1301584716" username="Mateusz" version="4.1.1"><![CDATA[1x2 kolumny]]></phrase>
+		<phrase name="cl_type_5" date="1301584716" username="Mateusz" version="4.1.1"><![CDATA[2x1 kolumny]]></phrase>
+		<phrase name="click_here_to_create_category" date="1301584716" username="Mateusz" version="4.1.1"><![CDATA[kliknij tutaj aby stworzyć jeden/ą]]></phrase>
+		<phrase name="click_here_to_switch_to" date="1301584716" username="Mateusz" version="4.1.1"><![CDATA[Kliknij aby przełączyć na]]></phrase>
+		<phrase name="click_on_section" date="1301584716" username="Mateusz" version="4.1.1"><![CDATA[Kliknij na sekcję, aby zobaczyć/edytować uprawnienia]]></phrase>
+		<phrase name="columns" date="1301584716" username="Mateusz" version="4.1.1"><![CDATA[Kolumny]]></phrase>
+		<phrase name="columns_1_100" date="1287175602" username="Mateusz" version="4.0.7"><![CDATA[1 kolumna (100)]]></phrase>
+		<phrase name="columns_2_25_75" date="1287175634" username="Mateusz" version="4.0.7"><![CDATA[2 kolumny (25/75)]]></phrase>
+		<phrase name="columns_2_33_66" date="1287175665" username="Mateusz" version="4.0.7"><![CDATA[2 kolumny (33/66)]]></phrase>
+		<phrase name="columns_2_40_60" date="1287175679" username="Mateusz" version="4.0.7"><![CDATA[2 kolumny (40/60)]]></phrase>
+		<phrase name="columns_2_50_50" date="1287175696" username="Mateusz" version="4.0.7"><![CDATA[2 kolumny (50/50)]]></phrase>
+		<phrase name="columns_2_60_40" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[2 kolumny(60/40)]]></phrase>
+		<phrase name="columns_2_66_33" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[2 kolumny (66/33)]]></phrase>
+		<phrase name="columns_2_75_25" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[2 kolumny (75/25)]]></phrase>
+		<phrase name="columns_3_25_25_50" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[3 kolumny (25/25/50)]]></phrase>
+		<phrase name="columns_3_25_50_25" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[3 kolumny (25/50/25)]]></phrase>
+		<phrase name="columns_3_30_30_40" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[3 kolumny (30/30/40)]]></phrase>
+		<phrase name="columns_3_30_40_30" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[3 kolumny (30/40/30)]]></phrase>
+		<phrase name="columns_3_33_33_33" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[3 kolumny (33/33/33)]]></phrase>
+		<phrase name="columns_3_50_25_25" date="1301584767" username="Mateusz" version="4.1.1"><![CDATA[3 kolumny (50/25/25)]]></phrase>
+		<phrase name="columns_4_25_25_25_25" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[4 kolumny (25/25/25/25)]]></phrase>
+		<phrase name="comma_delimited_list" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Lista ograniczona przecinkami]]></phrase>
+		<phrase name="comments_by_user" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Komentarze następujących użytkowników]]></phrase>
+		<phrase name="configure" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Skonfiguruj]]></phrase>
+		<phrase name="confirm_delete" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Proszę potwierdzić, czy jest pewien że chcesz całkowicie usunąć ten przedmiot?]]></phrase>
+		<phrase name="confirm_flatten_grid" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Spłaszczając siatkę nie będziesz mógł jej dłużej edytować poprzez kreator. Będziesz musiał pracować bezpośrednio z kodem HTML.<br />
+<br />
+Jesteś tego pewien?]]></phrase>
+		<phrase name="confirm_save_section" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Wydaje się, że informacje na stronie zostały zaktualizowane. Czy chcesz zapisać już teraz?]]></phrase>
+		<phrase name="confirm_unflatten_grid" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Cofnięcie spłaszczenia siatki pozostawi ją z domyślnym kodem HTML, z jakim została stworzona w kreatorze. To także zresetuje kod szablonu na domyślny.<br />
+<br />
+Jesteś tego pewien?]]></phrase>
+		<phrase name="content_from" date="1287175780" username="Mateusz" version="4.0.7"><![CDATA[Treść z]]></phrase>
+		<phrase name="content_goes_here" date="1301585754" username="Mateusz" version="4.1.1"><![CDATA[Treść wędruje tutaj]]></phrase>
+		<phrase name="content_layout" date="1301586029" username="Mateusz" version="4.1.1"><![CDATA[Układ kolumn dla treści]]></phrase>
+		<phrase name="content_per_page" date="1287006715" username="Mateusz" version="4.0.7"><![CDATA[Na stronę]]></phrase>
+		<phrase name="content_title" date="1301586011" username="Mateusz" version="4.1.1"><![CDATA[Tytuł treści]]></phrase>
+		<phrase name="content_type" date="1301586011" username="Mateusz" version="4.1.1"><![CDATA[Typ treści]]></phrase>
+		<phrase name="copy" date="1301586011" username="Mateusz" version="4.1.1"><![CDATA[Kopiuj]]></phrase>
+		<phrase name="create" date="1296824366" username="Mateusz" version="4.1.1"><![CDATA[Dodaj]]></phrase>
+		<phrase name="create_content" date="1301586011" username="Mateusz" version="4.1.1"><![CDATA[Utwórz treść]]></phrase>
+		<phrase name="create_layout" date="1301586011" username="Mateusz" version="4.1.1"><![CDATA[Utwórz układ]]></phrase>
+		<phrase name="create_new_widget" date="1301586011" username="Mateusz" version="4.1.1"><![CDATA[Utwórz nowy widżet]]></phrase>
+		<phrase name="create_new_x" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Utwórz nowy {1}]]></phrase>
+		<phrase name="create_widget" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Utwórz Widżet]]></phrase>
+		<phrase name="created_on_x" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Utwórz na {1}]]></phrase>
+		<phrase name="criteria" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Kryteria]]></phrase>
+		<phrase name="default_permissions" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Domyślne uprawnienia]]></phrase>
+		<phrase name="default_template_html" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Domyślny szablon HTML<dfn>To jest kod HTML użyty przez CMS do front-endu. Lokalizacja listy widżetów powinna pasować do niego w kodzie HTML w managerze układu.</dfn>]]></phrase>
+		<phrase name="define_grid" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Ustal siatkę]]></phrase>
+		<phrase name="define_layout" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Ustal układ]]></phrase>
+		<phrase name="define_parameters_js" date="1301588504" username="Mateusz" version="4.1.1"><![CDATA[Ustal parametry]]></phrase>
+		<phrase name="delete_category" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Usuń kategorię]]></phrase>
+		<phrase name="deselect_all" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Odznacz wszystkie]]></phrase>
+		<phrase name="display_order" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Porządek wyświetlania]]></phrase>
+		<phrase name="display_results_for" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Wyświetlaj rezultaty dla]]></phrase>
+		<phrase name="do_not_use_the_following_input_field_names_in_widgets" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Nie używaj następujących nazw dla pól w widżetach html:
+xyz_modified, xyz_widgetid, xyz_column, xyz_widgetinstanceid, xyz_isprimary, xyz_editorialid, xyz_removedprimary]]></phrase>
+		<phrase name="download_upload_grids" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Pobierz / Wgraj siatki]]></phrase>
+		<phrase name="edit_content" date="1288275485" username="Mateusz" version="4.0.7"><![CDATA[Edytuj zawartość]]></phrase>
+		<phrase name="edit_move_category" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Edytuj / Przenieś kategorię]]></phrase>
+		<phrase name="edit_others_content" date="1301588725" username="Mateusz" version="4.1.1"><![CDATA[Edytuj treści innych]]></phrase>
+		<phrase name="edit_section" date="1301589513" username="Mateusz" version="4.1.1"><![CDATA[Edytuj sekcję]]></phrase>
+		<phrase name="edit_widget" date="1301589513" username="Mateusz" version="4.1.1"><![CDATA[Edytuj widżet]]></phrase>
+		<phrase name="editor_toolbar" date="1301589513" username="Mateusz" version="4.1.1"><![CDATA[Przybornik edytora]]></phrase>
+		<phrase name="enabled" date="1301589513" username="Mateusz" version="4.1.1"><![CDATA[Włączony/e]]></phrase>
+		<phrase name="enter_a_category_title" date="1301589563" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź tytuł dla kategorii]]></phrase>
+		<phrase name="enter_blog_postids_comma_delimited" date="1301589563" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź listę blog post ids które chcesz śledzić. Możesz podać kilka id oddzielonych spacjami. Zostaną one zweryfikowane podczas zapisywania.]]></phrase>
+		<phrase name="enter_blogcomment_users_comma_delimited" date="1301589563" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź nazwy użytkowników których komentarze na blogach chcesz śledzić. Możesz podać kilka nazw oddzielonych przecinkami. Zostaną one zweryfikowane podczas zapisywania.]]></phrase>
+		<phrase name="enter_blogpost_users_comma_delimited" date="1301589563" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź nazwy użytkowników których posty chcesz śledzić. Możesz podać kilka nazw oddzielonych przecinkami. Zostaną one zweryfikowane podczas zapisywania.]]></phrase>
+		<phrase name="enter_category_comma_delimited" date="1301589563" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź kategorie. Możesz podać kilka kategorii oddzielonych przecinkami. Zostaną one zweryfikowane podczas zapisywania.]]></phrase>
+		<phrase name="enter_phpcode" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź kod Php, w formularzu "$results = <your code>"]]></phrase>
+		<phrase name="enter_section_title" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź tytuł sekcji]]></phrase>
+		<phrase name="enter_tags_comma_delimited" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź tagi.  Możesz podać kilka tagów oddzielonych przecinkami. Zostaną one zweryfikowane podczas zapisywania.]]></phrase>
+		<phrase name="enter_users_comma_delimited" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Wprowadź nazwy użytkowników. Możesz podać kilka nazw oddzielonych przecinkami. Zostaną one zweryfikowane podczas zapisywania.]]></phrase>
+		<phrase name="expand_entire_tree_if_less_than" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Rozwiń całe drzewo sekcji jeśli ma ona mniej elementów niż]]></phrase>
+		<phrase name="filter" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Filtruj]]></phrase>
+		<phrase name="filter_by_section" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Zmień sekcję]]></phrase>
+		<phrase name="flatten_grid" date="1301589938" username="Mateusz" version="4.1.1"><![CDATA[Spłaszczona siatka]]></phrase>
+		<phrase name="grid" date="1301591168" username="Mateusz" version="4.1.1"><![CDATA[Siatka]]></phrase>
+		<phrase name="grid_eval_error" date="1301591168" username="Mateusz" version="4.1.1"><![CDATA[Następujący błąd pojawia się podczas oceny siatki określonej dla tego układu:<br /><i>{1}</i><br />Jest to prawdopodobnie spowodowane przez nieprawidłowa instrukcję warunkową. Musisz naprawić ten problem zanim siatka zostanie użyta dla tego układu.]]></phrase>
+		<phrase name="hide" date="1301591168" username="Mateusz" version="4.1.1"><![CDATA[Ukryj przed wyborem widżetu]]></phrase>
+		<phrase name="hits" date="1301591168" username="Mateusz" version="4.1.1"><![CDATA[Odsłon]]></phrase>
+		<phrase name="html_title_tag" date="1288276926" username="Mateusz" version="4.0.7"><![CDATA[Tytuł]]></phrase>
+		<phrase name="import_grid_xml_file" date="1301591168" username="Mateusz" version="4.1.1"><![CDATA[Zaimportuj plik XML siatki]]></phrase>
+		<phrase name="include_subsections" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[Włącznie z podsekcjami]]></phrase>
+		<phrase name="inner_template_name" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[Szablon Detail Results]]></phrase>
+		<phrase name="invalid_data_submitted" date="1301591701" username="Mateusz" version="4.1.1"><![CDATA[Dane które wprowadziłeś były niewłaściwe lub niespójne. Jeśli jesteś pewien danych które wprowadziłeś, proszę skontaktować się z technikami vBulletin i wysłać ticket, zawierając w nim jak najwięcej informacji własnych działaniach które spowodowały pojawienie się tej wiadomości.]]></phrase>
+		<phrase name="invert_selection" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[Odwróć zaznaczenie]]></phrase>
+		<phrase name="item_deleted" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[Ten przedmiot został usunięty]]></phrase>
+		<phrase name="layout_manager_ui_html" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[HTML UI Managera układu<dfn>To jest HTML użyty w managerze układu do umieszczania widżetów.</dfn>]]></phrase>
+		<phrase name="layouts" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[Układy]]></phrase>
+		<phrase name="limit_by_section" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[Kliknij na sekcję aby zobaczyć jej kategorie]]></phrase>
+		<phrase name="limit_results" date="1301591465" username="Mateusz" version="4.1.1"><![CDATA[Ogranicz wyniki]]></phrase>
+		<phrase name="list_alphabetically" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Lista alfabetyczna]]></phrase>
+		<phrase name="lost_found" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Zgubione / Znalezione]]></phrase>
+		<phrase name="manual_only" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Tylko ręcznie]]></phrase>
+		<phrase name="manual_then_by_date" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Ręcznie, później według daty]]></phrase>
+		<phrase name="max_perpage_x" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Możesz przypisać do {1} przedmiotów do sekcji strony domowej. Proszę wybrać mniejszą wartość.]]></phrase>
+		<phrase name="max_to_display" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Maksymalna liczba przedmiotów do wyświetlenia]]></phrase>
+		<phrase name="menu_type" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Typ menu]]></phrase>
+		<phrase name="menu_type_fixed" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Stałe - wyświetlane są obiekty równorzędne jak i podrzędne]]></phrase>
+		<phrase name="menu_type_js" date="1301592508" username="Mateusz" version="4.1.1"><![CDATA[Rozwijanie Javascript żeby zobaczyć wszystkie sekcje]]></phrase>
+		<phrase name="metadata_information" date="1288276737" username="Mateusz" version="4.0.7"><![CDATA[Konfiguracja metadanych]]></phrase>
+		<phrase name="min_replies" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Minimalna liczba odpowiedzi]]></phrase>
+		<phrase name="modify_parameters" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Modyfikuj parametry]]></phrase>
+		<phrase name="most_searched" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Najwięcej wyszukań]]></phrase>
+		<phrase name="most_used" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Najczęściej używane]]></phrase>
+		<phrase name="name" date="1287006602" username="Mateusz" version="4.0.7"><![CDATA[Nazwa]]></phrase>
+		<phrase name="navigate_to_section" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Zmień sekcję]]></phrase>
+		<phrase name="need_category_title" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Proszę wprowadzić nazwę dla tej kategorii]]></phrase>
+		<phrase name="need_section_or_category" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Proszę wybrać sekcję lub kategorię]]></phrase>
+		<phrase name="need_url" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Unikalny alias adresu URL jest wymagany.]]></phrase>
+		<phrase name="new_category" date="1301592682" username="Mateusz" version="4.1.1"><![CDATA[Nowa kategoria.]]></phrase>
+		<phrase name="new_section" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[Dodaj nową sekcję]]></phrase>
+		<phrase name="new_statichtml" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[Nowy statyczny HTML]]></phrase>
+		<phrase name="new_top_category" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[Nowa kategoria najwyższego poziomu]]></phrase>
+		<phrase name="newest_first" date="1287003898" username="Mateusz" version="4.0.7"><![CDATA[Najnowsze jako pierwsze]]></phrase>
+		<phrase name="newest_per_section" date="1287005289" username="Mateusz" version="4.0.7"><![CDATA[Najnowsze w sekcji]]></phrase>
+		<phrase name="no_categories" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[Brak kategorii]]></phrase>
+		<phrase name="no_categories_in_section" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[W tej sekcji nie ma kategorii]]></phrase>
+		<phrase name="no_create_permissions" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[Nie masz uprawnień do tworzenia tu treści. Jeśli uważasz że otrzymałeś tą informację przez pomyłkę, skontaktuj się z administratorem.]]></phrase>
+		<phrase name="no_edit_permissions" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[Nie masz praw do edycji tej treści. Jeśli uważasz że powinieneś je mieć, skontaktuj się z administratorem.]]></phrase>
+		<phrase name="no_pages" date="1301592938" username="Mateusz" version="4.1.1"><![CDATA[Brak stron CMS]]></phrase>
+		<phrase name="no_search" date="1301593307" username="Mateusz" version="4.1.1"><![CDATA[Przeszukiwanie niedostępne]]></phrase>
+		<phrase name="no_sections" date="1301593307" username="Mateusz" version="4.1.1"><![CDATA[Brak sekcji]]></phrase>
+		<phrase name="nodetable_repaired" date="1301593307" username="Mateusz" version="4.1.1"><![CDATA[Tabela węzłów została sprawdzona i naprawiona.]]></phrase>
+		<phrase name="order" date="1301593307" username="Mateusz" version="4.1.1"><![CDATA[Porządek]]></phrase>
+		<phrase name="pagetext_goes_here" date="1301594597" username="Mateusz" version="4.1.1"><![CDATA[To jest miejsce na zawartość strony w czystym HTML.]]></phrase>
+		<phrase name="pagination_links" date="1301593324" username="Mateusz" version="4.1.1"><![CDATA[Linki strony]]></phrase>
+		<phrase name="parameters" date="1301593307" username="Mateusz" version="4.1.1"><![CDATA[Parametry]]></phrase>
+		<phrase name="parent_category" date="1287260317" username="Mateusz" version="4.0.7"><![CDATA[Nadrzędna kategoria]]></phrase>
+		<phrase name="permissions_assigned_section_x" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia przypisane do sekcji <span class="section_name">{1}</span>]]></phrase>
+		<phrase name="permissions_manager" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[Manager uprawnień]]></phrase>
+		<phrase name="permissions_not_assigned_section_x" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia nie przypisane do sekcji <span class="section_name">{1}</span>]]></phrase>
+		<phrase name="php_goes_here_desc" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[/**Tutaj podaj kod php. Może tu być tyle kodu ile chcesz, ale musi się on kończyć zmienną $output.
+Przykład:
+$something = $somefunction();
+$something2 = $somefunction2();
+...
+**/
+$output = "Hello World<br />";]]></phrase>
+		<phrase name="pick_a_section_below" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[1. Kategorie muszą należeć do sekcji. Wybierz sekcję.]]></phrase>
+		<phrase name="please_enter_layout_title" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[Proszę wprowadzić tytuł dla tego układu]]></phrase>
+		<phrase name="please_specify_one_widget" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[Proszę wybrać przynajmniej jeden widżet]]></phrase>
+		<phrase name="posts_by_user" date="1301593559" username="Mateusz" version="4.1.1"><![CDATA[Posty następujących użytkowników]]></phrase>
+		<phrase name="preview" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[Podgląd]]></phrase>
+		<phrase name="preview_goes_here_desc" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[To jest miejsce na tekst podglądu. Jeśli nic tutaj nie wpiszesz, zostanie użyty początek kodu strony pozbawiony html.]]></phrase>
+		<phrase name="preview_image_tag" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[Tag zdjęcia podglądu]]></phrase>
+		<phrase name="preview_image_tag_desc" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[To powinien być dobrze sformułowany kod HTML. Dobrym przykładem może być coś takiego:
+&lt;img title="My Image" alt="Mój obrazek" src="http://www.somewhere.com/images/1.png" class="cms_article_preview_image"&gt;]]></phrase>
+		<phrase name="preview_length" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[Długość podglądu]]></phrase>
+		<phrase name="preview_only" date="1288276153" username="Mateusz" version="4.0.7"><![CDATA[Tylko dla strony sekcji]]></phrase>
+		<phrase name="preview_template_name" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[Nazwa szablonu podglądu]]></phrase>
+		<phrase name="primary_content" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[Główna treść]]></phrase>
+		<phrase name="primary_widget" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[Główny widżet]]></phrase>
+		<phrase name="public" date="1301594548" username="Mateusz" version="4.1.1"><![CDATA[Publiczny/e]]></phrase>
+		<phrase name="public_preview" date="1301594888" username="Mateusz" version="4.1.1"><![CDATA[Pozwolenie na podgląd]]></phrase>
+		<phrase name="public_preview_description" date="1301594816" username="Mateusz" version="4.1.1"><![CDATA[Oznaczenie tego przycisku pozwala na wyświetlenie podglądu, nawet jeśli użytkownik nie ma praw do zobaczenia artykułu.]]></phrase>
+		<phrase name="published" date="1287175174" username="Mateusz" version="4.0.7"><![CDATA[Opublikowany]]></phrase>
+		<phrase name="published_future" date="1301594888" username="Mateusz" version="4.1.1"><![CDATA[Opublikowany z przyszłą datą]]></phrase>
+		<phrase name="publishing_options" date="1288275714" username="Mateusz" version="4.0.7"><![CDATA[Opcje publikowania]]></phrase>
+		<phrase name="read_access" date="1288276676" username="Mateusz" version="4.0.7"><![CDATA[Kto może czytać]]></phrase>
+		<phrase name="records_per_page" date="1301594816" username="Mateusz" version="4.1.1"><![CDATA[Treść na stronie]]></phrase>
+		<phrase name="remove_perms" date="1301594816" username="Mateusz" version="4.1.1"><![CDATA[Usuń zezwolenia]]></phrase>
+		<phrase name="remove_widget" date="1301594816" username="Mateusz" version="4.1.1"><![CDATA[Usunąć ten widżet?]]></phrase>
+		<phrase name="save_permission_changes" date="1301594816" username="Mateusz" version="4.1.1"><![CDATA[Zapisz zmiany w zezwoleniach]]></phrase>
+		<phrase name="saved_perpage" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Zapisana liczba przedmiotów na stronę.]]></phrase>
+		<phrase name="searchable" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Przeszukiwanie jest dostępne]]></phrase>
+		<phrase name="secondary_footer" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Druga stopka
+<dfn>Pojawia się nad szablonem stopki.</dfn>]]></phrase>
+		<phrase name="secondary_header" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Drugi nagłówek
+<dfn>Pojawia się pod szablonem nagłówka.</dfn>]]></phrase>
+		<phrase name="section_deleted" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Ta sekcja została usunięta.]]></phrase>
+		<phrase name="section_information" date="1287006659" username="Mateusz" version="4.0.7"><![CDATA[Dane sekcji]]></phrase>
+		<phrase name="section_manager" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Manager sekcji]]></phrase>
+		<phrase name="section_name" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Nazwa sekcji]]></phrase>
+		<phrase name="section_navigator" date="1301595094" username="Mateusz" version="4.1.1"><![CDATA[Nawigacja w sekcji]]></phrase>
+		<phrase name="select_all" date="1301595228" username="Mateusz" version="4.1.1"><![CDATA[Wybierz wszystko]]></phrase>
+		<phrase name="select_categories" date="1301595228" username="Mateusz" version="4.1.1"><![CDATA[Wybierz  kategorie]]></phrase>
+		<phrase name="select_section" date="1301595228" username="Mateusz" version="4.1.1"><![CDATA[Wybierz sekcję]]></phrase>
+		<phrase name="select_sections" date="1301595228" username="Mateusz" version="4.1.1"><![CDATA[Wybierz sekcje]]></phrase>
+		<phrase name="select_tags_by" date="1301595228" username="Mateusz" version="4.1.1"><![CDATA[Wybierz tagi]]></phrase>
+		<phrase name="selected" date="1301595228" username="Mateusz" version="4.1.1"><![CDATA[Zaznaczone]]></phrase>
+		<phrase name="sequence" date="1301595247" username="Mateusz" version="4.1.1"><![CDATA[Sekwencja #]]></phrase>
+		<phrase name="settings_for" date="1288276070" username="Mateusz" version="4.0.7"><![CDATA[Użyj ustawień dla]]></phrase>
+		<phrase name="show_children_below" date="1301604365" username="Mateusz" version="4.1.1"><![CDATA[Wyświetlaj treść z podsekcji?]]></phrase>
+		<phrase name="show_children_on_summary" date="1301604365" username="Mateusz" version="4.1.1"><![CDATA[Treść z podsekcji]]></phrase>
+		<phrase name="show_full_article" date="1301604365" username="Mateusz" version="4.1.1"><![CDATA[Pełny widok na stronie sekcji]]></phrase>
+		<phrase name="show_on_nav" date="1301604365" username="Mateusz" version="4.1.1"><![CDATA[Udostępnij dla subnav]]></phrase>
+		<phrase name="show_on_section_page" date="1288276290" username="Mateusz" version="4.0.7"><![CDATA[Pokaż na stronie sekcji]]></phrase>
+		<phrase name="show_on_section_widget" date="1301604365" username="Mateusz" version="4.1.1"><![CDATA[Pokaż w widżecie sekcji]]></phrase>
+		<phrase name="show_publish_state" date="1288275941" username="Mateusz" version="4.0.7"><![CDATA[Pokaż datę publikacji]]></phrase>
+		<phrase name="show_rating" date="1288276043" username="Mateusz" version="4.0.7"><![CDATA[Pokaż oceny]]></phrase>
+		<phrase name="show_showall" date="1301604365" username="Mateusz" version="4.1.1"><![CDATA[Link "Zobacz wszystko"]]></phrase>
+		<phrase name="show_title" date="1288275920" username="Mateusz" version="4.0.7"><![CDATA[Pokaż tytuł]]></phrase>
+		<phrase name="show_update_date" date="1288275999" username="Mateusz" version="4.0.7"><![CDATA[Pokaż zaktualizowany czas]]></phrase>
+		<phrase name="show_user_link" date="1288275909" username="Mateusz" version="4.0.7"><![CDATA[Pokaż autora]]></phrase>
+		<phrase name="show_viewcount" date="1288276024" username="Mateusz" version="4.0.7"><![CDATA[Pokaż liczbę odwiedzin]]></phrase>
+		<phrase name="sidebar_left" date="1301604447" username="Mateusz" version="4.1.1"><![CDATA[Lewo]]></phrase>
+		<phrase name="sidebar_location" date="1301605041" username="Mateusz" version="4.1.1"><![CDATA[... Lokalizacja sidebara]]></phrase>
+		<phrase name="sidebar_right" date="1301605041" username="Mateusz" version="4.1.1"><![CDATA[Prawo]]></phrase>
+		<phrase name="sidebar_width" date="1301605286" username="Mateusz" version="4.1.1"><![CDATA[... Szerokość sidebara]]></phrase>
+		<phrase name="simple_paging_desc" date="1301605041" username="Mateusz" version="4.1.1"><![CDATA[duże zwiększenie wydajności dla dużej liczby artykułów]]></phrase>
+		<phrase name="sitemap_cms_priority_desc_x" date="1301605041" username="Mateusz" version="4.1.1"><![CDATA[Ta strona pozwala Ci kontrolować skalę priorytetów dla Twojej sitemapy, na podstawie sekcji. Ustalenie wartości dla sekcji zmieni jej ustawienia pierwszeństwa, <i>jak również</i> artykułów w tej sekcji. Powinieneś ustalić dla istotnych sekcji wyższy priorytet, ale przy dużej ilości treści powinien on być niski. Domyślną wartością jest {1}.]]></phrase>
+		<phrase name="sort_by_name" date="1301605041" username="Mateusz" version="4.1.1"><![CDATA[Sortuj nazwami]]></phrase>
+		<phrase name="sort_by_position" date="1301605041" username="Mateusz" version="4.1.1"><![CDATA[Pozycją]]></phrase>
+		<phrase name="start_publishing" date="1301605041" username="Mateusz" version="4.1.1"><![CDATA[Data publikacji]]></phrase>
+		<phrase name="sub_categories" date="1301605239" username="Mateusz" version="4.1.1"><![CDATA[Podkategorie]]></phrase>
+		<phrase name="subcategories" date="1301605239" username="Mateusz" version="4.1.1"><![CDATA[Podkategorie]]></phrase>
+		<phrase name="subsections" date="1301605239" username="Mateusz" version="4.1.1"><![CDATA[Podsekcje]]></phrase>
+		<phrase name="table_header_category_name" date="1301605239" username="Mateusz" version="4.1.1"><![CDATA[Nazwa kategorii]]></phrase>
+		<phrase name="this_section_only" date="1287175001" username="Mateusz" version="4.0.7"><![CDATA[Tylko z tej sekcji]]></phrase>
+		<phrase name="unenable" date="1301605495" username="Mateusz" version="4.1.1"><![CDATA[Wyłącz]]></phrase>
+		<phrase name="unflatten_grid" date="1301605495" username="Mateusz" version="4.1.1"><![CDATA[Usun splaszczenie siatki]]></phrase>
+		<phrase name="unpublish" date="1301605495" username="Mateusz" version="4.1.1"><![CDATA[Cofnij publikację]]></phrase>
+		<phrase name="unpublished" date="1287175238" username="Mateusz" version="4.0.7"><![CDATA[Nie opublikowany]]></phrase>
+		<phrase name="updated_on_x" date="1301605495" username="Mateusz" version="4.1.1"><![CDATA[Zaktualizowany {1}]]></phrase>
+		<phrase name="url_in_use" date="1301605495" username="Mateusz" version="4.1.1"><![CDATA[Ten alias adresu URL jest już w użyciu. Proszę wybrać jakiś inny.]]></phrase>
+		<phrase name="user_group" date="1301605495" username="Mateusz" version="4.1.1"><![CDATA[Grupa użytkownika]]></phrase>
+		<phrase name="users" date="1301605495" username="Mateusz" version="4.1.1"><![CDATA[Użytkownicy]]></phrase>
+		<phrase name="view_and_preview" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Strona treści i Strona sekcji]]></phrase>
+		<phrase name="view_disabled" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Zobacz wyłączone]]></phrase>
+		<phrase name="view_only" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Tylko dla stron treści]]></phrase>
+		<phrase name="viewcount" date="1288981462" username="Mateusz" version="4.0.7"><![CDATA[Odwiedzin]]></phrase>
+		<phrase name="widget_manager" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Manager widżetów]]></phrase>
+		<phrase name="widget_name" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Nazwa widżetu]]></phrase>
+		<phrase name="widget_type" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Typ widżetu]]></phrase>
+		<phrase name="widgets" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Widżety]]></phrase>
+		<phrase name="you_are_managing" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Cała treść w]]></phrase>
+		<phrase name="you_need_javascript" date="1301605845" username="Mateusz" version="4.1.1"><![CDATA[Potrzebujesz javascriptów aby widzieć poprawnie tę stronę. Proszę włączyć obsługę javascriptow. Jeśli Twoja przeglądarka ich nie obsługuje, zalecamy zainstalować taką która je obsłuży.]]></phrase>
+	</phrasetype>
+	<phrasetype name="Control Panel Global" fieldname="cpglobal">
+		<phrase name="cache_cleared" date="1301650393" username="Mateusz" version="4.1.1"><![CDATA[Bufor pamięci został wyczyszczony.]]></phrase>
+		<phrase name="cms_priority_manager" date="1301650602" username="Mateusz" version="4.1.1"><![CDATA[Manager priorytetów sitemapy CMS]]></phrase>
+		<phrase name="content_manager" date="1301650794" username="Mateusz" version="4.1.1"><![CDATA[Manager treści]]></phrase>
+		<phrase name="grid_manager" date="1301654470" username="Mateusz" version="4.1.1"><![CDATA[Manager siatek]]></phrase>
+		<phrase name="layout_manager" date="1301655044" username="Mateusz" version="4.1.1"><![CDATA[Manager układu]]></phrase>
+		<phrase name="permissions" date="1286826951" username="Mateusz" version="4.0.7"><![CDATA[Zezwolenia]]></phrase>
+		<phrase name="section_manager" date="1301657522" username="Mateusz" version="4.1.1"><![CDATA[Manager sekcji]]></phrase>
+		<phrase name="sitemap_cms_priority_desc" date="1301659052" username="Mateusz" version="4.1.1"><![CDATA[Ta strona pozwala Ci kontrolować skalę priorytetów dla Twojej sitemapy, na podstawie sekcji. Ustalenie wartości dla sekcji zmieni jej ustawienia pierwszeństwa, <i>jak również</i> artykułów w tej sekcji. Powinieneś ustalić dla istotnych sekcji wyższy priorytet, ale przy dużej ilości treści powinien on być niski. Domyślną wartością jest {1}.]]></phrase>
+		<phrase name="widgets" date="1301736130" username="Mateusz" version="4.1.1"><![CDATA[Widżety]]></phrase>
+	</phrasetype>
+	<phrasetype name="Control Panel Home Pages" fieldname="cphome">
+		<phrase name="category_manager" date="1301737902" username="Mateusz" version="4.1.1"><![CDATA[Manager kategorii]]></phrase>
+		<phrase name="download_upload_grids" date="1301739047" username="Mateusz" version="4.1.1"><![CDATA[Pobierz / Wgraj siatki]]></phrase>
+		<phrase name="fix_nodetable" date="1301739369" username="Mateusz" version="4.1.1"><![CDATA[Zweryfikuj i napraw tabele węzłów]]></phrase>
+	</phrasetype>
+	<phrasetype name="Permissions" fieldname="cppermission">
+		<phrase name="can_administer_cms" date="1301942433" username="Mateusz" version="4.1.1"><![CDATA[Może zarządzać vBCms]]></phrase>
+		<phrase name="can_administer_cms_permissions" date="1301942433" username="Mateusz" version="4.1.1"><![CDATA[Może zarządzać uprawnieniami vBCms]]></phrase>
+		<phrase name="can_create_content" date="1301942752" username="Mateusz" version="4.1.1"><![CDATA[Może tworzyć treści]]></phrase>
+		<phrase name="content_management_permissions" date="1301949593" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia zarządzania treścią]]></phrase>
+	</phrasetype>
+	<phrasetype name="Error Messages" fieldname="error">
+		<phrase name="deleted_cms_layout_successfully" date="1302620097" username="Mateusz" version="4.1.1"><![CDATA[Pomyślnie usunięto układ CMS]]></phrase>
+		<phrase name="deleted_grid_successfully" date="1302620310" username="Mateusz" version="4.1.1"><![CDATA[Pomyślnie usunięto siatkę układu]]></phrase>
+		<phrase name="deleted_widget_successfully" date="1302634432" username="Mateusz" version="4.1.1"><![CDATA[Pomyślnie usunięto widżet]]></phrase>
+		<phrase name="grid_can_not_be_deleted" date="1302797980" username="Mateusz" version="4.1.1"><![CDATA[Siatka nie może zostać usunięta, ponieważ jest obecnie używana przez któryś układów. Jeśli chcesz ją usunąć, zamień ją w układach na jakaś inną.]]></phrase>
+		<phrase name="grid_title_already_in_use" date="1302797980" username="Mateusz" version="4.1.1"><![CDATA[Jest już siatka mająca taki sam tytuł.]]></phrase>
+	</phrasetype>
+	<phrasetype name="FAQ Text" fieldname="faqtext">
+		<phrase name="vbcms_article_add_tags" date="1287002389" username="Mateusz" version="4.0.7"><![CDATA[<p>Tagi są metodą nadawania kategorii do artykułów na stronie. Dzięki nim łatwiej wyszukasz artykuły używając słów kluczowych, lub znajdziesz artykuły zawierające podobne tagi. Poniżej znajduje się instrukcja jak dodać tagi do Twoich artykułów:</p>
+<ol>
+<li>Zaloguj się na swoje konto.</li>
+<li>Pzejdź do artykułu, któy chesz edytować.</li>
+<li>Najedź na nagłówek artykułu. Pojawi się ikona ołówka.</li>
+<li>Kliknij na ikonę ołówka.<div style="text-align:center;margin:0;padding:4px;border:0;"><img src="images/help/article_edit_hover.png" height="198" width="606" alt="Article Hover to Edit" /></div></li>
+<li>Kliknij na ikonie edytuj tagi i dodaj tagi. Oddzielaj je przecinkiem. <div style="text-align:center;margin:0;padding:4px;border:0;"><img src="images/help/article_tags.png" height="115" width="642" alt="Edit Tags" /></div></li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.<div style="text-align:center;margin:0;padding:4px;border:0;"><img src="images/help/article_toolbar.png" height="57" width="302" alt="Article Toolbar" /></div></li>
+</ol>]]></phrase>
+		<phrase name="vbcms_articles_create" date="1286796011" username="Mateusz" version="4.0.7"><![CDATA[<p>Jeżeli masz uprawnienia aby dodawać artykuły w sekcji CMS, w prawym górnym rogu będzie znajdować się przycisk "Stwórz nowy artykuł". Naciśnij ten przycisk w celu uruchomienia edytora.</p>]]></phrase>
+		<phrase name="vbcms_articles_draft" date="1287001214" username="Mateusz" version="4.0.7"><![CDATA[Obecnie nie można utworzyć wersji roboczej artykułu. Używając opcji data i czas publikacji można opóźnić czas ukazania się artykułu. Dzięki temu zyskasz czas aby przeglądnąć lub zmienić treść przed publikacją.
+
+<div style="text-align:center;margin:0;padding:4px;border:0;"><img src="images/help/article_drafts.png" height="249" width="353" alt="Article Drafts" /></div>]]></phrase>
+		<phrase name="vbcms_articles_edit" date="1287006547" username="Mateusz" version="4.0.7"><![CDATA[Artykuły są edytowane w podobny sposób do edycji sekcji w CMS. Wykonaj poniższe kroki, aby dokonać edycji istniejących artykułów.
+
+<ol>
+<li>Zaloguj się na swoje konto.</li>
+<li>Przejdź do artykułu, który chcesz edytować.</li>
+<li>Najedź na nagłówek artykułu. Pojawi się ikona ołówka.</li>
+<li>Kliknij na ikonę ołówka.<div style="text-align:center;margin:0;padding:4px;border:0;"><img src="images/help/article_edit_hover.png" height="198" width="606" alt="Article Hover to Edit" /></div></li>
+<li>W edytorze artykułu zmień pola, które chcesz zmienić.<div style="text-align:center;margin:0;padding:4px;border:0;"><img src="images/help/article_editor_content.png" height="636" width="623" alt="Editor with Content" /></div></li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.<div style="text-align:center;margin:0;padding:4px;border:0;"><img src="images/help/article_toolbar.png" height="57" width="302" alt="Article Toolbar" /></div></li>
+</ol>]]></phrase>
+		<phrase name="vbcms_articles_multisection" date="1287005322" username="Mateusz" version="4.0.7"><![CDATA[Artykuł może przynależeć tylko do jednej sekcji. Istnieje możliwość, aby artykuł pojawił się w nadrzędnej sekcji poprzez zmianę kolejności wyświetlania dla sekcji albo Najnowsze jako pierwsze albo Najnowsze w sekcji.
+Opcja Najnowsze jako pierwsze spowoduje, że ostatnie artykuły z sekcji i podsekcji zostaną wyświetlone na stronie sekcji. Opcja Najnowsze w sekcji spowoduje wyświetlenie najnowszych artykułów z każdej podsekcji w sekcji nadrzędnej. Proszę zapoznaj się z <a href="faq.php?$session[sessionurl]faq=vbcms_sections#faq_vbcms_section_displayorder">Jak zmienić kolejność wyświetlania zawartości dla sekcji?</a> aby zdobyć więcej informacji.]]></phrase>
+		<phrase name="vbcms_articles_notshown" date="1287001879" username="Mateusz" version="4.0.7"><![CDATA[<p>Narzędzia vBulletin CMS pozwalają zarządzać kiedy i gdzie będzie opublikowany artykuł. Jeżeli nie widzisz swojego artykułu w odpowiedniej sekcji powinieneś:</p>
+<ul>
+<li>Sprawdzić, czy jesteś w odpowiedniej sekcji. </li>
+<li>Sprawdzić, czy ustawienia sekcji nie ograniczają grupy odbiorców, która może przeglądać sekcję. Jeżeli tak, to artykuł nie będzie widoczny dla wszystkich dopóki nie zmienisz opcji przeglądania.</li>
+<li>Sprawdź czy artykuł został opublikowany.</li>
+<li>Sprawdź czy data publikacji została ustawiona na dzisiaj lub dzień sprzed dnia dzisiejszego.</li>
+</ul>]]></phrase>
+		<phrase name="vbcms_contentlayout" date="1287163122" username="Mateusz" version="4.0.7"><![CDATA[<ol>
+<li>Przejdź do vBulletin CMS klikając przycisk Strona.</li>
+<li>Przejdź do sekcji, której styl chcesz zmienić.</li>
+<li>Najedź na nagłówek. Pojawi się ikona ołówka.<br /><img style="align:center;border:0px" src="images/help/section_home.png" alt="Edit Section" height="50" width="572" />
+</li>
+<li>Kliknij na ikonę ołówka.</li>
+<li>W edytorze sekcji wybierz układ sekcji z menu układ kolumn.<br /><img style="align:center;border:0px" src="images/help/section_contentcolumns.png" alt="Section Content Layout" height="352" width="587" /></li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.<br /><img style="align:center;border:0px" src="images/help/section_toolbar.png" alt="Section Toolbar" height="57" width="302" /></li>
+</ol>]]></phrase>
+		<phrase name="vbcms_faq" date="1287004244" username="Mateusz" version="4.0.7"><![CDATA[vBulletin CMS pozwala Tobie oraz Twoim użytkownikom tworzyć, edytować i publikować artykuły na Twojej stronie. Jest to kombinacja prostego w użyciu menedżera treści z niepowtarzalnym systemem organizacji, który umożliwia zarządzanie najmniejszym detalem strony. Od sekcji poprzez ogólny układ do położenia widżetów na każdej stronie.]]></phrase>
+		<phrase name="vbcms_organizing_categories" date="1287005479" username="Mateusz" version="4.0.7"><![CDATA[W opcjach publikacji przejdź do nagłówków kategorii. Odznacz kategorie do których chcesz przypisać artykuł.]]></phrase>
+		<phrase name="vbcms_section_categories" date="1287002885" username="Mateusz" version="4.0.7"><![CDATA[<p>Kategoria jest tagiem nadawanym z poziomu administratora. To znaczy, że tylko użytkownicy z prawami administratora albo z prawem zapisu mogą przypisać artykuły do kategorii.</p>
+<p>Kategorie umożliwiają grupować artykuły z różnych sekcji w jednym miejscu. W odróżnieniu od sekcji, artykuły mogą zostać przypisane do kilku kategorii. To umożliwia Ci filtrowanie grup lub wyszukiwanie treści w sekcjach. </p>
+<p>Możesz to zrobić podczas tworzenia artykułu lub podczas jego edycji.</p>]]></phrase>
+		<phrase name="vbcms_section_create" date="1287004398" username="Mateusz" version="4.0.7"><![CDATA[Aby stworzyć nową sekcję musisz mieć dostęp do Panelu administracyjnego. Po zalogowaniu przejdź do vBulletin CMS -> Administrator sekcji.]]></phrase>
+		<phrase name="vbcms_section_displayorder" date="1287007374" username="Mateusz" version="4.0.7"><![CDATA[<ol>
+<li>Przejdź do vBulletin CMS klikając przycisk Strona.</li>
+<li>Przejdź do sekcji, w której chcesz zmienić kolejność wyświetlania.</li>
+<li>Najedź na nagłówek. Pojawi się ikona ołówka.<br /><img style="align:center;border:0px" src="images/help/section_home.png" alt="Edit Section" height="50" width="572" /></li>
+<li>Kliknij na ikonę ołówka.</li>
+<li>W edytorze sekcji wybierz pożądaną opcję z Sortowanie.<br /><img style="align:center;border:0px" src="images/help/section_displayorder.png" alt="Section Display Order" height="351" width="645" /></li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.<br /><img style="align:center;border:0px" src="images/help/section_toolbar.png" alt="Section Toolbar" height="57" width="302" /></li>
+</ol>]]></phrase>
+		<phrase name="vbcms_section_layout" date="1287092422" username="Mateusz" version="4.0.7"><![CDATA[<ol>
+<li>Przejdź do vBulletin CMS klikając przycisk Strona.</li>
+<li>Przejdź do sekcji, której układ chcesz zmienić.</li>
+<li>Najedź na nagłówek. Pojawi się ikona ołówka.<br /><img style="align:center;border:0px" src="images/help/section_home.png" alt="Edit Section" height="50" width="572" /></li>
+<li>Kliknij na ikonę ołówka.</li>
+<li>W edytorze sekcji wybierz nowy układ z menu Układ.<br /><img style="align:center;border:0px" src="images/help/section_layout.png" alt="Change Section Layout" height="351" width="710" /></li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.</li>
+</ol>]]></phrase>
+		<phrase name="vbcms_section_perpage" date="1287007993" username="Mateusz" version="4.0.7"><![CDATA[<ol>
+<li>Przejdź do vBulletin CMS klikając przycisk Strona.</li>
+<li>Przejdź do sekcji, w której chcesz zmienić ilość artykułów na stronę.</li>
+<li>Najedź na nagłówek. Pojawi się ikona ołówka.<br /><img style="align:center;border:0px" src="images/help/section_home.png" alt="Edit Section" height="50" width="572" /></li>
+<li>Kliknij na ikonę ołówka. </li>
+<li>W edytorze sekcji wpisz w ramce Na stronę ilość artykułów jaką chcesz wyświetlać.<br /><img style="align:center;border:0px" src="images/help/section_perpage.png" alt="Section - Articles per Page" height="346" width="555" /></li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.<br /><img style="align:center;border:0px" src="images/help/section_toolbar.png" alt="Section Toolbar" height="57" width="302" /></li>
+</ol>]]></phrase>
+		<phrase name="vbcms_section_rename" date="1287006517" username="Mateusz" version="4.0.7"><![CDATA[Możesz zmienić nazwę sekcji jeżeli masz odpowiednie uprawnienia.
+<ol>
+<li>Przejdź do vBulletin CMS klikając przycisk Strona.</li>
+<li>Przejdź do sekcji, której nazwę chcesz zmienić.</li>
+<li>Najedź na nagłówek. Pojawi się ikona ołówka.<br /><img style="align:center;border:0px" src="images/help/section_home.png" alt="Edit Section" height="50" width="572" /></li>
+<li>Kliknij na ikonę ołówka.</li>
+<li>W edytorze sekcji wyczyść pole tekstowe Nazwa w danych sekcji.<br /><img style="align:center;border:0px" src="images/help/section_name.png" alt="Edit Section Name" height="270" width="613" /></li>
+<li>Wprowadź nową nazwę dla sekcji w ramce.</li>
+<li>Koniecznie uaktualnij Alias SEO URL oraz tytuł HTML</li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.<br /><img style="align:center;border:0px" src="images/help/section_toolbar.png" alt="Section Toolbar" height="57" width="302" /></li>
+</ol>]]></phrase>
+		<phrase name="vbcms_section_style" date="1287162804" username="Mateusz" version="4.0.7"><![CDATA[<ol>
+<li>Przejdź do vBulletin CMS klikając przycisk Strona.</li>
+<li>Przejdź do sekcji, której styl chcesz zmienić.</li>
+<li>Najedź na nagłówek. Pojawi się ikona ołówka.<br /><img style="align:center;border:0px" src="images/help/section_home.png" alt="Edit Section" height="50" width="572" /></li>
+<li>Kliknij na ikonę ołówka. </li>
+<li>W edytorze sekcji wybierz nowy styl z menu Styl. <br /><img style="align:center;border:0px" src="images/help/section_style.png" alt="Edit Section Style"  width="700" /></li>
+<li>Kliknij na ikonę dyskietki w celu zapisania zmian.<br /><img style="align:center;border:0px" src="images/help/section_toolbar.png" alt="Section Toolbar" height="57" width="302" /></li>
+</ol>]]></phrase>
+		<phrase name="vbcms_stylelayoutcontent" date="1287004794" username="Mateusz" version="4.0.7"><![CDATA[Styl zarządza wyglądem sekcji - od wyglądu czcionki po kolor tła. Układ sekcji zarządza gdzie każdy element (np. pasek nawigacji, lista artykułów) jest położony. Układ zawartości zarządza układem artykułów wewnątrz sekcji.]]></phrase>
+	</phrasetype>
+	<phrasetype name="FAQ Title" fieldname="faqtitle">
+		<phrase name="vbcms_article_add_tags" date="1286812662" username="Mateusz" version="4.0.7"><![CDATA[Jak dodać tagi do artykułów]]></phrase>
+		<phrase name="vbcms_articles" date="1286796051" username="Mateusz" version="4.0.7"><![CDATA[Tworzenie artykułów]]></phrase>
+		<phrase name="vbcms_articles_create" date="1286795884" username="Mateusz" version="4.0.7"><![CDATA[Jak stworzyć artykuł?]]></phrase>
+		<phrase name="vbcms_articles_draft" date="1286813162" username="Mateusz" version="4.0.7"><![CDATA[Jak utworzyć wersję roboczą artykułu?]]></phrase>
+		<phrase name="vbcms_articles_edit" date="1286796488" username="Mateusz" version="4.0.7"><![CDATA[Jak edytować artykuł?]]></phrase>
+		<phrase name="vbcms_articles_multisection" date="1286813223" username="Mateusz" version="4.0.7"><![CDATA[Co zrobić, aby artykuł pojawił się w kilku sekcjach?]]></phrase>
+		<phrase name="vbcms_articles_notshown" date="1286796458" username="Mateusz" version="4.0.7"><![CDATA[Dlaczego mój artykuł jest niewidoczny na stronie sekcji?]]></phrase>
+		<phrase name="vbcms_categories" date="1286796184" username="Mateusz" version="4.0.7"><![CDATA[Organizacja artykułów]]></phrase>
+		<phrase name="vbcms_contentlayout" date="1286813482" username="Mateusz" version="4.0.7"><![CDATA[Jak zmienić układ zawartości dla sekcji?]]></phrase>
+		<phrase name="vbcms_editing" date="1286796164" username="Mateusz" version="4.0.7"><![CDATA[Edytowanie artykułów]]></phrase>
+		<phrase name="vbcms_organizing_categories" date="1286812697" username="Mateusz" version="4.0.7"><![CDATA[Jak zmienić kategorię dla artykułu?]]></phrase>
+		<phrase name="vbcms_section_categories" date="1286796248" username="Mateusz" version="4.0.7"><![CDATA[Co to jest kategoria?]]></phrase>
+		<phrase name="vbcms_section_create" date="1286796283" username="Mateusz" version="4.0.7"><![CDATA[Jak stworzyć sekcję?]]></phrase>
+		<phrase name="vbcms_section_displayorder" date="1286813432" username="Mateusz" version="4.0.7"><![CDATA[Jak zmienić kolejność wyświetlania zawartości dla sekcji?]]></phrase>
+		<phrase name="vbcms_section_layout" date="1286796342" username="Mateusz" version="4.0.7"><![CDATA[Jak zmienić układ sekcji?]]></phrase>
+		<phrase name="vbcms_section_perpage" date="1286796415" username="Mateusz" version="4.0.7"><![CDATA[Jak zmienić ilość artykułów na stronę?]]></phrase>
+		<phrase name="vbcms_section_rename" date="1286796306" username="Mateusz" version="4.0.7"><![CDATA[Jak zmienić nazwę sekcji]]></phrase>
+		<phrase name="vbcms_section_style" date="1286796374" username="Mateusz" version="4.0.7"><![CDATA[Jak zmienić styl sekcji?]]></phrase>
+		<phrase name="vbcms_sections" date="1286796206" username="Mateusz" version="4.0.7"><![CDATA[Edycja / zarządzanie sekcjami]]></phrase>
+		<phrase name="vbcms_stylelayoutcontent" date="1286813364" username="Mateusz" version="4.0.7"><![CDATA[Jaka jest różnica pomiędzy stylem, układem sekcji a układem zawartości?]]></phrase>
+	</phrasetype>
+	<phrasetype name="GLOBAL" fieldname="global">
+		<phrase name="article" date="1288981388" username="Mateusz" version="4.0.7"><![CDATA[Artykuł]]></phrase>
+		<phrase name="articles" date="1343916356" username="Mateusz K" version="4.2.0"><![CDATA[Artykuły]]></phrase>
+		<phrase name="cms_section" date="1345637677" username="Wojtek" version="4.2.0"><![CDATA[Sekcja]]></phrase>
+		<phrase name="comment_thread_firstpost" date="1344519071" username="Mateusz K" version="4.2.0"><![CDATA[Wyświetl stronę [url={1}]{1}[/url]]]></phrase>
+		<phrase name="new_articles_nav" date="1286735573" username="Mateusz" version="4.0.7"><![CDATA[Nowe artykuły]]></phrase>
+		<phrase name="options_options_default_page_title" date="1345638073" username="Wojtek" version="4.2.0"><![CDATA[Strona domyślna]]></phrase>
+		<phrase name="read_more_phrase" date="1296824497" username="Mateusz" version="4.1.1"><![CDATA[Czytaj więcej]]></phrase>
+		<phrase name="statichtml" date="1345638293" username="Wojtek" version="4.2.0"><![CDATA[Statyczny HTML]]></phrase>
+		<phrase name="vb_navigation_tab_vbtab_cms_text" date="1345647944" username="Mateusz K" version="4.2.0"><![CDATA[Artykuły]]></phrase>
+		<phrase name="vbcms" date="1345638558" username="Wojtek" version="4.2.0"><![CDATA[CMS]]></phrase>
+		<phrase name="your_friends_list_is_empty" date="1345638933" username="Wojtek" version="4.2.0"><![CDATA[Twoja lista znajomych jest pusta.]]></phrase>
+	</phrasetype>
+	<phrasetype name="Posting" fieldname="posting">
+		<phrase name="automatic" date="1288277432" username="Mateusz" version="4.0.7"><![CDATA[Automatycznie]]></phrase>
+		<phrase name="columns" date="1288277281" username="Mateusz" version="4.0.7"><![CDATA[Ilość kolumn]]></phrase>
+		<phrase name="insert_table" date="1288277183" username="Mateusz" version="4.0.7"><![CDATA[Wstaw tabelę]]></phrase>
+		<phrase name="pixels" date="1288277475" username="Mateusz" version="4.0.7"><![CDATA[(piksele)]]></phrase>
+		<phrase name="rows" date="1288277256" username="Mateusz" version="4.0.7"><![CDATA[Ilość wierszy]]></phrase>
+		<phrase name="width" date="1288277365" username="Mateusz" version="4.0.7"><![CDATA[Szerokość]]></phrase>
+	</phrasetype>
+	<phrasetype name="Searching" fieldname="search">
+		<phrase name="searchtype_articles" date="1295647967" username="Mateusz" version="4.1.1"><![CDATA[Artykuły]]></phrase>
+	</phrasetype>
+	<phrasetype name="Forum Blocks Settings" fieldname="vbblocksettings">
+		<phrase name="setting_cmsarticles_catids_title" date="1344514898" username="Mateusz K" version="4.2.0"><![CDATA[Ograniczenia kategorii]]></phrase>
+	</phrasetype>
+	<phrasetype name="Content Management System" fieldname="vbcms">
+		<phrase name="action" date="1306873959" username="Mateusz" version="4.1.2"><![CDATA[akcja]]></phrase>
+		<phrase name="add_comment_button" date="1288278395" username="Mateusz" version="4.0.7"><![CDATA[Dodaj komentarz]]></phrase>
+		<phrase name="advanced" date="1306873959" username="Mateusz" version="4.1.2"><![CDATA[Zaawansowane]]></phrase>
+		<phrase name="already_rated_this_article" date="1306873959" username="Mateusz" version="4.1.2"><![CDATA[Już oceniłeś(łaś) ten aktykuł]]></phrase>
+		<phrase name="article_preview" date="1306873959" username="Mateusz" version="4.1.2"><![CDATA[Podgląd artykułu]]></phrase>
+		<phrase name="article_title" date="1306873959" username="Mateusz" version="4.1.2"><![CDATA[Tytuł artykułu]]></phrase>
+		<phrase name="be_aware_relationship" date="1306887709" username="Mateusz" version="4.1.2"><![CDATA[Musisz mieć świadomość zależności między polami. Np. prefiksy mogą zawierać tylko wątki i posty. Jeśli zaznaczysz wpisy odwiedzających i jakikolwiek prefiks, to nigdy nie otrzymasz wyników.]]></phrase>
+		<phrase name="board_defaults" date="1306887709" username="Mateusz" version="4.1.2"><![CDATA[Domyśle ustawienia strony]]></phrase>
+		<phrase name="by_friends" date="1306873959" username="Mateusz" version="4.1.2"><![CDATA[Przez znajomych]]></phrase>
+		<phrase name="by_x_nolink" date="1288277925" username="Mateusz" version="4.0.7"><![CDATA[przez {1}]]></phrase>
+		<phrase name="category" date="1306887846" username="Mateusz" version="4.1.2"><![CDATA[Kategoria]]></phrase>
+		<phrase name="category_x_not_published" date="1306887846" username="Mateusz" version="4.1.2"><![CDATA[Kategoria <a href="{1}">{2}</a> nie jest opublikowana]]></phrase>
+		<phrase name="change_section" date="1306887846" username="Mateusz" version="4.1.2"><![CDATA[Zmień zaznaczenie]]></phrase>
+		<phrase name="cms_pageviews" date="1306887846" username="Mateusz" version="4.1.2"><![CDATA[Odwiedziny strony]]></phrase>
+		<phrase name="comment" date="1287165088" username="Mateusz" version="4.0.7"><![CDATA[Komentarzy]]></phrase>
+		<phrase name="comment_posted" date="1306887846" username="Mateusz" version="4.1.2"><![CDATA[Twój komentarz został dodany Możesz odświeżyć stronę, aby go zobaczyć.]]></phrase>
+		<phrase name="comment_thread_title" date="1296824446" username="Mateusz" version="4.1.1"><![CDATA[{1}]]></phrase>
+		<phrase name="comments" date="1287005022" username="Mateusz" version="4.0.7"><![CDATA[Komentarze]]></phrase>
+		<phrase name="comments_per_page" date="1306887846" username="Mateusz" version="4.1.2"><![CDATA[Komentarzy na stronę]]></phrase>
+		<phrase name="configuration_failed" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Pole konfiguracji]]></phrase>
+		<phrase name="configuration_saved" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Konfiguracja została zapisana]]></phrase>
+		<phrase name="configuring_content" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Konfiguracja treści]]></phrase>
+		<phrase name="configuring_content_x" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Konfiguracja treści {1}]]></phrase>
+		<phrase name="configuring_widget" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Konfiguracja widżetu]]></phrase>
+		<phrase name="configuring_widget_x" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Konfiguracja widżetu {1}]]></phrase>
+		<phrase name="content_saved" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Treść zapisana]]></phrase>
+		<phrase name="content_templates" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Szablon treści]]></phrase>
+		<phrase name="create_new" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Utwórz nowe]]></phrase>
+		<phrase name="creating_page" date="1306887932" username="Mateusz" version="4.1.2"><![CDATA[Tworzenie strony]]></phrase>
+		<phrase name="creating_page_in_x" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Tworzenie strony w {1}]]></phrase>
+		<phrase name="days_back" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Cofnij się o tyle dni]]></phrase>
+		<phrase name="delete_page_confirmation_message" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Jesteś pewien, że chcesz usunąć tę stronę? Usunięcie tej strony usunie wszystkie ustawienia z nią związane, a także jej zawartość.]]></phrase>
+		<phrase name="delete_this_page" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Usuń tę stronę]]></phrase>
+		<phrase name="deleting_content" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Usuń treść]]></phrase>
+		<phrase name="disable_comments" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Wyłącz komentarze]]></phrase>
+		<phrase name="display_settings" date="1288275663" username="Mateusz" version="4.0.7"><![CDATA[Opcje wyświetlania]]></phrase>
+		<phrase name="dont_change" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Nie zmieniaj]]></phrase>
+		<phrase name="edit_this_page" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Edytuj te stronę]]></phrase>
+		<phrase name="enter_bb_code" date="1306888110" username="Mateusz" version="4.1.2"><![CDATA[Wprowadź BB code]]></phrase>
+		<phrase name="enter_id_list" date="1306888276" username="Mateusz" version="4.1.2"><![CDATA[Wprowadź listę numerów id wątków, oddzielonych przecinakami, do wyświetlenia.]]></phrase>
+		<phrase name="enter_rss_url" date="1306888276" username="Mateusz" version="4.1.2"><![CDATA[Wprowadź adres URL dla RSS]]></phrase>
+		<phrase name="friend_activity" date="1306888276" username="Mateusz" version="4.1.2"><![CDATA[Aktywność moich znajomych]]></phrase>
+		<phrase name="group" date="1306888276" username="Mateusz" version="4.1.2"><![CDATA[Grupa]]></phrase>
+		<phrase name="in_category" date="1287004931" username="Mateusz" version="4.0.7"><![CDATA[Kategorie:]]></phrase>
+		<phrase name="items" date="1306888335" username="Mateusz" version="4.1.2"><![CDATA[Elementów]]></phrase>
+		<phrase name="layout" date="1287006793" username="Mateusz" version="4.0.7"><![CDATA[Układ]]></phrase>
+		<phrase name="max_items" date="1306888335" username="Mateusz" version="4.1.2"><![CDATA[Co najwyżej tyle elementów]]></phrase>
+		<phrase name="max_level" date="1306888335" username="Mateusz" version="4.1.2"><![CDATA[Maksymalny poziom]]></phrase>
+		<phrase name="max_poll_count" date="1306888335" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba wyświetlanych ankiet]]></phrase>
+		<phrase name="max_record_count" date="1306888343" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba wyświetlanych rekordów]]></phrase>
+		<phrase name="meta_description" date="1288276819" username="Mateusz" version="4.0.7"><![CDATA[Opis]]></phrase>
+		<phrase name="meta_keywords" date="1288276859" username="Mateusz" version="4.0.7"><![CDATA[Słowa kluczowe]]></phrase>
+		<phrase name="most_active" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Najaktywniejsze.]]></phrase>
+		<phrase name="most_recent" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Najnowsze]]></phrase>
+		<phrase name="most_viewed" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Najczęściej odwiedzane]]></phrase>
+		<phrase name="need_article_title" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Tytuł jest wymagany dla tego artykułu.]]></phrase>
+		<phrase name="need_section_title" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Proszę wprowadzić tytuł dla tej sekcji]]></phrase>
+		<phrase name="need_title" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Musisz wprowadzić tytuł dla tej sekcji]]></phrase>
+		<phrase name="need_url" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Unikalny alias dresu URL jest wymagany.]]></phrase>
+		<phrase name="new_article" date="1306888490" username="Mateusz" version="4.1.2"><![CDATA[Nowy artykuł]]></phrase>
+		<phrase name="new_page" date="1306888636" username="Mateusz" version="4.1.2"><![CDATA[Nowa strona]]></phrase>
+		<phrase name="new_php_eval_page" date="1306888636" username="Mateusz" version="4.1.2"><![CDATA[Nowa strona PHP]]></phrase>
+		<phrase name="new_static_page" date="1306888636" username="Mateusz" version="4.1.2"><![CDATA[Nowa statyczna strona]]></phrase>
+		<phrase name="no_articles_in_this_section" date="1306888636" username="Mateusz" version="4.1.2"><![CDATA[Nie ma artykułów w tej sekcji]]></phrase>
+		<phrase name="no_categories_defined" date="1306888636" username="Mateusz" version="4.1.2"><![CDATA[Żadna kategoria nie została utworzona]]></phrase>
+		<phrase name="no_content_for_author_x" date="1288277954" username="Mateusz" version="4.0.7"><![CDATA[Nie ma żadnej dostępnej treści autorstwa {1}]]></phrase>
+		<phrase name="no_content_for_category_x" date="1306888636" username="Mateusz" version="4.1.2"><![CDATA[Nie ma żadnej treści w kategorii {1}]]></phrase>
+		<phrase name="no_content_for_section_x" date="1306888636" username="Mateusz" version="4.1.2"><![CDATA[Nie ma żadnej treści w sekcji {1}]]></phrase>
+		<phrase name="no_content_in_section" date="1306888739" username="Mateusz" version="4.1.2"><![CDATA[Nie ma treści w tej sekcji]]></phrase>
+		<phrase name="nothing_to_do" date="1306888739" username="Mateusz" version="4.1.2"><![CDATA[Nie można nic skonfigurować dla tego typu.]]></phrase>
+		<phrase name="oldest_info_days" date="1306888739" username="Mateusz" version="4.1.2"><![CDATA[Najstarsze informacje, w dniach]]></phrase>
+		<phrase name="oldest_poll_days" date="1306888739" username="Mateusz" version="4.1.2"><![CDATA[Najstarsza ankieta, w dniach]]></phrase>
+		<phrase name="only_this_user" date="1306888739" username="Mateusz" version="4.1.2"><![CDATA[Tylko ten użytkownik]]></phrase>
+		<phrase name="page_deleted" date="1306888739" username="Mateusz" version="4.1.2"><![CDATA[Strona usunięta]]></phrase>
+		<phrase name="page_is_published" date="1287006861" username="Mateusz" version="4.0.7"><![CDATA[Opublikowany]]></phrase>
+		<phrase name="page_not_published" date="1287175137" username="Mateusz" version="4.0.7"><![CDATA[Nie opublikowany]]></phrase>
+		<phrase name="page_published" date="1306888739" username="Mateusz" version="4.1.2"><![CDATA[Strona opublikowana]]></phrase>
+		<phrase name="page_unpublished" date="1306888796" username="Mateusz" version="4.1.2"><![CDATA[Strona nieopublikowana]]></phrase>
+		<phrase name="page_updated" date="1306888796" username="Mateusz" version="4.1.2"><![CDATA[Strona zaktualizowana]]></phrase>
+		<phrase name="page_will_be_published_x" date="1306888796" username="Mateusz" version="4.1.2"><![CDATA[Ta strona zostanie opublikowana w {1}]]></phrase>
+		<phrase name="post_comment" date="1287006966" username="Mateusz" version="4.0.7"><![CDATA[Skomentuj]]></phrase>
+		<phrase name="promoted_post_intro" date="1288278244" username="Mateusz" version="4.0.7"><![CDATA[Ten artykuł powstał na podstawie tematu:]]></phrase>
+		<phrase name="promoted_post_intro_blog" date="1288278275" username="Mateusz" version="4.0.7"><![CDATA[Ten artykuł powstał na podstawie wpisu na blogu:]]></phrase>
+		<phrase name="promoted_thread_startedby" date="1306888796" username="Mateusz" version="4.1.2"><![CDATA[rozpoczęty przez]]></phrase>
+		<phrase name="publish" date="1287006895" username="Mateusz" version="4.0.7"><![CDATA[Opublikowany]]></phrase>
+		<phrase name="publish_date" date="1288275576" username="Mateusz" version="4.0.7"><![CDATA[Data publikacji]]></phrase>
+		<phrase name="publish_time" date="1288275757" username="Mateusz" version="4.0.7"><![CDATA[O której?]]></phrase>
+		<phrase name="published_on_x" date="1288278183" username="Mateusz" version="4.0.7"><![CDATA[Opublikowany {1}]]></phrase>
+		<phrase name="publishing_page" date="1306888837" username="Mateusz" version="4.1.2"><![CDATA[Strona publikacji]]></phrase>
+		<phrase name="rate_this_article" date="1288277712" username="Mateusz" version="4.0.7"><![CDATA[Oceń artykuł]]></phrase>
+		<phrase name="read_more" date="1306888837" username="Mateusz" version="4.1.2"><![CDATA[przeczytaj więcej]]></phrase>
+		<phrase name="recent_articles" date="1306888837" username="Mateusz" version="4.1.2"><![CDATA[Ostatnie artykuły]]></phrase>
+		<phrase name="recent_blog_posts" date="1287164024" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie wpisy na blogu]]></phrase>
+		<phrase name="recent_blogs" date="1306888837" username="Mateusz" version="4.1.2"><![CDATA[Ostanie blogi]]></phrase>
+		<phrase name="recent_comments" date="1287157740" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie komentarze]]></phrase>
+		<phrase name="recent_content_from_x" date="1306888955" username="Mateusz" version="4.1.2"><![CDATA[Ostatni komentarz od {1}]]></phrase>
+		<phrase name="recent_forum_posts" date="1306888955" username="Mateusz" version="4.1.2"><![CDATA[Ostanie posty na forum]]></phrase>
+		<phrase name="recent_posts_from_x" date="1306888955" username="Mateusz" version="4.1.2"><![CDATA[Ostanie posty na forum od {1}]]></phrase>
+		<phrase name="results_for" date="1306888955" username="Mateusz" version="4.1.2"><![CDATA[Wyświetlanie treści dla]]></phrase>
+		<phrase name="save_failed" date="1306888955" username="Mateusz" version="4.1.2"><![CDATA[Zapis zakończony niepowodzeniem]]></phrase>
+		<phrase name="section" date="1288276508" username="Mateusz" version="4.0.7"><![CDATA[Sekcja]]></phrase>
+		<phrase name="sections" date="1306888955" username="Mateusz" version="4.1.2"><![CDATA[Sekcje]]></phrase>
+		<phrase name="select_content_types" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Wybierz typ wyświetlanej treści]]></phrase>
+		<phrase name="select_forums" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Wybierz forum/fora]]></phrase>
+		<phrase name="select_prefixes" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Wybierz prefiks(y)]]></phrase>
+		<phrase name="select_sg_categories" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Wybierz grupę kategorii]]></phrase>
+		<phrase name="select_types" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Wybierz typ(y)]]></phrase>
+		<phrase name="short_for_friday" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Pt.]]></phrase>
+		<phrase name="short_for_monday" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Pon.]]></phrase>
+		<phrase name="short_for_saturday" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Sob.]]></phrase>
+		<phrase name="short_for_sunday" date="1306889064" username="Mateusz" version="4.1.2"><![CDATA[Niedz.]]></phrase>
+		<phrase name="short_for_thursday" date="1306889114" username="Mateusz" version="4.1.2"><![CDATA[Czw.]]></phrase>
+		<phrase name="short_for_tuesday" date="1306889114" username="Mateusz" version="4.1.2"><![CDATA[Wt.]]></phrase>
+		<phrase name="short_for_wednesday" date="1306889114" username="Mateusz" version="4.1.2"><![CDATA[Śr.]]></phrase>
+		<phrase name="started_by" date="1306889114" username="Mateusz" version="4.1.2"><![CDATA[Rozpoczęty przez]]></phrase>
+		<phrase name="style" date="1287174937" username="Mateusz" version="4.0.7"><![CDATA[Styl]]></phrase>
+		<phrase name="template_name" date="1306889163" username="Mateusz" version="4.1.2"><![CDATA[Nazwa szablonu]]></phrase>
+		<phrase name="these_keywords" date="1306889163" username="Mateusz" version="4.1.2"><![CDATA[Szukaj tych słów kluczowych]]></phrase>
+		<phrase name="this_social_group" date="1306889163" username="Mateusz" version="4.1.2"><![CDATA[Tylko ta grupa]]></phrase>
+		<phrase name="total_comments" date="1287005059" username="Mateusz" version="4.0.7"><![CDATA[Komentarze]]></phrase>
+		<phrase name="use_the_menu_from_x" date="1306889163" username="Mateusz" version="4.1.2"><![CDATA[Użyj menu z  {1}]]></phrase>
+		<phrase name="view_all" date="1306889227" username="Mateusz" version="4.1.2"><![CDATA[Zobacz wszystko]]></phrase>
+		<phrase name="view_all_comments" date="1306889227" username="Mateusz" version="4.1.2"><![CDATA[Zobacz wszystkie komentarze]]></phrase>
+		<phrase name="view_original_post" date="1306889227" username="Mateusz" version="4.1.2"><![CDATA[Zobacz oryginalny wpis]]></phrase>
+		<phrase name="widget" date="1306889227" username="Mateusz" version="4.1.2"><![CDATA[Widżet]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+		<phrase name="setting_cms_as_index_desc" date="1296155993" username="Mateusz" version="4.1.1"><![CDATA[Oznacz jako "tak" aby index.php domyślnie wyświetlał stronę CMSa. ]]></phrase>
+		<phrase name="setting_cms_as_index_title" date="1296155481" username="Mateusz" version="4.1.1"><![CDATA[Wskaż index.php jako domyślna stronę CMS]]></phrase>
+		<phrase name="setting_cms_preview_thumb_desc" date="1344500047" username="Mateusz K" version="4.2.0"><![CDATA[Ustaw to na Tak, aby przełączyć podgląd artykułów,używanie miniatur obrazków zamiast oryginalnych rozmiarów obrazków. Miniatury muszą być włączone.]]></phrase>
+		<phrase name="setting_cms_preview_thumb_title" date="1344499952" username="Mateusz K" version="4.2.0"><![CDATA[Używaj miniatur w podglądzie]]></phrase>
+		<phrase name="setting_cmstitle_desc" date="1296156089" username="Mateusz" version="4.1.1"><![CDATA[Nazwa CMSa która będzie wyświetlana na każdej jego stronie.]]></phrase>
+		<phrase name="setting_cmstitle_title" date="1296156028" username="Mateusz" version="4.1.1"><![CDATA[Nazwa dla CMSa]]></phrase>
+		<phrase name="setting_default_cms_previewlength_desc" date="1296162157" username="Mateusz" version="4.1.1"><![CDATA[Domyślna długość podglądu tekstu, która zostanie użyta jeśli nie ustalisz jej manualnie.]]></phrase>
+		<phrase name="setting_default_cms_previewlength_title" date="1296162052" username="Mateusz" version="4.1.1"><![CDATA[Domyślna długość podglądu]]></phrase>
+		<phrase name="setting_default_page_desc" date="1296155437" username="Mateusz" version="4.1.1"><![CDATA[Jeśli użytkownik odwiedzi stronę CMS, bez podania podstrony, zobaczy właśnie tę stronę. Adres powinien zawierać numer strony, aby seo nie miało problemów. Na przykład "1-home-page". Błędna wartość w tym polu może uniemożliwić poprawne działanie CMSa.]]></phrase>
+		<phrase name="setting_default_page_title" date="1296155055" username="Mateusz" version="4.1.1"><![CDATA[Domyślna strona]]></phrase>
+		<phrase name="setting_site_tab_url_desc" date="1296157836" username="Mateusz" version="4.1.1"><![CDATA[Adres URL zakładki CMS używany w menu nawigacji.]]></phrase>
+		<phrase name="setting_site_tab_url_title" date="1296157701" username="Mateusz" version="4.1.1"><![CDATA[Adres URL zakładki CMS]]></phrase>
+		<phrase name="setting_vbcms_url_desc" date="1295981549" username="Mateusz" version="4.1.1"><![CDATA[Opcjonalny adres URL dla CMS.<br /><br />
+Jeśli jest ustawiony to nadpisuje adresy w obrębie produktu "CMS"
+<br /><br />
+<b>Przykłady:</b><br />
+http://www.example.com/CMS<br />
+forum<br /><br />]]></phrase>
+		<phrase name="setting_vbcms_url_title" date="1295979013" username="Mateusz" version="4.1.1"><![CDATA[Opcjonalny adres URL dla CMS]]></phrase>
+		<phrase name="setting_vbcmsforumid_desc" date="1296162022" username="Mateusz" version="4.1.1"><![CDATA[Forum używane do komentowania artykułów. Jeśli zmienisz je na inne będziesz musiał ręcznie przenieść wszystkie tematy.]]></phrase>
+		<phrase name="setting_vbcmsforumid_title" date="1296158048" username="Mateusz" version="4.1.1"><![CDATA[Forum dla komentarzy artykułów ]]></phrase>
+		<phrase name="settinggroup_vbcms" date="1286832078" username="Mateusz" version="4.0.7"><![CDATA[Zarządzanie zawartością]]></phrase>
+	</phrasetype>
+	<phrasetype name="CMS Widget Types" fieldname="widgettypes">
+		<phrase name="widgettype_vbcms_recentblog" date="1287164022" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie wpisy na blogu]]></phrase>
+		<phrase name="widgettype_vbcms_tagcloud" date="1344003992" username="Mateusz K" version="4.2.0"><![CDATA[Chmura tagów]]></phrase>
+	</phrasetype>
+	<phrasetype name="Who's Online" fieldname="wol">
+		<phrase name="creating_content" date="1306873480" username="Mateusz" version="4.1.2"><![CDATA[Tworzy treść]]></phrase>
+		<phrase name="deleting_content" date="1306873643" username="Mateusz" version="4.1.2"><![CDATA[Usuwa treść]]></phrase>
+		<phrase name="viewing_page" date="1345311503" username="Mateusz K" version="4.2.0"><![CDATA[Przegląda stronę ]]></phrase>
+	</phrasetype>
+</language>
