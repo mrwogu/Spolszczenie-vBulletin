@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<language name="Polski (PL)" vbversion="4.2.2" product="vbblog" type="custom">
+	<settings>
+		<options><![CDATA[1]]></options>
+		<languagecode><![CDATA[pl]]></languagecode>
+		<charset><![CDATA[ISO-8859-2]]></charset>
+		<imagesoverride />
+		<dateoverride />
+		<timeoverride><![CDATA[H:i]]></timeoverride>
+		<registereddateoverride />
+		<calformat1override />
+		<calformat2override />
+		<logdateoverride />
+		<locale />
+		<decimalsep><![CDATA[,]]></decimalsep>
+		<thousandsep><![CDATA[_]]></thousandsep>
+		<phrasegroupinfo><![CDATA[a:1:{s:8:"ckeditor";a:1:{s:11:"maxdateline";s:10:"1345457526";}}]]></phrasegroupinfo>
+	</settings>
+	<phrasetype name="Activity Stream" fieldname="activitystream">
+		<phrase name="guest_x_commented_on_blog_entry_y_in_z" date="1343918045" username="Mateusz K" version="4.2.0"><![CDATA[{1} skomentowa³ wpis na blogu <a href="{2}">{3}</a> stworzony przez <a href="{4}">{5}</a>]]></phrase>
+		<phrase name="x_commented_on_blog_entry_y_in_z" date="1343918062" username="Mateusz K" version="4.2.0"><![CDATA[<a href="{1}" class="username">{2}</a> skomentowa³ wpis na blogu  <a href="{3}">{4}</a> stworzony przez <a href="{5}">{6}</a>]]></phrase>
+		<phrase name="x_created_a_blog_entry_y_in_z" date="1343916960" username="Mateusz K" version="4.2.0"><![CDATA[<a href="{1}" class="username">{2}</a> doda³ wpis <a href="{3}">{4}</a> w blogu <a href="{5}">{6}</a>]]></phrase>
+	</phrasetype>
+	<phrasetype name="Advertising" fieldname="advertising">
+		<phrase name="adlocation_bloglist_first_entry" date="1301497926" username="Mateusz" version="4.1.1"><![CDATA[Pierwszy wpis]]></phrase>
+		<phrase name="adlocation_blogshowentry_after" date="1301497926" username="Mateusz" version="4.1.1"><![CDATA[Po wpisie]]></phrase>
+		<phrase name="adlocation_blogshowentry_before" date="1301497926" username="Mateusz" version="4.1.1"><![CDATA[Przed wpisem]]></phrase>
+		<phrase name="adlocation_blogsidebar_end" date="1301497926" username="Mateusz" version="4.1.1"><![CDATA[Na koñcu Sidebara]]></phrase>
+		<phrase name="adlocation_blogsidebar_middle" date="1301497926" username="Mateusz" version="4.1.1"><![CDATA[Po ¶rodku Sidebara]]></phrase>
+		<phrase name="locationgroup_bloglist" date="1301498342" username="Mateusz" version="4.1.1"><![CDATA[Lista blogów]]></phrase>
+		<phrase name="locationgroup_blogshowentry" date="1301498342" username="Mateusz" version="4.1.1"><![CDATA[Wpis na blogu]]></phrase>
+	</phrasetype>
+	<phrasetype name="Attachment / Image" fieldname="attachment_image">
+		<phrase name="contenttype_vbblog_entry" date="1301507082" username="Mateusz" version="4.1.1"><![CDATA[Wpisy na blogu]]></phrase>
+	</phrasetype>
+	<phrasetype name="Content Types" fieldname="contenttypes">
+		<phrase name="contenttype_vbblog_blogcomment" date="1287164670" username="Mateusz" version="4.0.7"><![CDATA[Komentarze na blogach]]></phrase>
+		<phrase name="contenttype_vbblog_blogentry" date="1301582912" username="Mateusz" version="4.1.1"><![CDATA[Wpisy na blogach]]></phrase>
+	</phrasetype>
+	<phrasetype name="Control Panel Global" fieldname="cpglobal">
+		<phrase name="blog_featured_entries" date="1301650409" username="Mateusz" version="4.1.1"><![CDATA[Polecane wpisy na blogach]]></phrase>
+		<phrase name="blog_priority_manager" date="1301650393" username="Mateusz" version="4.1.1"><![CDATA[Manager priorytetów sitemapy blogu]]></phrase>
+		<phrase name="remove_per_mo_since_comment" date="1301656835" username="Mateusz" version="4.1.1"><![CDATA[Usuwaj co miesi±c, licz±c od daty ostatniego komentarza, tê warto¶æ (0-1.00)]]></phrase>
+		<phrase name="remove_per_mo_since_post" date="1301656835" username="Mateusz" version="4.1.1"><![CDATA[Usuwaj co miesi±c, licz±c od daty ostatniego wpisu na blogu, tê warto¶æ (0 - 1.00)]]></phrase>
+		<phrase name="sitemap_blog_priority_desc" date="1301659052" username="Mateusz" version="4.1.1"><![CDATA[Ta strona pozwala Ci kontrolowaæ skalê priorytetów dla Twojej sitemapy, na podstawie popularno¶ci i wieku blogów. Pierwszeñstwo bêdzie wyliczone dla ka¿dego posta na blogu w oparciu o warto¶ci które tutaj podasz. Niezale¿nie od tego co tutaj podasz, skala priorytetów bêdzie pomiêdzy 0 a 1.]]></phrase>
+	</phrasetype>
+	<phrasetype name="Control Panel Help Text" fieldname="cphelptext">
+		<phrase name="blog_admin_stats_username_text" date="1288848413" username="Mateusz" version="4.0.7"><![CDATA[Ogranicz statystyki do jednego u¿ytkownika.]]></phrase>
+		<phrase name="usergroup_edit_add_blog_allowvideos_title" date="1344515122" username="Mateusz K" version="4.2.0"><![CDATA[Zezwól na BB Code [VIDEO]]]></phrase>
+	</phrasetype>
+	<phrasetype name="Control Panel Home Pages" fieldname="cphome">
+		<phrase name="blog_categories" date="1287163665" username="Mateusz" version="4.0.7"><![CDATA[Kategorie bloga]]></phrase>
+		<phrase name="blog_category_permissions" date="1301737738" username="Mateusz" version="4.1.1"><![CDATA[Zezwolenia w kategoriach bloga]]></phrase>
+		<phrase name="blog_entries" date="1301737902" username="Mateusz" version="4.1.1"><![CDATA[Wpisy na blogu]]></phrase>
+		<phrase name="blog_moderators" date="1287765743" username="Mateusz" version="4.0.7"><![CDATA[Moderatorzy bloga]]></phrase>
+		<phrase name="blog_stats" date="1287765566" username="Mateusz" version="4.0.7"><![CDATA[Statystyki bloga]]></phrase>
+		<phrase name="blog_tags" date="1301737902" username="Mateusz" version="4.1.1"><![CDATA[Tagi w Blogach]]></phrase>
+	</phrasetype>
+	<phrasetype name="Control Panel Options" fieldname="cpoption">
+		<phrase name="allow_comments" date="1301933260" username="Mateusz" version="4.1.1"><![CDATA[Zezwól na komentarze]]></phrase>
+		<phrase name="allow_pingback" date="1301933260" username="Mateusz" version="4.1.1"><![CDATA[Zezwól na Pingback / Trackback]]></phrase>
+		<phrase name="any_option_may_be_blank" date="1301933260" username="Mateusz" version="4.1.1"><![CDATA[Ka¿da z opcji mo¿e pozostaæ pusta]]></phrase>
+		<phrase name="block_archive" date="1301933746" username="Mateusz" version="4.1.1"><![CDATA[Archiwum (Kalendarz)]]></phrase>
+		<phrase name="block_category" date="1301933746" username="Mateusz" version="4.1.1"><![CDATA[Kategorie]]></phrase>
+		<phrase name="block_comments" date="1287157722" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie komentarze]]></phrase>
+		<phrase name="block_entries" date="1286824421" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie wpisy]]></phrase>
+		<phrase name="block_search" date="1301933746" username="Mateusz" version="4.1.1"><![CDATA[Szukaj]]></phrase>
+		<phrase name="block_tagcloud" date="1301933746" username="Mateusz" version="4.1.1"><![CDATA[Chmura tagów]]></phrase>
+		<phrase name="block_visitors" date="1287163686" username="Mateusz" version="4.0.7"><![CDATA[Ostatni odwiedzaj±cy]]></phrase>
+		<phrase name="blog_comments" date="1287164668" username="Mateusz" version="4.0.7"><![CDATA[Komentarze na blogach]]></phrase>
+		<phrase name="blog_entries" date="1287904228" username="Mateusz" version="4.0.7"><![CDATA[Wpisów]]></phrase>
+		<phrase name="cachetype_noperm" date="1301933871" username="Mateusz" version="4.1.1"><![CDATA[Bez uprawnieñ]]></phrase>
+		<phrase name="cachetype_perm" date="1301933871" username="Mateusz" version="4.1.1"><![CDATA[Z uprawnieniami]]></phrase>
+		<phrase name="default_entry_options" date="1301934133" username="Mateusz" version="4.1.1"><![CDATA[Domy¶lne ustawienia wpisów]]></phrase>
+		<phrase name="guests_may" date="1301935371" username="Mateusz" version="4.1.1"><![CDATA[Go¶cie mog±...]]></phrase>
+		<phrase name="leave_comments" date="1301935767" username="Mateusz" version="4.1.1"><![CDATA[Zostaw komentarze]]></phrase>
+		<phrase name="members_on_buddylist_may" date="1301935917" username="Mateusz" version="4.1.1"><![CDATA[U¿ytkownicy z listy znajomych mog±...]]></phrase>
+		<phrase name="members_on_ignorelist_may" date="1301935917" username="Mateusz" version="4.1.1"><![CDATA[U¿ytkownicy z listy ignorowanych...]]></phrase>
+		<phrase name="moderate_comments" date="1301935917" username="Mateusz" version="4.1.1"><![CDATA[Zarz±dzaj komentarzami]]></phrase>
+		<phrase name="no_cutoff" date="1301935917" username="Mateusz" version="4.1.1"><![CDATA[Nie obcinaj]]></phrase>
+		<phrase name="one_day" date="1301937218" username="Mateusz" version="4.1.1"><![CDATA[Dzieñ]]></phrase>
+		<phrase name="one_month" date="1301937218" username="Mateusz" version="4.1.1"><![CDATA[Miesi±c]]></phrase>
+		<phrase name="one_week" date="1301937218" username="Mateusz" version="4.1.1"><![CDATA[Tydzieñ]]></phrase>
+		<phrase name="one_year" date="1301937218" username="Mateusz" version="4.1.1"><![CDATA[Rok]]></phrase>
+		<phrase name="other_members_may" date="1301937218" username="Mateusz" version="4.1.1"><![CDATA[Inni u¿ytkownicy mog±...]]></phrase>
+		<phrase name="permissions_and_privacy" date="1301937218" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia i prywatno¶æ]]></phrase>
+		<phrase name="six_months" date="1301938497" username="Mateusz" version="4.1.1"><![CDATA[6 miesiêcy]]></phrase>
+		<phrase name="three_months" date="1301938582" username="Mateusz" version="4.1.1"><![CDATA[Trzy miesi±ce]]></phrase>
+	</phrasetype>
+	<phrasetype name="Permissions" fieldname="cppermission">
+		<phrase name="can_administer_blog" date="1301942433" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e zarz±dzaæ blogami]]></phrase>
+		<phrase name="can_administer_blog_permissions" date="1301942433" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e zarz±dzaæ uprawnieniami na blogach]]></phrase>
+		<phrase name="can_create_blog_categories" date="1301942752" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e stworzyæ w³asn± kategorie blogów]]></phrase>
+		<phrase name="can_customize_blog" date="1301942862" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e dostosowywaæ styl na blogu]]></phrase>
+		<phrase name="can_delete_own_blog" date="1301942862" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e usuwaæ w³asne wpisy na blogu]]></phrase>
+		<phrase name="can_delete_own_comments" date="1301942862" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e usuwaæ w³asne komentarze]]></phrase>
+		<phrase name="can_delete_tags_on_own_entries" date="1301943016" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e usuwaæ tagi we w³asnych wpisach na blogu]]></phrase>
+		<phrase name="can_edit_blog_categories" date="1301943211" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e edytowaæ kategorie bloga]]></phrase>
+		<phrase name="can_edit_blog_custom_blocks" date="1301943211" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e edytowaæ dodatkowe pola i strony na blogu]]></phrase>
+		<phrase name="can_edit_own_blog" date="1301943211" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e edytowaæ w³asne wpisy na blogu]]></phrase>
+		<phrase name="can_edit_own_comments" date="1301943585" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e edytowaæ w³asne komentarze]]></phrase>
+		<phrase name="can_have_group_blog" date="1301944024" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e mo¿e mieæ grupowy blog]]></phrase>
+		<phrase name="can_join_group_blog" date="1301944024" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e do³±czyæ grupowy blog]]></phrase>
+		<phrase name="can_manage_blog_comments" date="1301944248" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e zarz±dzaæ komentarzami we w³asnym blogu]]></phrase>
+		<phrase name="can_post_new_blog" date="1301944659" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e dodawaæ nowe wpisy na blogu]]></phrase>
+		<phrase name="can_post_others_comments" date="1301944659" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e komentowaæ blogi innych]]></phrase>
+		<phrase name="can_post_own_comments" date="1301944853" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e umieszczaæ komentarze na w³asnym blogu]]></phrase>
+		<phrase name="can_post_to_admin_categories" date="1301944853" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e pisaæ w kategoriach administratora]]></phrase>
+		<phrase name="can_post_to_admin_category" date="1301944853" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e pisaæ w kategorii administratora]]></phrase>
+		<phrase name="can_post_to_others_profile" date="1301944853" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e komentowaæ cudze profile]]></phrase>
+		<phrase name="can_receive_pingback" date="1301945041" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e otrzymywaæ Pingback/Trackback]]></phrase>
+		<phrase name="can_remove_own_blog" date="1301945041" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e usuwaæ w³asne wpisy na blogu]]></phrase>
+		<phrase name="can_search_blogs" date="1301945041" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e przeszukiwaæ blogi]]></phrase>
+		<phrase name="can_send_pingback" date="1301945519" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e wysy³aæ Pingback/Trackback]]></phrase>
+		<phrase name="can_tag_others_entries" date="1301946064" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e tagowaæ wpisy na blogach innych u¿ytkowników]]></phrase>
+		<phrase name="can_tag_own_entries" date="1301946064" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e tagowaæ w³asne wpisy na blogu]]></phrase>
+		<phrase name="can_view_admin_categories" date="1301946683" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e widzieæ kategorie administratora]]></phrase>
+		<phrase name="can_view_admin_category" date="1301946683" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e widzieæ kategoriê administratora]]></phrase>
+		<phrase name="can_view_enhanced_profiles" date="1301948625" username="Mateusz" version="4.1.1"><![CDATA[Rozszerzone profile]]></phrase>
+		<phrase name="can_view_others_blog" date="1301948625" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e widzieæ blogi innych u¿ytkowników]]></phrase>
+		<phrase name="can_view_others_comments" date="1301948625" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e widzieæ komentarze innych]]></phrase>
+		<phrase name="can_view_own_blog" date="1301948930" username="Mateusz" version="4.1.1"><![CDATA[Mo¿e widzieæ w³asny blog]]></phrase>
+		<phrase name="follow_blog_moderation_setting" date="1302000294" username="Mateusz" version="4.1.1"><![CDATA[Blogi objête s± moderacj± <dfn>Je¶li zaznaczysz 'Nie', blogi bêd± wymaga³y zatwierdzenia moderatora lub administratora.</dfn>]]></phrase>
+		<phrase name="follow_comment_moderation_setting" date="1302000068" username="Mateusz" version="4.1.1"><![CDATA[Komentarze na blogach s± objête moderacj± <dfn>Je¶li zaznaczysz 'Nie', komentarze bêd± wymaga³y zatwierdzenia moderatora lub administratora.</dfn>]]></phrase>
+		<phrase name="follow_profile_moderation_setting" date="1302000068" username="Mateusz" version="4.1.1"><![CDATA[Komentarze w profilach s± objête moderacj±.
+<dfn>Je¶li zaznaczysz 'Nie', komentarze bêd± wymaga³y zatwierdzenia moderatora lub administratora</dfn>]]></phrase>
+		<phrase name="maximum_custom_blocks" date="1302001621" username="Mateusz" version="4.1.1"><![CDATA[Maksymalna liczba w³asnych bloków<dfn>Ustaw na 0, aby wy³±czyæ tworzenie w³asnych bloków.</dfn>]]></phrase>
+		<phrase name="maximum_custom_pages" date="1302003130" username="Mateusz" version="4.1.1"><![CDATA[Maksymalna liczba w³asnych stron
+<dfn>Ustal na 0, aby wy³±czyæ tworzenie w³asnych stron..</dfn>]]></phrase>
+		<phrase name="vbblog_comment_permissions" date="1302005757" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia komentarzy na blogach]]></phrase>
+		<phrase name="vbblog_entry_permissions" date="1302005757" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia wpisów na blogach]]></phrase>
+		<phrase name="vbblog_general_permissions" date="1302005757" username="Mateusz" version="4.1.1"><![CDATA[G³ówne uprawnienia na blogach]]></phrase>
+		<phrase name="vbblog_profile_permissions" date="1302005757" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia profilu u¿ytkownika]]></phrase>
+		<phrase name="vbblog_usercss_permissions" date="1302005757" username="Mateusz" version="4.1.1"><![CDATA[Uprawnienia stylizacji bloga]]></phrase>
+	</phrasetype>
+	<phrasetype name="Control Panel User Management" fieldname="cpuser">
+		<phrase name="allow_comments_to_be_posted" date="1286978409" username="Mateusz" version="4.0.7"><![CDATA[Zezwól na komentowanie]]></phrase>
+		<phrase name="allow_trackback_pingback" date="1287084195" username="Mateusz" version="4.0.7"><![CDATA[Zezwól na trackback / pingback]]></phrase>
+		<phrase name="blog_comments" date="1287164666" username="Mateusz" version="4.0.7"><![CDATA[Komentarze na blogach]]></phrase>
+		<phrase name="blog_entries" date="1302009771" username="Mateusz" version="4.1.1"><![CDATA[Wpisy na blogu]]></phrase>
+		<phrase name="default_subscription_mode" date="1302009987" username="Mateusz" version="4.1.1"><![CDATA[Domy¶lny tryb subskrypcji:]]></phrase>
+		<phrase name="edit_blog_customizations" date="1302029955" username="Mateusz" version="4.1.1"><![CDATA[Edytuj stylizacj± bloga]]></phrase>
+		<phrase name="edit_blog_style_customizations_for_x" date="1302029955" username="Mateusz" version="4.1.1"><![CDATA[Edytuj stylizacjê bloga dla for '<span class="normal">{1}</span>']]></phrase>
+		<phrase name="guests_may" date="1302030400" username="Mateusz" version="4.1.1"><![CDATA[Go¶cie mog±]]></phrase>
+		<phrase name="leave_comments_on_blog_entries" date="1302030966" username="Mateusz" version="4.1.1"><![CDATA[Zostaw komentarze do wpisów na blogu]]></phrase>
+		<phrase name="members_on_buddy_list_may" date="1302030966" username="Mateusz" version="4.1.1"><![CDATA[U¿ytkownicy z listy znajomych mog±]]></phrase>
+		<phrase name="members_on_ignore_list_may" date="1302030966" username="Mateusz" version="4.1.1"><![CDATA[U¿ytkownicy z listy ignorowanych mog±]]></phrase>
+		<phrase name="moderate_comments_before_displaying" date="1302031733" username="Mateusz" version="4.1.1"><![CDATA[Dodaj komentarze do moderacji przed wy¶wietleniem]]></phrase>
+		<phrase name="other_members_may" date="1302032779" username="Mateusz" version="4.1.1"><![CDATA[Inni cz³onkowie mog±]]></phrase>
+		<phrase name="show_others_custom_blog_style" date="1302034153" username="Mateusz" version="4.1.1"><![CDATA[Pokazuj spersonalizowane blogi dla innych u¿ytkowników]]></phrase>
+		<phrase name="user_no_permission_customize_blog" date="1302035693" username="Mateusz" version="4.1.1"><![CDATA[Ten u¿ytkownik nie ma uprawnieñ do stylizacji swojego blogu.]]></phrase>
+		<phrase name="view_blog" date="1302035906" username="Mateusz" version="4.1.1"><![CDATA[Zobacz blog]]></phrase>
+	</phrasetype>
+	<phrasetype name="Scheduled Tasks" fieldname="cron">
+		<phrase name="task_blog_cleanup_desc" date="1302170859" username="Mateusz" version="4.1.1"><![CDATA[Optymalizacja blogów co godzinê.]]></phrase>
+		<phrase name="task_blog_cleanup_title" date="1302170859" username="Mateusz" version="4.1.1"><![CDATA[Blog - Cogodzinne optymalizacja]]></phrase>
+		<phrase name="task_blog_dailycleanup_desc" date="1302170859" username="Mateusz" version="4.1.1"><![CDATA[Codzienna optymalizacja - ¦ledzenie odwiedzaj±cych, statystyki]]></phrase>
+		<phrase name="task_blog_dailycleanup_title" date="1302171362" username="Mateusz" version="4.1.1"><![CDATA[Blog - Codzienna optymalizacja]]></phrase>
+		<phrase name="task_blog_pending_desc" date="1302171362" username="Mateusz" version="4.1.1"><![CDATA[Ten skrypt jest uruchamiany cztery razy w ci±gu godziny aby przetworzyæ wpisy oczekuj±ce na aktywacjê.]]></phrase>
+		<phrase name="task_blog_pending_title" date="1302171362" username="Mateusz" version="4.1.1"><![CDATA[Blog - Oczekuj±ce wpisy]]></phrase>
+		<phrase name="task_blog_views_desc" date="1302171362" username="Mateusz" version="4.1.1"><![CDATA[Ten skrypt jest wykonywany raz na godzinê, aby przetworzyæ wy¶wietlenia za³±czników i blogów.]]></phrase>
+		<phrase name="task_blog_views_title" date="1302171362" username="Mateusz" version="4.1.1"><![CDATA[Blog - Wy¶wietlenia za³±czników i blogów]]></phrase>
+	</phrasetype>
+	<phrasetype name="Email Subject Text" fieldname="emailsubject">
+		<phrase name="blog_group_request_email" date="1345456867" username="Mateusz K" version="4.2.0"><![CDATA[Odebrano pro¶bê o do³±czenie do bloga na $vboptions[bbtitle]]]></phrase>
+	</phrasetype>
+	<phrasetype name="Error Messages" fieldname="error">
+		<phrase name="after_upgrade_40_update_blog_attachment" date="1302541875" username="Mateusz" version="4.1.1"><![CDATA[<strong>vBulletin 4.0 aktualizacja postów</strong>
+<p>
+Musisz zaktualizowaæ za³±czniki na blogach do formatu v4.0.
+</p>]]></phrase>
+		<phrase name="akismet_key_invalid" date="1302541875" username="Mateusz" version="4.1.1"><![CDATA[Wordpress API key który dostarczono jest nieprawid³owy, proszê zweryfikowaæ go w profilu Wordpress i spróbowaæ ponownie.]]></phrase>
+		<phrase name="already_member_of_blog_x" date="1302544334" username="Mateusz" version="4.1.1"><![CDATA[Jeste¶ ju¿ cz³onkiem '{1}'.]]></phrase>
+		<phrase name="blog_cache_emptied" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[Bufor wpisów tekstowych zosta³ opró¿niony.]]></phrase>
+		<phrase name="blog_category_entry_limit" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[Próbujesz przypisaæ zbyt wiele kategorii z tym wpisem. Tylko {1} kategorii mo¿e byæ powi±zanych z tym wpisem.]]></phrase>
+		<phrase name="blog_category_limit" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[Masz prawo tylko do {1} kategorii.]]></phrase>
+		<phrase name="blog_counters_rebuilt" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[Liczniki na blogach zosta³y przebudowane]]></phrase>
+		<phrase name="blog_markread_error" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[Wyst±pi³ b³±d podczas próby oznaczenia wszystkich blogów jako przeczytane.
+<a href="{1}">Kliknij tutaj aby oznaczyæ blog nr. {2} jako przeczytany.</a>]]></phrase>
+		<phrase name="blog_need_search_criteria" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[Musisz okre¶liæ jakie¶ kryteria wyszukiwania.]]></phrase>
+		<phrase name="blog_no_blogs" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[Nie ma ¿adnych blogów.]]></phrase>
+		<phrase name="blog_no_comments" date="1287157785" username="Mateusz" version="4.0.7"><![CDATA[<li class="smallfont">Brak komentarzy do wy¶wietlenia.</li>]]></phrase>
+		<phrase name="blog_no_entries" date="1343916875" username="Mateusz K" version="4.2.0"><![CDATA[<li class="smallfont">Nie ma ¿adnych pozycji do wy¶wietlenia.</li>]]></phrase>
+		<phrase name="blog_no_rated_entries" date="1302613198" username="Mateusz" version="4.1.1"><![CDATA[<li>
+Brak wpisów z wystarczaj±c± ilo¶ci± ocen. Zacznij oceniaæ odwiedzane blogi klikaj±c 'Oceñ' w prawym górnym rogu wpisu. Twoje oceny pomog± w wytypowaniu najlepszych wpisów.
+</li>]]></phrase>
+		<phrase name="blog_noblog" date="1302614030" username="Mateusz" version="4.1.1"><![CDATA[{1} nie posiada jeszcze blogu.]]></phrase>
+		<phrase name="blog_rate_voted" date="1302614030" username="Mateusz" version="4.1.1"><![CDATA[Wygl±da na to ¿e z Twojego konta oddano ju¿ g³os w tym wpisie. Zmiana g³osu nie jest ju¿ mo¿liwa.]]></phrase>
+		<phrase name="blog_search_field_x_unknown" date="1302614030" username="Mateusz" version="4.1.1"><![CDATA[Wybrano niew³a¶ciwe pole wyszukiwania {1}.]]></phrase>
+		<phrase name="blog_subsnoselected" date="1302614030" username="Mateusz" version="4.1.1"><![CDATA[Nie zaznaczona ¿adnych subskrypcji.]]></phrase>
+		<phrase name="blog_too_many_links" date="1302614030" username="Mateusz" version="4.1.1"><![CDATA[Wybra³e¶ zbyt wiele adresów URL do powiadomieñ.]]></phrase>
+		<phrase name="communication_failed" date="1302619180" username="Mateusz" version="4.1.1"><![CDATA[B³±d podczas ³±czenia z serwerem]]></phrase>
+		<phrase name="deleted_blog_category_successfully" date="1302620097" username="Mateusz" version="4.1.1"><![CDATA[Pomy¶lnie usuniêto kategoriê bloga]]></phrase>
+		<phrase name="deleted_category_permissions_successfully" date="1302620097" username="Mateusz" version="4.1.1"><![CDATA[Pomy¶lnie usuniêto uprawnienia kategorii bloga]]></phrase>
+		<phrase name="deleted_entry_successfully" date="1302620310" username="Mateusz" version="4.1.1"><![CDATA[Pomy¶lnie usuniêto wpis]]></phrase>
+		<phrase name="deleted_featured_entry_successfully" date="1302620310" username="Mateusz" version="4.1.1"><![CDATA[Pomy¶lnie usuniêto wyró¿nione wpisy]]></phrase>
+		<phrase name="duplicate_blogentry" date="1302635279" username="Mateusz" version="4.1.1"><![CDATA[Ten wpis jest kopi± wpisu, który utworzy³e¶ w ci±gu ostatnich piêciu minut.]]></phrase>
+		<phrase name="duplicate_comment" date="1302635279" username="Mateusz" version="4.1.1"><![CDATA[Ten komentarz jest kopi± komentarza który utworzy³e¶ w ci±gu ostatnich piêciu minut, na blogu: <a href="{1}">{2}</a>.]]></phrase>
+		<phrase name="duplicate_profilecomment" date="1302635279" username="Mateusz" version="4.1.1"><![CDATA[Ten komentarz jest kopi± komentarza który doda³e¶ w ci±gu ostatnich piêciu minut.]]></phrase>
+		<phrase name="entry_has_max_allowed_tags" date="1302638367" username="Mateusz" version="4.1.1"><![CDATA[Ten wpis ju¿ posiada maksymaln± liczbê tagów, a Ty nie nie masz uprawnieñ do edycji ju¿ istniej±cych.]]></phrase>
+		<phrase name="entry_tag_add_failed_html" date="1302638367" username="Mateusz" version="4.1.1"><![CDATA[Wyst±pi³y nastêpuj±ce b³êdy podczas dodawania tagów do tego wpisu:
+<ul>{1}</ul>
+Wszelkie zmiany, w których nie wyst±pi³y b³êdy, zosta³y dokonane<a href="{2}">Kliknij, aby powróciæ do wpisu.</a>]]></phrase>
+		<phrase name="failed_to_parse_html_body" date="1302707025" username="Mateusz" version="4.1.1"><![CDATA[Nie mo¿na rozpoznaæ sekcji <body> w kodzie html]]></phrase>
+		<phrase name="you_do_not_have_permission_to_delete_comments" date="1287309945" username="Mateusz" version="4.0.7"><![CDATA[Nie masz praw do usuwania komentarzy.]]></phrase>
+	</phrasetype>
+	<phrasetype name="FAQ Text" fieldname="faqtext">
+		<phrase name="vbblog_faq_general_sidebar" date="1286831854" username="Mateusz" version="4.0.7"><![CDATA[<p>Pasek boczny zawiera zarówno linki potrzebne do zarz±dzania twoim blogiem, jak równie¿ informacje o blogu twoim oraz innych, które mo¿esz odwiedziæ.</p>]]></phrase>
+		<phrase name="vbblog_faq_groups_join" date="1286831060" username="Mateusz" version="4.0.7"><![CDATA[Aby móc do³±czyæ do bloga, musisz byæ zaproszony przez jego w³a¶ciciela.]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_categories" date="1287086194" username="Mateusz" version="4.0.7"><![CDATA[<p>Mo¿esz kategoryzowaæ swoje wpisy w wielu stworzonych przez siebie kategoriach. Uprzednio jednak musisz je zdefiniowaæ w <span class="smallfont" style="font-weight: bold">Panelu kontrolnym bloga</span>.</p>
+
+<p>Po utworzeniu kategorii, bêdziesz móg³ je wybraæ ze strony wpisu bloga podczas tworzenia wpisu albo edycji ju¿ istniej±cego.</p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post" date="1287087043" username="Mateusz" version="4.0.7"><![CDATA[<p>Je¿eli masz prawo dodawaæ nowe wpisy, to zawsze nad paskiem bocznym bêdziesz mieæ link zatytu³owany "Utwórz nowy wpis". Pozwala on na tworzenie wpisów do natychmiastowej publikacji oraz takich, które zostan± zamieszczone na blogu okre¶lonego dnia, jak równie¿ wersji roboczych do pó¼niejszej korekty i opublikowania.</p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post_draft" date="1287165852" username="Mateusz" version="4.0.7"><![CDATA[<p>Wersje robocze pozwalaj± tworzyæ wpis etapami. Aby stworzyæ wersjê robocz± wpisu, utwórz normalnie wpis lecz przed jego zatwierdzeniem znajd¼ <span class="smallfont" style="font-weight:bold">Status publikacji</span> w <span class="smallfont" style="font-weight:bold">Ró¿nych opcjach</span> w ni¿szej sekcji strony tworzenia wpisu. Opcja ta domy¶lnie jest ustawiona na <span class="smallfont" style="font-weight:bold">Publikuj teraz</span>.</p>
+
+<p>Zmieñ <span class="smallfont" style="font-weight:bold">Publikuj teraz</span> na <span class="smallfont" style="font-weight:bold">Wersjê robocz±</span> a nastêpnie zachowaj wpis. Alternatywnie w ka¿dej chwili mo¿esz nacisn±æ przycisk <span class="smallfont" style="font-weight:bold">Zapisz wersjê&#160;robocz±</span>.</p>
+
+<p><span class="smallfont" style="font-weight:bold">Twoje wpisy oczekuj±ce oraz wersje robocze dopóki nie zostan± opublikowane bêd± widoczne tylko dla ciebie.</span></p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post_pastdate" date="1287167208" username="Mateusz" version="4.0.7"><![CDATA[<p>Mo¿esz równie¿ chcieæ publikowaæ wpisy, których czas publikacji bêdzie w przesz³o¶ci. Jest to przydatne w przypadku tych wpisów, których zapomnia³e¶ opublikowaæ, a które bêd± lepiej wygl±daæ w kolejno¶ci chronologicznej.</p>
+
+<p>Aby opublikowaæ wpis z dat± wsteczn±, utwórz normalnie wpis lecz przed jego zatwierdzeniem znajd¼ <span class="smallfont" style="font-weight:bold">Status publikacji</span> w <span class="smallfont" style="font-weight:bold">Ró¿nych opcjach</span> w ni¿szej sekcji strony tworzenia wpisu. Opcja ta domy¶lnie jest ustawiona na <span class="smallfont" style="font-weight:bold">Publikuj teraz</span>.
+
+<p>Zmieñ <span class="smallfont" style="font-weight:bold">Publikuj teraz</span> na <span class="smallfont" style="font-weight:bold">Publikuj dnia</span>, a nastêpnie wybierz datê i czas, jaki chcesz mieæ ustawiony dla czasu publikacji danego wpisu. Je¿eli wybierzesz czas z przysz³o¶ci, bêdziesz tworzy³ <span class="smallfont" style="font-weight:bold">Wpis oczekuj±cy</span>.</p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post_pending" date="1287165989" username="Mateusz" version="4.0.7"><![CDATA[<p>Wpisy, które chcesz stworzyæ teraz ale maj± staæ siê publicznie dostêpne w pó¼niejszym terminie, okre¶lane s± mianem <em>Wpisów oczekuj±cych</em>. Aby stworzyæ wpis oczekuj±cy, utwórz normalnie wpis lecz przed jego zatwierdzeniem znajd¼ <span class="smallfont" style="font-weight:bold">Status publikacji</span> w <span class="smallfont" style="font-weight:bold">Ró¿nych opcjach</span>  w ni¿szej sekcji strony tworzenia wpisu. Opcja ta domy¶lnie jest ustawiona na <span class="smallfont" style="font-weight:bold">Publikuj teraz</span>.</p>
+
+<p>Zmieñ <span class="smallfont" style="font-weight:bold">Publikuj teraz</span> na <span class="smallfont" style="font-weight:bold">Publikuj dnia</span>, a nastêpnie wybierz datê i czas, kiedy chcesz by wpis zosta³ opublikowany. Ze wzglêdu na architekturê systemu, oczekuj±ce wpisy mog± pojawiæ siê kilka minut po czasie, który wyspecyfikowa³e¶, natomiast ich przypisany czas publikacji bêdzie siê zgadzaæ z czasem, który wybra³e¶.</p>
+
+<p><span class="smallfont" style="font-weight:bold">Twoje wpisy oczekuj±ce oraz wersje robocze dopóki nie zostan± opublikowane bêd± widoczne tylko dla ciebie.</span></p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_allow_comments" date="1287087765" username="Mateusz" version="4.0.7"><![CDATA[<p>Opcja <em>Zezwól na komentowanie</em> kontroluje mo¿liwo¶æ komentowania wpisów przez twoich czytelników. Gdy ta opcja jest wy³±czona, skomentowaæ wpis mo¿esz tylko ty oraz moderatorzy twojego bloga. Je¿eli masz prawo edytowaæ wpisy, po publikacji wpisu mo¿esz w³±czyæ lub wy³±czyæ tê opcjê.</p>
+
+<p>Mo¿esz zdefiniowaæ domy¶lne ustawienie tej opcji w <span class="smallfont" style="font-weight: bold">Panelu kontrolnym bloga</span>.</p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_moderate_comments" date="1287087727" username="Mateusz" version="4.0.7"><![CDATA[<p>Opcja <em>Moderuj komentarze przed publikacj±</em> kontroluje publikowanie komentarzy. Gdy ta opcja jest wy³±czona, czyjekolwiek komentarze poza komentarzami twoimi oraz moderatorów twojego bloga bêd± niewidzialne dopóki ich nie zatwierdzisz. Je¿eli masz prawo edytowaæ wpisy, po publikacji wpisu mo¿esz w³±czyæ lub wy³±czyæ tê opcjê.</p>
+
+<p>Mo¿esz zdefiniowaæ domy¶lne ustawienie tego wyboru w <span class="smallfont" style="font-weight: bold">Panelu kontrolnym bloga</span>.</p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_notify" date="1287089670" username="Mateusz" version="4.0.7"><![CDATA[<p>Opcje <em>Powiadamiaj blogi powi±zane z tym wpisem</em> oraz <em>Wy¶lij trackback / pingback do</em> pozwalaj± na powiadomienie innych blogów, do których nawi±za³e¶ w swoim wpisie. W takim wypadku zawsze powiniene¶ za³±czaæ odno¶nik do wpisu z innego bloga, do którego siê odwo³ujesz. Po wys³aniu ¿±dania pingback, inny blog zweryfikuje czy faktycznie za³±czy³e¶ odno¶nik w swoim wpisie. Je¿eli masz prawo edytowaæ wpisy, wci±¿ mo¿esz wysy³aæ powiadomienia pingback po publikacji wpisu.</p>
+
+<p><span class="smallfont" style="font-weight: bold">Ta opcja nie bêdzie widoczna je¿eli powiadomienia trackback / pingback zosta³y zablokowane przez administratora.</span></p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_pingback" date="1287089618" username="Mateusz" version="4.0.7"><![CDATA[<p>Opcja <em>Zezwól na trackback / pingback</em> kontroluje u¿ywanie powiadomieñ trackback i pingback. Je¿eli jest ona w³±czona, to inne blogi mog± zamieszczaæ trackbacki (albo pingbacki) do twojego bloga. Domy¶lnie s± one zawsze moderowane, wiêc nie bêd± przez nikogo widziane przed twoim zatwierdzeniem. Je¿eli masz prawo edytowaæ wpisy, po publikacji wpisu mo¿esz w³±czyæ lub wy³±czyæ tê opcjê.</p>
+
+<p>Mo¿esz zdefiniowaæ domy¶lne ustawienie tej opcji w <span class="smallfont" style="font-weight: bold">Panelu kontrolnym bloga</span>.</p>
+
+<p><span class="smallfont" style="font-weight: bold">Ta opcja nie bêdzie widoczna je¿eli powiadomienia trackback / pingback zosta³y zablokowane przez administratora.</span></p>]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_private" date="1287090670" username="Mateusz" version="4.0.7"><![CDATA[Opcja <em>Ogranicz ogl±danie wpisu do Kontaktów i Moderatorów bloga</em> sprawi, i¿ wpis bêd± mog³y ogl±daæ tylko te osoby, które znajduj± siê na twojej li¶cie kontaktów oraz do moderatorzy bloga. Pozwala to na pozostawienie twojego bloga otwartym dla wszystkich u¿ytkowników przy jednoczesnym ograniczeniu dostêpu do wpisu.]]></phrase>
+	</phrasetype>
+	<phrasetype name="FAQ Title" fieldname="faqtitle">
+		<phrase name="vbblog_faq_general" date="1286832125" username="Mateusz" version="4.0.7"><![CDATA[Ogólne u¿ytkowanie bloga]]></phrase>
+		<phrase name="vbblog_faq_general_sidebar" date="1286831155" username="Mateusz" version="4.0.7"><![CDATA[Czym jest pasek boczny bloga?]]></phrase>
+		<phrase name="vbblog_faq_groups" date="1286832645" username="Mateusz" version="4.0.7"><![CDATA[Blogi grupowe]]></phrase>
+		<phrase name="vbblog_faq_groups_join" date="1286832700" username="Mateusz" version="4.0.7"><![CDATA[Jak do³±czyæ do grupowego bloga?]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting" date="1286830999" username="Mateusz" version="4.0.7"><![CDATA[Czytanie i dodawanie wpisów]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_categories" date="1286829597" username="Mateusz" version="4.0.7"><![CDATA[Czy mogê kategoryzowaæ swoje wpisy?]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post" date="1286830977" username="Mateusz" version="4.0.7"><![CDATA[Jak dodaæ nowy wpis?]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post_draft" date="1286914078" username="Mateusz" version="4.0.7"><![CDATA[Wersje robocze]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post_pastdate" date="1287166056" username="Mateusz" version="4.0.7"><![CDATA[Wpisy z dat± wsteczn±]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_how_do_i_post_pending" date="1286914031" username="Mateusz" version="4.0.7"><![CDATA[Wpisy oczekuj±ce]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options" date="1286829818" username="Mateusz" version="4.0.7"><![CDATA[Opcje wpisów]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_allow_comments" date="1286978314" username="Mateusz" version="4.0.7"><![CDATA[Zezwól na komentowanie]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_moderate_comments" date="1287087271" username="Mateusz" version="4.0.7"><![CDATA[Moderuj komentarze przed publikacj±]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_notify" date="1287089698" username="Mateusz" version="4.0.7"><![CDATA[Powiadamiaj blogi powi±zane z tym wpisem]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_pingback" date="1287084209" username="Mateusz" version="4.0.7"><![CDATA[Zezwól na trackback / pingback]]></phrase>
+		<phrase name="vbblog_faq_reading_and_posting_options_private" date="1287090518" username="Mateusz" version="4.0.7"><![CDATA[Ogranicz ogl±danie wpisu do Kontaktów i Moderatorów bloga]]></phrase>
+	</phrasetype>
+	<phrasetype name="Front-End Redirect Messages" fieldname="frontredirect">
+		<phrase name="blog_markread" date="1287165229" username="Mateusz" version="4.0.7"><![CDATA[Wszystkie wpisy tego uzytkownika zosta³y oznaczone jako przeczytane]]></phrase>
+		<phrase name="blog_rate_add" date="1288278117" username="Mateusz" version="4.0.7"><![CDATA[Twoja ocena zosta³a dodana.]]></phrase>
+		<phrase name="blog_sentemail" date="1345457587" username="Mateusz K" version="4.2.0"><![CDATA[Wysy³anie e-mail do {1}. Zostaniesz teraz przekierowany do blogu.]]></phrase>
+		<phrase name="blogsubremove_blogsubscribeentryid" date="1345313314" username="Mateusz K" version="4.2.0"><![CDATA[Twoja subskrypcja tej strony zosta³a usuniêta. ]]></phrase>
+		<phrase name="blogsubremove_blogsubscribeuserid" date="1345313303" username="Mateusz K" version="4.2.0"><![CDATA[Twoja subskrypcja na tym blogu zosta³a usuniêta. ]]></phrase>
+		<phrase name="subsadd_blog" date="1343918694" username="Mateusz K" version="4.2.0"><![CDATA[Subskrypcja na tym blogu zosta³a w³±czona. ]]></phrase>
+	</phrasetype>
+	<phrasetype name="GLOBAL" fieldname="global">
+		<phrase name="best_blog_entries" date="1288275236" username="Mateusz" version="4.0.7"><![CDATA[Ciekawe wpisy]]></phrase>
+		<phrase name="best_blogs" date="1288274975" username="Mateusz" version="4.0.7"><![CDATA[Najlepsze blogi]]></phrase>
+		<phrase name="blog" date="1345637652" username="Wojtek" version="4.2.0"><![CDATA[Blog]]></phrase>
+		<phrase name="blog_entry" date="1287164421" username="Mateusz" version="4.0.7"><![CDATA[Wpis]]></phrase>
+		<phrase name="blog_list" date="1286824274" username="Mateusz" version="4.0.7"><![CDATA[Blogi u¿ytkowników]]></phrase>
+		<phrase name="blogs" date="1316986459" username="Wojtek" version="4.1.6"><![CDATA[Blogi]]></phrase>
+		<phrase name="entries" date="1286735320" username="alchemik86" version="4.0.7"><![CDATA[Wpisy]]></phrase>
+		<phrase name="first_blog_short" date="1345637807" username="Wojtek" version="4.2.0"><![CDATA[Pierwszy]]></phrase>
+		<phrase name="invitations_to_join_blogs" date="1345637921" username="Wojtek" version="4.2.0"><![CDATA[Zaproszenia do do³±czenia na blogu]]></phrase>
+		<phrase name="last_24_hours" date="1286735230" username="alchemik86" version="4.0.7"><![CDATA[Ostatnie 24 godziny]]></phrase>
+		<phrase name="last_blog_short" date="1345637963" username="Wojtek" version="4.2.0"><![CDATA[Ostatni]]></phrase>
+		<phrase name="latest_blog_entry_by_x" date="1290706240" username="Mateusz" version="4.0.7"><![CDATA[Ostatni wpis na blogu, <a href="{1}">{2}</a> autorstwa <a href="{3}">{4}</a>]]></phrase>
+		<phrase name="latest_blog_entry_by_x_in_blog_y" date="1290706260" username="Mateusz" version="4.0.7"><![CDATA[Ostatni wpis na blogu, <a href="{1}">{2}</a> autorstwa <a href="{3}">{4}</a> na blogu <a href="{5}">{6}</a>]]></phrase>
+		<phrase name="new_blogs_nav" date="1286735653" username="alchemik86" version="4.0.7"><![CDATA[Nowe wpisy na blogu]]></phrase>
+		<phrase name="next_blog_short" date="1295141283" username="Mateusz" version="4.0.7"><![CDATA[Nastêpny]]></phrase>
+		<phrase name="prev_blog_short" date="1343997967" username="Mateusz K" version="4.2.0"><![CDATA[Poprzedni]]></phrase>
+		<phrase name="recent_blogs" date="1345638146" username="Wojtek" version="4.2.0"><![CDATA[Ostatnie blogi]]></phrase>
+		<phrase name="recent_entries" date="1286824570" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie wpisy]]></phrase>
+		<phrase name="search_blogs" date="1345638228" username="Wojtek" version="4.2.0"><![CDATA[Szukaj blogów]]></phrase>
+		<phrase name="these_are_the_x_most_searched_entry_tags" date="1345648194" username="Mateusz K" version="4.2.0"><![CDATA[S± to {1} najczê¶ciej wyszukiwane tagi, wpisów na wszystkich blogach]]></phrase>
+		<phrase name="vb_navigation_link_vbblog_member_text" date="1345638524" username="Wojtek" version="4.2.0"><![CDATA[Blogi u¿ytkowników]]></phrase>
+		<phrase name="vb_navigation_link_vbblog_myblog_text" date="1345640267" username="Mateusz K" version="4.2.0"><![CDATA[Mój blog]]></phrase>
+		<phrase name="vb_navigation_link_vbblog_popular_text" date="1345647590" username="Mateusz K" version="4.2.0"><![CDATA[Najpopularniejsze]]></phrase>
+		<phrase name="vb_navigation_link_vbblog_recent_text" date="1345647608" username="Mateusz K" version="4.2.0"><![CDATA[Ostatnie wpisy]]></phrase>
+		<phrase name="vb_navigation_link_vbblog_settings_text" date="1345647618" username="Mateusz K" version="4.2.0"><![CDATA[Ustawienia blogu]]></phrase>
+		<phrase name="vb_navigation_link_vbnew_entries_text" date="1345647716" username="Mateusz K" version="4.2.0"><![CDATA[Nowe wpisy na blogu]]></phrase>
+		<phrase name="vb_navigation_tab_vbtab_blog_text" date="1345647936" username="Mateusz K" version="4.2.0"><![CDATA[Blogi]]></phrase>
+		<phrase name="view_blog_entries" date="1316988789" username="Wojtek" version="4.1.6"><![CDATA[Zobacz wpisy na blogu]]></phrase>
+		<phrase name="x_blog" date="1345638884" username="Wojtek" version="4.2.0"><![CDATA[Blog u¿ytkownika {1}]]></phrase>
+		<phrase name="your_blog" date="1286824349" username="Mateusz" version="4.0.7"><![CDATA[Mój blog]]></phrase>
+	</phrasetype>
+	<phrasetype name="Inline Moderation" fieldname="inlinemod">
+		<phrase name="select_unapproved_comments" date="1295647685" username="Mateusz" version="4.1.1"><![CDATA[Zaznacz niezatwierdzone komentarze]]></phrase>
+	</phrasetype>
+	<phrasetype name="Logging Tools" fieldname="logging">
+		<phrase name="comment" date="1287165142" username="Mateusz" version="4.0.7"><![CDATA[Komentarzy]]></phrase>
+	</phrasetype>
+	<phrasetype name="Postbit" fieldname="postbit">
+		<phrase name="blog_entries" date="1287163437" username="Mateusz" version="4.0.7"><![CDATA[Wpisów]]></phrase>
+		<phrase name="blog_this_post" date="1295644073" username="Mateusz" version="4.1.1"><![CDATA[Dodaj na blog]]></phrase>
+	</phrasetype>
+	<phrasetype name="Searching" fieldname="search">
+		<phrase name="search_titles_only" date="1287164560" username="Mateusz" version="4.0.7"><![CDATA[Szukaj tylko w tytu³ach]]></phrase>
+		<phrase name="searchtype_blog_comments" date="1295648013" username="Mateusz" version="4.1.1"><![CDATA[Blogi]]></phrase>
+		<phrase name="searchtype_blog_entries" date="1287164736" username="Mateusz" version="4.0.7"><![CDATA[Wpisy na blogach]]></phrase>
+	</phrasetype>
+	<phrasetype name="Statistics Tools" fieldname="stats">
+		<phrase name="blog_stats" date="1288848148" username="Mateusz" version="4.0.7"><![CDATA[Statystyki bloga]]></phrase>
+		<phrase name="type" date="1288848272" username="Mateusz" version="4.0.7"><![CDATA[Typ]]></phrase>
+	</phrasetype>
+	<phrasetype name="User Tools (global)" fieldname="user">
+		<phrase name="entry" date="1306845813" username="Mateusz" version="4.1.2"><![CDATA[Wpis]]></phrase>
+		<phrase name="latest_blog_entry" date="1306846468" username="Mateusz" version="4.1.2"><![CDATA[Ostatni wpis na blogu]]></phrase>
+		<phrase name="usercss_entryposter" date="1306851497" username="Mateusz" version="4.1.2"><![CDATA[Strefa komentarzy zawarto¶ci]]></phrase>
+		<phrase name="view_xs_blog" date="1306852130" username="Mateusz" version="4.1.2"><![CDATA[Zobacz blog {1}]]></phrase>
+	</phrasetype>
+	<phrasetype name="Forum Blocks" fieldname="vbblock">
+		<phrase name="blocktype_blogentries" date="1287163415" username="Mateusz" version="4.0.7"><![CDATA[Wpisów]]></phrase>
+	</phrasetype>
+	<phrasetype name="Forum Blocks Settings" fieldname="vbblocksettings">
+		<phrase name="setting_blogentries_catids_title" date="1344514894" username="Mateusz K" version="4.2.0"><![CDATA[Ograniczenia kategorii]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Blog Admin" fieldname="vbblogadmin">
+		<phrase name="add_new_featured_entry" date="1287904392" username="Mateusz" version="4.0.7"><![CDATA[Dodaj nowe polecane wpisy]]></phrase>
+		<phrase name="add_new_moderator" date="1287904882" username="Mateusz" version="4.0.7"><![CDATA[Dodaj nowego moderatora]]></phrase>
+		<phrase name="add_new_moderator_to_vbulletin_blog" date="1287904852" username="Mateusz" version="4.0.7"><![CDATA[Dodaj nowego moderatora do vBulletin Blog]]></phrase>
+		<phrase name="all_entries" date="1287261260" username="Mateusz" version="4.0.7"><![CDATA[Wszystkie wpisy]]></phrase>
+		<phrase name="are_you_sure_that_you_want_to_delete_this_blog_entry" date="1306866371" username="Mateusz" version="4.1.2"><![CDATA[Czy na pewno chcesz usun±æ ten wpis?]]></phrase>
+		<phrase name="are_you_sure_want_to_delete_blogcategoryid_x" date="1306866371" username="Mateusz" version="4.1.2"><![CDATA[Czy na pewno chcesz usun±æ tê kategoriê?]]></phrase>
+		<phrase name="are_you_sure_want_to_delete_featureid_x" date="1306866371" username="Mateusz" version="4.1.2"><![CDATA[Czy na pewno chcesz usun±æ powi±zany wpis?]]></phrase>
+		<phrase name="blog_category_permissions" date="1287903890" username="Mateusz" version="4.0.7"><![CDATA[Zezwolenia kategorii bloga]]></phrase>
+		<phrase name="blog_entry_viewer_page_x_y_there_are_z_total_log_entries" date="1287904747" username="Mateusz" version="4.0.7"><![CDATA[Przegl±darka wpisów na bloga (strona {1}/{2}) | {3} wszystkich wpisów.]]></phrase>
+		<phrase name="blog_moderators" date="1306866484" username="Mateusz" version="4.1.2"><![CDATA[Moderatorzy blogów]]></phrase>
+		<phrase name="blog_permissions" date="1287904919" username="Mateusz" version="4.0.7"><![CDATA[Zezwolenia]]></phrase>
+		<phrase name="can_delete_blog_comments" date="1306866484" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e usuwaæ komentarze na blogu]]></phrase>
+		<phrase name="can_delete_blog_entries" date="1306866484" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e usuwaæ wpisy na blogu]]></phrase>
+		<phrase name="can_edit_blog_comments" date="1306866484" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e edytowaæ komentarze na blogu]]></phrase>
+		<phrase name="can_edit_blog_entries" date="1306866484" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e edytowaæ wpisy na blogu]]></phrase>
+		<phrase name="can_moderate_blog_comments" date="1306866484" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e moderowaæ komentarze na blogu]]></phrase>
+		<phrase name="can_moderate_blog_entries" date="1306866484" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e moderowaæ wpisy na blogu]]></phrase>
+		<phrase name="can_remove_blog_comments" date="1306866491" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e ca³kowicie usuwaæ komentarze na blogu]]></phrase>
+		<phrase name="can_remove_blog_entries" date="1306866770" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e ca³kowicie usuwaæ wpisy na blogu]]></phrase>
+		<phrase name="custom_blog_category_permissions" date="1306866770" username="Mateusz" version="4.1.2"><![CDATA[Uprawnienia dla w³±snych kategorii na blogu]]></phrase>
+		<phrase name="deleted_entries" date="1306866770" username="Mateusz" version="4.1.2"><![CDATA[Usuniête wpisy]]></phrase>
+		<phrase name="display_alphabetically" date="1306866770" username="Mateusz" version="4.1.2"><![CDATA[Wy¶wietlaj alfabetycznie]]></phrase>
+		<phrase name="display_newest" date="1306866770" username="Mateusz" version="4.1.2"><![CDATA[Wy¶wietlaj najnowsze]]></phrase>
+		<phrase name="draft" date="1306866770" username="Mateusz" version="4.1.2"><![CDATA[Szkice]]></phrase>
+		<phrase name="draft_entries" date="1287904543" username="Mateusz" version="4.0.7"><![CDATA[Wersje robocze]]></phrase>
+		<phrase name="edit_category_permissions_for_usergroup_x_in_category_y" date="1306866770" username="Mateusz" version="4.1.2"><![CDATA[Edytuj uprawnienia kategorii bloga dla grupy u¿ytkownika: </b>{1}<b> w kategorii </b>{2}<b>]]></phrase>
+		<phrase name="edit_moderator" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Edytuj moderatora]]></phrase>
+		<phrase name="entries_from" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Wpisy z]]></phrase>
+		<phrase name="every_10_minutes" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Co 10 minut]]></phrase>
+		<phrase name="every_12_hours" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Co 12 minut]]></phrase>
+		<phrase name="every_1_day" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Codziennie]]></phrase>
+		<phrase name="every_1_hour" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Co godzinê]]></phrase>
+		<phrase name="every_1_minute" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Co minutê]]></phrase>
+		<phrase name="every_30_minutes" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Co 30 minut]]></phrase>
+		<phrase name="every_6_hours" date="1306866879" username="Mateusz" version="4.1.2"><![CDATA[Co 6 godzin]]></phrase>
+		<phrase name="featured_entry_type" date="1306866973" username="Mateusz" version="4.1.2"><![CDATA[Wyró¿niony typ wpisu]]></phrase>
+		<phrase name="inherited_using_custom_permissions_inherited_from_a_parent_category" date="1287903850" username="Mateusz" version="4.0.7"><![CDATA[<strong>Dziedziczone:</strong> U¿yj w³asnych zezwoleñ dziedziczonych z kategorii nadrzêdnej]]></phrase>
+		<phrase name="latest_entry" date="1306866973" username="Mateusz" version="4.1.2"><![CDATA[Najnowszy wpis]]></phrase>
+		<phrase name="moderated_entries" date="1287765941" username="Mateusz" version="4.0.7"><![CDATA[Moderowane wpisy]]></phrase>
+		<phrase name="no_tags_defined" date="1306866973" username="Mateusz" version="4.1.2"><![CDATA[Nie ustalono tagów]]></phrase>
+		<phrase name="number_of_attachments_to_process_per_cycle" date="1306866973" username="Mateusz" version="4.1.2"><![CDATA[Liczba za³±czników do przetworzenia na cykl]]></phrase>
+		<phrase name="only_include_entries_from" date="1306866973" username="Mateusz" version="4.1.2"><![CDATA[Za³±cz tylko wpisy z]]></phrase>
+		<phrase name="past_24_hours" date="1306866973" username="Mateusz" version="4.1.2"><![CDATA[Ostatnie 24 godziny]]></phrase>
+		<phrase name="past_month" date="1306866973" username="Mateusz" version="4.1.2"><![CDATA[Ostatni miesi±c]]></phrase>
+		<phrase name="past_week" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Ostatni tydzieñ]]></phrase>
+		<phrase name="past_year" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Ostatni rok]]></phrase>
+		<phrase name="pending" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Oczekuj±ce]]></phrase>
+		<phrase name="pending_entries" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Oczekuj±ce wpisy]]></phrase>
+		<phrase name="random_entry" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Losowy wpis]]></phrase>
+		<phrase name="refresh" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Od¶wie¿]]></phrase>
+		<phrase name="specific_entry" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Specyficzny wpis]]></phrase>
+		<phrase name="tag_list" date="1306867125" username="Mateusz" version="4.1.2"><![CDATA[Lista tagów]]></phrase>
+		<phrase name="the_beginning" date="1306867189" username="Mateusz" version="4.1.2"><![CDATA[Pocz±tek]]></phrase>
+		<phrase name="updating_blog_attachments" date="1306867189" username="Mateusz" version="4.1.2"><![CDATA[Aktualizacja za³±czników na blogach]]></phrase>
+		<phrase name="view_blog_entries" date="1287261330" username="Mateusz" version="4.0.7"><![CDATA[Przegl±daj wpisy na blogu]]></phrase>
+		<phrase name="visible_entries" date="1287903995" username="Mateusz" version="4.0.7"><![CDATA[Widoczne wpisy]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Blog Admin Categories" fieldname="vbblogcat">
+		<phrase name="admin_categories" date="1306867201" username="Mateusz" version="4.1.2"><![CDATA[Nie usuwaæ]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Blog Global" fieldname="vbblogglobal">
+		<phrase name="accept_invite" date="1295141438" username="Mateusz" version="4.0.7"><![CDATA[Akceptuj zaproszenie]]></phrase>
+		<phrase name="add_custom_block" date="1306867231" username="Mateusz" version="4.1.2"><![CDATA[Dodaj dodatkowy blog]]></phrase>
+		<phrase name="add_custom_page" date="1306867231" username="Mateusz" version="4.1.2"><![CDATA[Dodaj dodatkow± stronê]]></phrase>
+		<phrase name="add_member" date="1295141512" username="Mateusz" version="4.0.7"><![CDATA[Dodaj cz³onka]]></phrase>
+		<phrase name="add_member_to_your_blog" date="1295142020" username="Mateusz" version="4.1.1"><![CDATA[Dodaj cz³onka do swojego bloga]]></phrase>
+		<phrase name="add_new_blog_category" date="1287260263" username="Mateusz" version="4.0.7"><![CDATA[Dodaj now± kategoriê bloga]]></phrase>
+		<phrase name="add_tag" date="1295142034" username="Mateusz" version="4.1.1"><![CDATA[Dodaj tag]]></phrase>
+		<phrase name="add_tags" date="1295142045" username="Mateusz" version="4.1.1"><![CDATA[Dodaj tagi]]></phrase>
+		<phrase name="all_blog_entries" date="1287157983" username="Mateusz" version="4.0.7"><![CDATA[Wszystkie wpisy na blogu]]></phrase>
+		<phrase name="all_comments" date="1287309740" username="Mateusz" version="4.0.7"><![CDATA[Wszystkie komentarze]]></phrase>
+		<phrase name="all_trackbacks" date="1295142162" username="Mateusz" version="4.1.1"><![CDATA[Wszystkie "Trackbacki"]]></phrase>
+		<phrase name="allow_comments_to_be_posted" date="1286978376" username="Mateusz" version="4.0.7"><![CDATA[Zezwól na komentowanie]]></phrase>
+		<phrase name="allow_pingback" date="1295142202" username="Mateusz" version="4.1.1"><![CDATA[Udostêpnij PingBack]]></phrase>
+		<phrase name="allow_these_trackbacks_to_be_sent_again" date="1295142261" username="Mateusz" version="4.1.1"><![CDATA[Czy zezwalasz na ponowne wys³anie tych "Trackbacków"?]]></phrase>
+		<phrase name="allow_trackback" date="1306867260" username="Mateusz" version="4.1.2"><![CDATA[Dopu¶æ trackback]]></phrase>
+		<phrase name="allow_trackback_pingback" date="1287084176" username="Mateusz" version="4.0.7"><![CDATA[Zezwól na trackback / pingback]]></phrase>
+		<phrase name="already_rated_this_blog" date="1295142317" username="Mateusz" version="4.1.1"><![CDATA[Ju¿ ocenione ten blog z Twojego konta.]]></phrase>
+		<phrase name="approve_blog_entry" date="1288275330" username="Mateusz" version="4.0.7"><![CDATA[Zatwierd¼ wpis]]></phrase>
+		<phrase name="approve_comments" date="1295142333" username="Mateusz" version="4.1.1"><![CDATA[Zatwierd¼ komentarze]]></phrase>
+		<phrase name="approve_trackback" date="1295142356" username="Mateusz" version="4.1.1"><![CDATA[Zatwierd¼ "Trackbacki"]]></phrase>
+		<phrase name="auto_subscribe_blog_comment_description" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Kiedy dodasz nowy komentarz mo¿esz automatycznie dodaæ wpis do swojej listy <a href="{1}">subskrybowane wpisy</a>, z opcj± otrzymywania powiadomieñ mailowych o nowych komentarzach do wpisu.]]></phrase>
+		<phrase name="auto_subscribe_blog_entry_description" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Kiedy dodasz wpis na blogu, mo¿esz automatycznie dodaæ wpis do swojej listy <a href="{1}">subskrybowane wpisy</a>, z opcj± otrzymywania powiadomieñ mailowych o nowych komentarzach do tego wpisu.]]></phrase>
+		<phrase name="auto_subscribe_profile_comment_description" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Mo¿esz zdecydowaæ czy otrzymywaæ powiadomienia na email o nowych komentarzach pozostawionych na swoich stronach.]]></phrase>
+		<phrase name="be_the_first_to_comment_on_this_blog_entry" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Dodaj pierwszy komentarz do tego wpisu]]></phrase>
+		<phrase name="be_the_first_to_leave_user_a_comment" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Dodaj pierwszy komentarz do {1}]]></phrase>
+		<phrase name="best_deleted_entries" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Najlepsze usuniête wpisy]]></phrase>
+		<phrase name="best_moderation_entries" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Najlepsze moderowane wpsiy]]></phrase>
+		<phrase name="blank_blog_title_note" date="1306867579" username="Mateusz" version="4.1.2"><![CDATA[Je¶li tytu³ bloga pozostaje pusty, zostanie u¿yta Twoja nazwa u¿ytkownika]]></phrase>
+		<phrase name="block_active" date="1306867682" username="Mateusz" version="4.1.2"><![CDATA[Aktywne]]></phrase>
+		<phrase name="block_archive" date="1306867682" username="Mateusz" version="4.1.2"><![CDATA[Archiwalne]]></phrase>
+		<phrase name="block_category" date="1306867682" username="Mateusz" version="4.1.2"><![CDATA[kategorie]]></phrase>
+		<phrase name="block_comments" date="1287157699" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie komentarze]]></phrase>
+		<phrase name="block_entries" date="1287164026" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie wpisy na blogu]]></phrase>
+		<phrase name="block_search" date="1295143052" username="Mateusz" version="4.1.1"><![CDATA[Szukaj]]></phrase>
+		<phrase name="block_tagcloud" date="1306867682" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów]]></phrase>
+		<phrase name="block_visitors" date="1288848322" username="Mateusz" version="4.0.7"><![CDATA[Odwiedzaj±cych]]></phrase>
+		<phrase name="blog_candeleteentry" date="1306867682" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e usuwaæ w³asne wpisy]]></phrase>
+		<phrase name="blog_caneditentry" date="1306867682" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e edytowaæ w³asne wpisy]]></phrase>
+		<phrase name="blog_canmanagecomments" date="1306867802" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e zarz±dzaæ komentarzami do w³asnego wpisu]]></phrase>
+		<phrase name="blog_canmanageotherentry" date="1306867802" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e zarz±dzaæ wpisami u¿ytkowników innej grupy]]></phrase>
+		<phrase name="blog_canremoveentry" date="1306867802" username="Mateusz" version="4.1.2"><![CDATA[Mo¿e ca³kowicie usuwaæ w³asne wpisy]]></phrase>
+		<phrase name="blog_categories" date="1287163575" username="Mateusz" version="4.0.7"><![CDATA[Kategorie bloga]]></phrase>
+		<phrase name="blog_category" date="1295143027" username="Mateusz" version="4.1.1"><![CDATA[Kategoria bloga]]></phrase>
+		<phrase name="blog_comments" date="1287164661" username="Mateusz" version="4.0.7"><![CDATA[Komentarze na blogach]]></phrase>
+		<phrase name="blog_contains" date="1306867802" username="Mateusz" version="4.1.2"><![CDATA[Blog zawira:]]></phrase>
+		<phrase name="blog_control_panel" date="1286825153" username="Mateusz" version="4.0.7"><![CDATA[Ustawienia bloga]]></phrase>
+		<phrase name="blog_custom_blocks" date="1306867802" username="Mateusz" version="4.1.2"><![CDATA[Organizuj sidebar]]></phrase>
+		<phrase name="blog_custom_pages" date="1306867802" username="Mateusz" version="4.1.2"><![CDATA[Edytuj w³asne strony]]></phrase>
+		<phrase name="blog_description" date="1306867990" username="Mateusz" version="4.1.2"><![CDATA[Opis Bloga:]]></phrase>
+		<phrase name="blog_entries" date="1287904118" username="Mateusz" version="4.0.7"><![CDATA[Wpisów]]></phrase>
+		<phrase name="blog_entry_post_date_time" date="1306867990" username="Mateusz" version="4.1.2"><![CDATA[Data / Czas umieszczenia wpisu na blogu]]></phrase>
+		<phrase name="blog_entry_subscription" date="1287164223" username="Mateusz" version="4.0.7"><![CDATA[Subskrypcja wpisu]]></phrase>
+		<phrase name="blog_entry_subscription_type" date="1296961422" username="Mateusz" version="4.1.1"><![CDATA[Rodzaj subskrypcji wpisu]]></phrase>
+		<phrase name="blog_entry_subscriptions" date="1306867990" username="Mateusz" version="4.1.2"><![CDATA[Zarz±dzaj subskrypcjami wpisu]]></phrase>
+		<phrase name="blog_groups" date="1295143070" username="Mateusz" version="4.1.1"><![CDATA[Zarz±dzaj grupami]]></phrase>
+		<phrase name="blog_membership" date="1306867990" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkostwo w blogu]]></phrase>
+		<phrase name="blog_message" date="1306867990" username="Mateusz" version="4.1.2"><![CDATA[Wiadomo¶æ ns Blogu:]]></phrase>
+		<phrase name="blog_moderateentries" date="1306867990" username="Mateusz" version="4.1.2"><![CDATA[Moderuj nowe wpisy]]></phrase>
+		<phrase name="blog_none" date="1306868036" username="Mateusz" version="4.1.2"><![CDATA[Brak]]></phrase>
+		<phrase name="blog_options" date="1286825136" username="Mateusz" version="4.0.7"><![CDATA[Ustawienia bloga]]></phrase>
+		<phrase name="blog_posted_by" date="1287164474" username="Mateusz" version="4.0.7"><![CDATA[Dodane przez]]></phrase>
+		<phrase name="blog_rss_feed" date="1306868036" username="Mateusz" version="4.1.2"><![CDATA[{1} - Kana³ RSS Bloga]]></phrase>
+		<phrase name="blog_rss_title" date="1306868036" username="Mateusz" version="4.1.2"><![CDATA[{1} - Blogi]]></phrase>
+		<phrase name="blog_rss_title_with_blogtitle" date="1306868036" username="Mateusz" version="4.1.2"><![CDATA[{1} - Blogi - {2} by {3}]]></phrase>
+		<phrase name="blog_rss_title_without_blogtitle" date="1306868036" username="Mateusz" version="4.1.2"><![CDATA[{1} - Blogi - {2}]]></phrase>
+		<phrase name="blog_statistics" date="1306868047" username="Mateusz" version="4.1.2"><![CDATA[Statystyki bloga]]></phrase>
+		<phrase name="blog_stats" date="1288848128" username="Mateusz" version="4.0.7"><![CDATA[Statystki bloga]]></phrase>
+		<phrase name="blog_subscriptions" date="1295143957" username="Mateusz" version="4.1.1"><![CDATA[Zarz±dzaj subskrypcjami]]></phrase>
+		<phrase name="blog_thought_might_be_interested" date="1306868134" username="Mateusz" version="4.1.2"><![CDATA[My¶lê, ¿e mo¿e ciê zainteresowaæ ten blog:
+{1}
+
+Z,
+{2}]]></phrase>
+		<phrase name="blog_title" date="1295143280" username="Mateusz" version="4.1.1"><![CDATA[Tytu³ bloga:]]></phrase>
+		<phrase name="blog_title_and_description" date="1306868134" username="Mateusz" version="4.1.2"><![CDATA[Edytuj tytu³ i opis]]></phrase>
+		<phrase name="blog_user_rss_feed" date="1306868134" username="Mateusz" version="4.1.2"><![CDATA[{2} - {1} Kana³ RSS Bloga]]></phrase>
+		<phrase name="blogs" date="1286782060" username="Mateusz" version="4.0.7"><![CDATA[Blogi]]></phrase>
+		<phrase name="blogs_from_the_members_of_boardname" date="1306868134" username="Mateusz" version="4.1.2"><![CDATA[Blogi cz³onków {1}]]></phrase>
+		<phrase name="by_x_nolink" date="1288277971" username="Mateusz" version="4.0.7"><![CDATA[przez {1}]]></phrase>
+		<phrase name="cannot_add_tags_remove_first" date="1306868362" username="Mateusz" version="4.1.2"><![CDATA[Nie mo¿na dodaæ ¿adnych tagów do tego wpisu.<br />
+Proszê najpierw jakie¶ usun±æ.]]></phrase>
+		<phrase name="category_description" date="1306868362" username="Mateusz" version="4.1.2"><![CDATA[Opis kategorii]]></phrase>
+		<phrase name="comment" date="1287165135" username="Mateusz" version="4.0.7"><![CDATA[Komentarzy]]></phrase>
+		<phrase name="comment_from_blog" date="1306868362" username="Mateusz" version="4.1.2"><![CDATA[Komentarz z bloga]]></phrase>
+		<phrase name="comment_is_hidden_x_y" date="1306868362" username="Mateusz" version="4.1.2"><![CDATA[Ten komentarz jest ukryty poniewa¿ <strong>{1}</strong> znajduje siê na Twojej <a href="profile.php?{2}do=ignorelist">li¶cie ignorowanych</a>.]]></phrase>
+		<phrase name="comment_with_quote" date="1306868362" username="Mateusz" version="4.1.2"><![CDATA[Komentarz z cytatem]]></phrase>
+		<phrase name="comments" date="1287163545" username="Mateusz" version="4.0.7"><![CDATA[Komentarzy]]></phrase>
+		<phrase name="confirm_group_blog_withdrawal" date="1306868362" username="Mateusz" version="4.1.2"><![CDATA[Potwierd¼ wycofanie blogu grupy]]></phrase>
+		<phrase name="confirm_leave_blog" date="1306868602" username="Mateusz" version="4.1.2"><![CDATA[Czy na pewno chcesz opu¶ciæ blog '{1}'?]]></phrase>
+		<phrase name="containing_text" date="1287163501" username="Mateusz" version="4.0.7"><![CDATA[Wyszukiwany tekst:]]></phrase>
+		<phrase name="continue_reading" date="1296824505" username="Mateusz" version="4.1.1"><![CDATA[Czytaj wiêcej]]></phrase>
+		<phrase name="copy_profile_css" date="1306868602" username="Mateusz" version="4.1.2"><![CDATA[Kopiuj kod CSS z profilu]]></phrase>
+		<phrase name="create_blog" date="1295707526" username="Mateusz" version="4.1.1"><![CDATA[Dodaj blog]]></phrase>
+		<phrase name="custom_block" date="1306868602" username="Mateusz" version="4.1.2"><![CDATA[W³asny blok]]></phrase>
+		<phrase name="custom_page" date="1306868602" username="Mateusz" version="4.1.2"><![CDATA[W³asna strona]]></phrase>
+		<phrase name="customize_blog" date="1306868602" username="Mateusz" version="4.1.2"><![CDATA[Dostosuj styl na blogu]]></phrase>
+		<phrase name="date_to_publish" date="1306868602" username="Mateusz" version="4.1.2"><![CDATA[Data publikacji:]]></phrase>
+		<phrase name="decline_invite" date="1306868602" username="Mateusz" version="4.1.2"><![CDATA[Odrzuæ zaproszenie]]></phrase>
+		<phrase name="decline_invite_blog" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Jeste¶ pewien, ¿e chcesz odrzuciæ zaproszenie do³±czenia do blogu '{1}'?]]></phrase>
+		<phrase name="default_entry_options" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Domy¶lne opcje wpisu]]></phrase>
+		<phrase name="default_subscription_mode" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Domy¶lny tryb subskrypcji:]]></phrase>
+		<phrase name="delete_blog_category" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Usuñ kategoriê bloga]]></phrase>
+		<phrase name="delete_blog_entries" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Usuñ wpisy na blogu]]></phrase>
+		<phrase name="delete_blog_entry" date="1288275290" username="Mateusz" version="4.0.7"><![CDATA[Usuñ wpis]]></phrase>
+		<phrase name="delete_comment" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Usuñ komentarz]]></phrase>
+		<phrase name="delete_comments" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Usuñ komentarze]]></phrase>
+		<phrase name="delete_custom_block" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Usuñ w³asny blok]]></phrase>
+		<phrase name="delete_custom_page" date="1306868893" username="Mateusz" version="4.1.2"><![CDATA[Usuñ w³asn± stronê]]></phrase>
+		<phrase name="delete_item_check_appropriate_option" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Aby usun±æ ten element, zaznacz poni¿sze pole i kliknij przycisk "usuñ" .]]></phrase>
+		<phrase name="delete_trackback" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Usuñ Trackback]]></phrase>
+		<phrase name="delete_trackbacks" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Usuñ Trackbacks]]></phrase>
+		<phrase name="deleted_blog_entries" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Usuniête wpisy na blogu]]></phrase>
+		<phrase name="deleted_blog_entry" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Usuniête wpisy na blogu]]></phrase>
+		<phrase name="deleted_comment" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Usuniête komentarze]]></phrase>
+		<phrase name="deleted_comments" date="1287309757" username="Mateusz" version="4.0.7"><![CDATA[Usuniête komentarze]]></phrase>
+		<phrase name="deleted_entries" date="1287261372" username="Mateusz" version="4.0.7"><![CDATA[Usuniête wpisy]]></phrase>
+		<phrase name="deleted_entries_for_x_y" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Usuniête wpisy dla {1} {2}]]></phrase>
+		<phrase name="deleted_entries_for_x_y_z" date="1306869061" username="Mateusz" version="4.1.2"><![CDATA[Usuniête wpisy dla {1} {2}, {3}]]></phrase>
+		<phrase name="deleting_x_blog_entries_from_y_blogs" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Usuwanie {1} wpisów z {2} blogów]]></phrase>
+		<phrase name="deleting_x_comments_from_y_blog_entries" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Usuwanie {1} komentarzy z {2} wpisów]]></phrase>
+		<phrase name="deleting_x_comments_from_y_users" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Usuwanie {1} komentarzy {2} u¿ytkowników]]></phrase>
+		<phrase name="deleting_x_trackbacks_from_y_blog_entries" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Usuwanie {1} trackbacków z {2} wpisów]]></phrase>
+		<phrase name="deselect_all_blog_entries" date="1288275368" username="Mateusz" version="4.0.7"><![CDATA[Odznacz wszystkie wpisy]]></phrase>
+		<phrase name="deselect_all_comments" date="1287309981" username="Mateusz" version="4.0.7"><![CDATA[Odznacz wszystkie komentarze]]></phrase>
+		<phrase name="deselect_all_trackbacks" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Odznacz wszystkie Trackbacks]]></phrase>
+		<phrase name="display_location" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Wy¶wietl lokalizacjê]]></phrase>
+		<phrase name="display_order" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Porz±dek wy¶wietlania]]></phrase>
+		<phrase name="draft_blog_entries" date="1306869319" username="Mateusz" version="4.1.2"><![CDATA[Wersje robocze wpisów]]></phrase>
+		<phrase name="draft_blog_entry" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Wersja robocza wpisu]]></phrase>
+		<phrase name="draft_entries_for_x_y" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Wersje robocze wpisów {1} {2}]]></phrase>
+		<phrase name="draft_entries_for_x_y_z" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Robocze wpisy {1} {2}, {3}]]></phrase>
+		<phrase name="edit_blog_category" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Edytuj kategoriê bloga]]></phrase>
+		<phrase name="edit_blog_entry" date="1288275163" username="Mateusz" version="4.0.7"><![CDATA[Edytuj wpis]]></phrase>
+		<phrase name="edit_comment" date="1287164135" username="Mateusz" version="4.0.7"><![CDATA[Edytuj]]></phrase>
+		<phrase name="edit_custom_block" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Edytuj w³asny blok]]></phrase>
+		<phrase name="edit_custom_page" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Edytuj w³asn± stronê]]></phrase>
+		<phrase name="edit_preferences_and_permissions_for_your_blog" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Edytuj uprawnienia i preferencje dla swojego bloga]]></phrase>
+		<phrase name="edit_the_title_and_description_for_your_blog" date="1306869515" username="Mateusz" version="4.1.2"><![CDATA[Edytuj tytu³ i opis swojego bloga]]></phrase>
+		<phrase name="edit_trackback" date="1306869610" username="Mateusz" version="4.1.2"><![CDATA[Edytuj Trackback]]></phrase>
+		<phrase name="email_blog_entry" date="1287163330" username="Mateusz" version="4.0.7"><![CDATA[Wy¶lij na e-mail]]></phrase>
+		<phrase name="entries" date="1286735273" username="alchemik86" version="4.0.7"><![CDATA[Wpisy]]></phrase>
+		<phrase name="entries_for_x_y" date="1306869610" username="Mateusz" version="4.1.2"><![CDATA[Wpisy {1} {2}]]></phrase>
+		<phrase name="entries_for_x_y_z" date="1306869610" username="Mateusz" version="4.1.2"><![CDATA[Wpisy {1} {2}, {3}]]></phrase>
+		<phrase name="entries_in_last_24_hours" date="1306869610" username="Mateusz" version="4.1.2"><![CDATA[Wpisy z ostatnich 24 godzin]]></phrase>
+		<phrase name="entry_is_hidden_x_y" date="1306869610" username="Mateusz" version="4.1.2"><![CDATA[Ten wpis jest ukryty poniewa¿ <strong>{1}</strong> jest na Twojej <a href="profile.php?{2}do=ignorelist">li¶cie ignorowanych</a>.]]></phrase>
+		<phrase name="featured_blog_entry_from_blogtitle" date="1306869610" username="Mateusz" version="4.1.2"><![CDATA[Wyró¿niony wpis <a href="{1}" class="username">{2}</a>]]></phrase>
+		<phrase name="find_all_forum_posts_by_user" date="1288278005" username="Mateusz" version="4.0.7"><![CDATA[Znajd¼ posty dodane przez {1}]]></phrase>
+		<phrase name="find_blog_entries" date="1288275132" username="Mateusz" version="4.0.7"><![CDATA[Znajd¼ wpisy]]></phrase>
+		<phrase name="find_blog_entries_by_user" date="1288278041" username="Mateusz" version="4.0.7"><![CDATA[Znajd¼ wpisy na blogu {1}]]></phrase>
+		<phrase name="find_blogs" date="1306869627" username="Mateusz" version="4.1.2"><![CDATA[Znajd¼ blogi]]></phrase>
+		<phrase name="find_more" date="1287157594" username="Mateusz" version="4.0.7"><![CDATA[Szukaj wiêcej...]]></phrase>
+		<phrase name="friday_short" date="1306869627" username="Mateusz" version="4.1.2"><![CDATA[Pt.]]></phrase>
+		<phrase name="global_categories" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[G³ówne kategorie]]></phrase>
+		<phrase name="global_tag_cloud" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[G³ówna chmura tagów]]></phrase>
+		<phrase name="go_to_draft" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[Przejdz do wersji roboczej]]></phrase>
+		<phrase name="go_to_first_new_comment" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[Przejd¼ do pierwszego nowego komentarza]]></phrase>
+		<phrase name="go_to_last_comment" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[Przejd¼ do ostatniego komentarza]]></phrase>
+		<phrase name="go_to_my_blog" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[Przejd¼ do swojego blogu]]></phrase>
+		<phrase name="go_to_profile" date="1287163871" username="Mateusz" version="4.0.7"><![CDATA[Odwied¼ profil]]></phrase>
+		<phrase name="group_blog" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[Blog grupy]]></phrase>
+		<phrase name="group_permissions_for_x" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[Uprawnienia grupy dla {1}]]></phrase>
+		<phrase name="group_permissions_for_x_message" date="1306869789" username="Mateusz" version="4.1.2"><![CDATA[Uprawnienia grupy dla {1} - <span class="smallfont">Cz³onkowie grupy maj± takie same uprawnienia jak Ty. Mo¿esz zmieniæ ich prawa usuwaj±c nastêpuj±ce uprawnienia.</span>]]></phrase>
+		<phrase name="groupblog_instructions" date="1306870018" username="Mateusz" version="4.1.2"><![CDATA[Aby usun±æ u¿ytkownika z swojego blogu, odznacz pole przy jego awatarze i kliknij 'Zapisz zmiany'.<br /><br />
+Aby dodaæ u¿ytkownika do swojego bloga wpisz jego nazwê w puste pole tekstowe i kliknij 'Dodaj cz³onka'.]]></phrase>
+		<phrase name="guests_may" date="1306870018" username="Mateusz" version="4.1.2"><![CDATA[Go¶cie mog±...]]></phrase>
+		<phrase name="hide_user_customizations" date="1306870018" username="Mateusz" version="4.1.2"><![CDATA[Ukryj zmiany w stylizacji poczynione przez u¿ytkownika]]></phrase>
+		<phrase name="ignore_comments" date="1287164506" username="Mateusz" version="4.0.7"><![CDATA[Ignoruj komentarze]]></phrase>
+		<phrase name="invite_join_date" date="1306870018" username="Mateusz" version="4.1.2"><![CDATA[Data zaproszenia / do³±czenia]]></phrase>
+		<phrase name="item_limit" date="1306870018" username="Mateusz" version="4.1.2"><![CDATA[Limit elementów]]></phrase>
+		<phrase name="last_blog_entry" date="1295143878" username="Mateusz" version="4.1.1"><![CDATA[Ostatni wpis na blogu]]></phrase>
+		<phrase name="last_comment" date="1295144138" username="Mateusz" version="4.1.1"><![CDATA[Ostatni komentarz]]></phrase>
+		<phrase name="leave_blog" date="1306870018" username="Mateusz" version="4.1.2"><![CDATA[Opu¶æ blog]]></phrase>
+		<phrase name="leave_comments_on_my_blog_entries_permission" date="1306870018" username="Mateusz" version="4.1.2"><![CDATA[Zostaw komentarze do moich wpisów.]]></phrase>
+		<phrase name="leave_comments_on_your_blog_entries_permission" date="1306870646" username="Mateusz" version="4.1.2"><![CDATA[Zostaw komentarze do twoich wpisów.]]></phrase>
+		<phrase name="links_were_found_within_your_blog_entry" date="1306870646" username="Mateusz" version="4.1.2"><![CDATA[Nastêpuj±ce linki zosta³y znalezione w Twoim wpisie. Mo¿esz wys³aæ powiadomienie pingback / trackback do ka¿dego linku odnosz±cego siê do innego blogu.]]></phrase>
+		<phrase name="local_categories" date="1287163842" username="Mateusz" version="4.0.7"><![CDATA[Lokalne kategorie]]></phrase>
+		<phrase name="manage_categories" date="1306870646" username="Mateusz" version="4.1.2"><![CDATA[Zarz±dzaj kategoriami]]></phrase>
+		<phrase name="manage_trackbacks" date="1306870646" username="Mateusz" version="4.1.2"><![CDATA[Zarz±dzaj Trackbacks]]></phrase>
+		<phrase name="mark_this_blog_read" date="1296961381" username="Mateusz" version="4.1.1"><![CDATA[Oznacz jako przeczytany]]></phrase>
+		<phrase name="members_of_x_blog" date="1306870646" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie bloga {1}]]></phrase>
+		<phrase name="members_of_your_blog" date="1306870646" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie Twojego bloga]]></phrase>
+		<phrase name="members_on_my_buddy_list_may" date="1306870646" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie na mojej <a href="profile.php?{1}do=editlist">li¶cie znajomych</a> mog±...]]></phrase>
+		<phrase name="members_on_my_contact_list_may" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie na mojej <a href="profile.php?{1}do=buddylist">li¶cie kontaktów</a> mog±...]]></phrase>
+		<phrase name="members_on_my_ignore_list_may" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie na mojej <a href="profile.php?{1}">li¶cie ignorowanych</a> mog±...]]></phrase>
+		<phrase name="members_on_your_buddy_list_may" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie na Twojej <a href="profile.php?{1}do=editlist">li¶cie znajomych</a> mog±...]]></phrase>
+		<phrase name="members_on_your_contact_list_may" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie na Twojej <a href="profile.php?{1}do=editlist">li¶cie kontaktów</a> mog±...]]></phrase>
+		<phrase name="members_on_your_ignore_list_may" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie na Twojej <a href="profile.php?{1}do=editlist">li¶cie ignorowanych</a> mog±...]]></phrase>
+		<phrase name="members_x" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkowie: <strong>{1}</strong>]]></phrase>
+		<phrase name="moderate_comments_before_displaying" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Moderuj komentarze przed ich publikacj±]]></phrase>
+		<phrase name="moderated_blog_entries" date="1287158173" username="Mateusz" version="4.0.7"><![CDATA[Moderowane wpisy]]></phrase>
+		<phrase name="moderated_blog_entry" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Moderowany wpis]]></phrase>
+		<phrase name="moderated_comment" date="1306870792" username="Mateusz" version="4.1.2"><![CDATA[Moderowany komentarz]]></phrase>
+		<phrase name="moderated_comments" date="1287309797" username="Mateusz" version="4.0.7"><![CDATA[Moderowane komentarze]]></phrase>
+		<phrase name="moderated_entries" date="1287904499" username="Mateusz" version="4.0.7"><![CDATA[Moderowane wpisy]]></phrase>
+		<phrase name="moderated_entries_for_x_y" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Moderowane wpisy dla {1} {2}]]></phrase>
+		<phrase name="moderated_entries_for_x_y_z" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Moderowane wpisy dla {1} {2}, {3}]]></phrase>
+		<phrase name="moderated_entry" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Moderowany wpis]]></phrase>
+		<phrase name="moderated_trackback" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Moderowany Trackback]]></phrase>
+		<phrase name="moderated_trackbacks" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Moderowane Trackbacks]]></phrase>
+		<phrase name="moderation" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Moderacja]]></phrase>
+		<phrase name="monday_short" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Pon.]]></phrase>
+		<phrase name="most_popular_blogs" date="1306870980" username="Mateusz" version="4.1.2"><![CDATA[Najpopularniejsze blogi]]></phrase>
+		<phrase name="move_block_down" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[Przenie¶ blok na dó³]]></phrase>
+		<phrase name="move_block_up" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[Przenie¶ blok w górê]]></phrase>
+		<phrase name="my_own" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[Moje w³asne...]]></phrase>
+		<phrase name="new_comment" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[Nowy komentarz]]></phrase>
+		<phrase name="new_entry" date="1295707559" username="Mateusz" version="4.1.1"><![CDATA[Dodaj nowy wpis]]></phrase>
+		<phrase name="no_blogs_reference_this_entry" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[¯adne inne blogi nie odnosz± siê do tego wpisu]]></phrase>
+		<phrase name="no_blogs_were_found" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[Nie odnaleziono blogów]]></phrase>
+		<phrase name="no_comments_found" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[Nie odnaleziono komentarzy]]></phrase>
+		<phrase name="no_parent_category" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[(Brak kategorii nadrzêdnej)]]></phrase>
+		<phrase name="notification_sent_to_remote_server" date="1306871157" username="Mateusz" version="4.1.2"><![CDATA[Powiadomienie wys³ane na zewnêtrzny serwer]]></phrase>
+		<phrase name="notify_linked_blogs" date="1287089684" username="Mateusz" version="4.0.7"><![CDATA[Powiadamiaj blogi powi±zane z tym wpisem]]></phrase>
+		<phrase name="old_comment" date="1306871293" username="Mateusz" version="4.1.2"><![CDATA[Stary komentarz]]></phrase>
+		<phrase name="other_members_may" date="1306871293" username="Mateusz" version="4.1.2"><![CDATA[Inni cz³onkowie mog±...]]></phrase>
+		<phrase name="other_users" date="1306871293" username="Mateusz" version="4.1.2"><![CDATA[Inni u¿ytkownicy mog±...]]></phrase>
+		<phrase name="page" date="1306871293" username="Mateusz" version="4.1.2"><![CDATA[Strona]]></phrase>
+		<phrase name="parent_category" date="1287260344" username="Mateusz" version="4.0.7"><![CDATA[Nadrzêdna kategoria]]></phrase>
+		<phrase name="pending" date="1306871293" username="Mateusz" version="4.1.2"><![CDATA[Oczekuj±ce]]></phrase>
+		<phrase name="pending_blog_entries" date="1306871293" username="Mateusz" version="4.1.2"><![CDATA[Oczekuj±ce wpisy na blogu]]></phrase>
+		<phrase name="pending_blog_entry" date="1306871449" username="Mateusz" version="4.1.2"><![CDATA[Oczekuj±cy wpis na blogu]]></phrase>
+		<phrase name="pending_entries" date="1287904600" username="Mateusz" version="4.0.7"><![CDATA[Wpisy oczekuj±ce]]></phrase>
+		<phrase name="pending_entries_for_x_y" date="1306871449" username="Mateusz" version="4.1.2"><![CDATA[Wpisy oczekuj±ce {1} {2}]]></phrase>
+		<phrase name="pending_entries_for_x_y_z" date="1306871449" username="Mateusz" version="4.1.2"><![CDATA[Wpisy oczekuj±ce {1} {2}, {3}]]></phrase>
+		<phrase name="permissions" date="1306871449" username="Mateusz" version="4.1.2"><![CDATA[Uprawnienia]]></phrase>
+		<phrase name="permissions_and_privacy" date="1306871449" username="Mateusz" version="4.1.2"><![CDATA[Uprawnienia i prywatno¶æ]]></phrase>
+		<phrase name="please_wait" date="1306871449" username="Mateusz" version="4.1.2"><![CDATA[Proszê czekaæ]]></phrase>
+		<phrase name="post_a_comment" date="1287004989" username="Mateusz" version="4.0.7"><![CDATA[Skomentuj]]></phrase>
+		<phrase name="post_now" date="1287163962" username="Mateusz" version="4.0.7"><![CDATA[Dodaj]]></phrase>
+		<phrase name="post_to_my_blog" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[Umie¶æ na moim blogu]]></phrase>
+		<phrase name="post_to_this_blog" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[Umie¶æ na tym blogu]]></phrase>
+		<phrase name="post_to_your_blog" date="1296961105" username="Mateusz" version="4.1.1"><![CDATA[Dodaj na swój blog]]></phrase>
+		<phrase name="posted_date_at_time_by_guest" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[Zamieszony {1} w {2} przez {3}]]></phrase>
+		<phrase name="posted_date_at_time_by_user" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[przez <a href="{1}" class="username">{2}</a> na {3} o {4}]]></phrase>
+		<phrase name="posted_date_at_time_memberaction" date="1287157520" username="Mateusz" version="4.0.7"><![CDATA[przez {1} w dniu {2} o {3}]]></phrase>
+		<phrase name="posted_in" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[Zamieszczony]]></phrase>
+		<phrase name="posting_comment" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[Opublikuj komentarz...]]></phrase>
+		<phrase name="private_blog" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[Prywatny blog]]></phrase>
+		<phrase name="private_entry" date="1306871585" username="Mateusz" version="4.1.2"><![CDATA[Prywatny wpis]]></phrase>
+		<phrase name="private_group_blog" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Prywatny blog grupy]]></phrase>
+		<phrase name="publish_now" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Opublikuj]]></phrase>
+		<phrase name="publish_on" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Opublikuj na]]></phrase>
+		<phrase name="publish_status" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Opublikuj status]]></phrase>
+		<phrase name="random_featured_blog_entry_from_blogtitle" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Losowo wyró¿nione blogi z <a href="{1}">{2}</a>]]></phrase>
+		<phrase name="rate_this_blog_entry" date="1287163279" username="Mateusz" version="4.0.7"><![CDATA[Oceñ wpis]]></phrase>
+		<phrase name="rating" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Ocena]]></phrase>
+		<phrase name="rating_x_votes_y_average" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Ocena: {1} g³osów, {2} ¶rednio.]]></phrase>
+		<phrase name="reason_for_blog_entry_deletion" date="1306871841" username="Mateusz" version="4.1.2"><![CDATA[Powód usuniêcia wpisu umieszczony przez {1}]]></phrase>
+		<phrase name="recent_blog_entries" date="1286824455" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie wpisy]]></phrase>
+		<phrase name="recent_blogs_posts" date="1287163997" username="Mateusz" version="4.0.7"><![CDATA[Najnowsze wpisy]]></phrase>
+		<phrase name="recent_comments" date="1287157642" username="Mateusz" version="4.0.7"><![CDATA[Ostatnie komentarze]]></phrase>
+		<phrase name="recent_visitors" date="1287163652" username="Mateusz" version="4.0.7"><![CDATA[Ostatni odwiedzaj±cy]]></phrase>
+		<phrase name="report_blog_entry" date="1287163759" username="Mateusz" version="4.0.7"><![CDATA[Zg³o¶]]></phrase>
+		<phrase name="report_comment" date="1287163765" username="Mateusz" version="4.0.7"><![CDATA[Zg³o¶ komentarz]]></phrase>
+		<phrase name="report_custom_page" date="1287163773" username="Mateusz" version="4.0.7"><![CDATA[Zg³o¶ stronê]]></phrase>
+		<phrase name="restrict_entry_viewing_to_contacts" date="1287090503" username="Mateusz" version="4.0.7"><![CDATA[Ogranicz ogl±danie wpisu do Kontaktów i Moderatorów bloga]]></phrase>
+		<phrase name="return_to_blog_x" date="1306871877" username="Mateusz" version="4.1.2"><![CDATA[Wróæ do {1}]]></phrase>
+		<phrase name="saturday_short" date="1306871877" username="Mateusz" version="4.1.2"><![CDATA[Sob.]]></phrase>
+		<phrase name="save_display_order" date="1306871877" username="Mateusz" version="4.1.2"><![CDATA[Zapisz porz±dek wy¶wietlania]]></phrase>
+		<phrase name="save_draft" date="1306872032" username="Mateusz" version="4.1.2"><![CDATA[Zapisz kopiê robocz±]]></phrase>
+		<phrase name="search_by_tag" date="1306872032" username="Mateusz" version="4.1.2"><![CDATA[Wyszukaj po tagach]]></phrase>
+		<phrase name="send_notification" date="1306872032" username="Mateusz" version="4.1.2"><![CDATA[Wy¶lij powiadomienie]]></phrase>
+		<phrase name="send_pingback_trackback_notification" date="1306872032" username="Mateusz" version="4.1.2"><![CDATA[Wy¶lij Pingback / Trackback]]></phrase>
+		<phrase name="separate_tags_using_comma" date="1296961133" username="Mateusz" version="4.1.1"><![CDATA[Oddziel tagi u¿ywaj±c przecinków.]]></phrase>
+		<phrase name="show_user_customizations" date="1345306494" username="Mateusz K" version="4.2.0"><![CDATA[Poka¿ zmiany w stylizacji poczynione przez u¿ytkownika]]></phrase>
+		<phrase name="showing_x_to_y_of_z_blogcomments" date="1287309698" username="Mateusz" version="4.0.7"><![CDATA[Wy¶wietlanie {1} do {2} z {3} komentarzy]]></phrase>
+		<phrase name="submit_entry_x_to_y" date="1306872102" username="Mateusz" version="4.1.2"><![CDATA[Umie¶æ &quot;{1}&quot; do {2}]]></phrase>
+		<phrase name="subscribe_to_blog_entry" date="1287163364" username="Mateusz" version="4.0.7"><![CDATA[Subskrybuj wpis]]></phrase>
+		<phrase name="subscribe_to_this_blog" date="1287163937" username="Mateusz" version="4.0.7"><![CDATA[Subskrybuj blog]]></phrase>
+		<phrase name="sunday_short" date="1306872102" username="Mateusz" version="4.1.2"><![CDATA[Niedz.]]></phrase>
+		<phrase name="tag_cloud" date="1306872102" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów]]></phrase>
+		<phrase name="tag_management" date="1306872102" username="Mateusz" version="4.1.2"><![CDATA[Zarz±dzanie tagami]]></phrase>
+		<phrase name="tags_visible_all_users" date="1306872102" username="Mateusz" version="4.1.2"><![CDATA[Tagi bêd± widoczne dla wszystkich u¿ytkowników.]]></phrase>
+		<phrase name="there_are_no_blog_entries_for_this_date" date="1286824994" username="Mateusz" version="4.0.7"><![CDATA[Nie ma ¿adnych wpisów dla tej daty.]]></phrase>
+		<phrase name="there_are_no_blogs" date="1286824315" username="Mateusz" version="4.0.7"><![CDATA[Brak blogów.]]></phrase>
+		<phrase name="these_settings_may_be_changed_when_posting" date="1306872263" username="Mateusz" version="4.1.2"><![CDATA[Te ustawienia mog± zostaæ zmienione tak¿e podczas zamieszczania wpisu]]></phrase>
+		<phrase name="this_blog_entry_has_been_deleted_by_user" date="1306872263" username="Mateusz" version="4.1.2"><![CDATA[Ten wpis zosta³ usuniêty przez <a href="{1}" class="shade">{2}</a>]]></phrase>
+		<phrase name="this_comment_has_been_deleted_by_user" date="1306872263" username="Mateusz" version="4.1.2"><![CDATA[Ten komentarz zosta³ usuniêty przez <a href="{1}">{2}</a>]]></phrase>
+		<phrase name="thursday_short" date="1306872263" username="Mateusz" version="4.1.2"><![CDATA[Czw.]]></phrase>
+		<phrase name="time_to_publish" date="1306872263" username="Mateusz" version="4.1.2"><![CDATA[Czas publikacji:]]></phrase>
+		<phrase name="to_delete_blog_category_description" date="1306872263" username="Mateusz" version="4.1.2"><![CDATA[Aby usun±æ tê kategoriê, oznacz to pole i kliknij przycisk 'Usuñ'.]]></phrase>
+		<phrase name="to_delete_comment_description" date="1306872356" username="Mateusz" version="4.1.2"><![CDATA[Aby usun±æ ten komentarz, oznacz poni¿sz± opcjê, i kliknij przycisk 'Usuñ']]></phrase>
+		<phrase name="total_blog_entries" date="1306872356" username="Mateusz" version="4.1.2"><![CDATA[£±cznie wpisów]]></phrase>
+		<phrase name="total_blogs" date="1306872356" username="Mateusz" version="4.1.2"><![CDATA[£±cznie blogów]]></phrase>
+		<phrase name="total_comments" date="1306872356" username="Mateusz" version="4.1.2"><![CDATA[£±cznie komentarzy]]></phrase>
+		<phrase name="total_trackbacks" date="1306872356" username="Mateusz" version="4.1.2"><![CDATA[£±cznie Trackbacks]]></phrase>
+		<phrase name="tuesday_short" date="1306872356" username="Mateusz" version="4.1.2"><![CDATA[Wt.]]></phrase>
+		<phrase name="unapprove_blog_entry" date="1288275347" username="Mateusz" version="4.0.7"><![CDATA[Odrzuæ wpis]]></phrase>
+		<phrase name="unapprove_comments" date="1306872850" username="Mateusz" version="4.1.2"><![CDATA[Odrzuæ komentarze]]></phrase>
+		<phrase name="unapprove_trackback" date="1306872850" username="Mateusz" version="4.1.2"><![CDATA[Odrzuæ Trackback]]></phrase>
+		<phrase name="uncategorized" date="1306872850" username="Mateusz" version="4.1.2"><![CDATA[Bez kategorii]]></phrase>
+		<phrase name="uncategorized_description" date="1306872850" username="Mateusz" version="4.1.2"><![CDATA[Wpisy bez kategorii]]></phrase>
+		<phrase name="uncheck_tag_remove_bold_you" date="1306872850" username="Mateusz" version="4.1.2"><![CDATA[Odznacz tag, aby usun±æ go z tego wpisu.<br />
+Pogrubione tagi zosta³y dodane przez Ciebie.]]></phrase>
+		<phrase name="undelete_blog_entry" date="1288275308" username="Mateusz" version="4.0.7"><![CDATA[Przywróæ wpis]]></phrase>
+		<phrase name="undelete_comments" date="1306872850" username="Mateusz" version="4.1.2"><![CDATA[Przywróæ komentarze]]></phrase>
+		<phrase name="unsubscribe_from_this_blog" date="1306872973" username="Mateusz" version="4.1.2"><![CDATA[Usuñ subskrypcjê blogu]]></phrase>
+		<phrase name="unsubscribe_from_this_blog_entry" date="1306872973" username="Mateusz" version="4.1.2"><![CDATA[Usuñ subskrypcjê wpisu]]></phrase>
+		<phrase name="user_has_no_blog_entries" date="1286824769" username="Mateusz" version="4.0.7"><![CDATA[{1} nie posiada ¿adnych wpisów na blogu.]]></phrase>
+		<phrase name="view_all_blog_entries_by_user" date="1306872973" username="Mateusz" version="4.1.2"><![CDATA[Zobacz wszystkie wpisy {1}]]></phrase>
+		<phrase name="view_blog_warning" date="1306872973" username="Mateusz" version="4.1.2"><![CDATA[- Niezale¿nie od tych opcji, moderatorzy bêd± mogli przegl±daæ Twoje wpisy.]]></phrase>
+		<phrase name="view_comment" date="1306872973" username="Mateusz" version="4.1.2"><![CDATA[Zobacz komentarz]]></phrase>
+		<phrase name="view_entry" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz wpis]]></phrase>
+		<phrase name="view_filter" date="1287157806" username="Mateusz" version="4.0.7"><![CDATA[Poka¿ filtr]]></phrase>
+		<phrase name="view_members" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz cz³onków]]></phrase>
+		<phrase name="view_my_blog_permission" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz mój blog]]></phrase>
+		<phrase name="view_my_drafts" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz moj± kopiê robocz±]]></phrase>
+		<phrase name="view_my_pending_entries" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz moje oczekuj±ce wpisy]]></phrase>
+		<phrase name="view_random_blog_entry" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz losowe wpisy na blogu]]></phrase>
+		<phrase name="view_rss_feed" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz kana³ RSS]]></phrase>
+		<phrase name="view_your_blog_permission" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz swój blog]]></phrase>
+		<phrase name="view_your_drafts" date="1306873117" username="Mateusz" version="4.1.2"><![CDATA[Zobacz wersje robocze]]></phrase>
+		<phrase name="view_your_pending_entries" date="1306873267" username="Mateusz" version="4.1.2"><![CDATA[Zobacz oczekuj±ce wpisy]]></phrase>
+		<phrase name="visible_blog_entries" date="1287165169" username="Mateusz" version="4.0.7"><![CDATA[Widoczne wpisy]]></phrase>
+		<phrase name="visitors" date="1288848339" username="Mateusz" version="4.0.7"><![CDATA[Odwiedzaj±cych]]></phrase>
+		<phrase name="wednesday_short" date="1306873267" username="Mateusz" version="4.1.2"><![CDATA[¦r]]></phrase>
+		<phrase name="when_posting_new_blog_entry_i_would_like_to" date="1306873267" username="Mateusz" version="4.1.2"><![CDATA[Umieszczaj±c nowy wpis, chcê...]]></phrase>
+		<phrase name="with_selected_blogs" date="1306873267" username="Mateusz" version="4.1.2"><![CDATA[Z wybranymi blogami]]></phrase>
+		<phrase name="you_are_a_member_of_this_blog" date="1306873267" username="Mateusz" version="4.1.2"><![CDATA[Jeste¶ cz³onkiem tego bloga.]]></phrase>
+		<phrase name="you_are_not_a_member_of_other_blogs" date="1306873267" username="Mateusz" version="4.1.2"><![CDATA[Nie jeste¶ obecnie cz³onkiem ¿adnego innego bloga.]]></phrase>
+		<phrase name="you_are_the_owner_of_this_group_blog" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Jeste¶ w³a¶cicielem tego bloga grupy.]]></phrase>
+		<phrase name="you_have_no_blog_categories" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Nie posiadasz kategorii bloga]]></phrase>
+		<phrase name="you_have_no_blog_entry_subscriptions" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Nie masz subskrybowanych wpisów]]></phrase>
+		<phrase name="you_have_no_blog_subscriptions" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Nie masz subskrybowanych blogów]]></phrase>
+		<phrase name="you_have_no_trackbacks" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Nie masz trackbacks]]></phrase>
+		<phrase name="you_may_add_x_tags_to_entry" date="1296961177" username="Mateusz" version="4.1.1"><![CDATA[Ilo¶æ tagów jak± mo¿esz dodaæ: {1}]]></phrase>
+		<phrase name="you_may_send_up_to_x_notifications" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Mo¿esz dodaæ do {1} zg³oszeñ.]]></phrase>
+		<phrase name="your_blog_has_no_stats" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Twój blog nie ma ¿adnych statystyk.]]></phrase>
+		<phrase name="your_blog_membership" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Cz³onkostwo na Twoim blogu]]></phrase>
+		<phrase name="your_own" date="1306873398" username="Mateusz" version="4.1.2"><![CDATA[Twój w³asny...]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+		<phrase name="setting_blog_catpostlimit_desc" date="1295989556" username="Mateusz" version="4.1.1"><![CDATA[Liczba kategorii do których mo¿na przypisaæ ka¿dy wpis na blogu.]]></phrase>
+		<phrase name="setting_blog_catpostlimit_title" date="1295989513" username="Mateusz" version="4.1.1"><![CDATA[Limit kategorii dla jednego wpisu]]></phrase>
+		<phrase name="setting_vbblog_blockmaxchars_desc" date="1306832061" username="Mateusz" version="4.1.2"><![CDATA[Bloki zawieraj±ce wiêcej znaków ni¿ okre¶lona tutaj warto¶æ zostan± odrzucone, a u¿ytkownik poinformowany o konieczno¶ci zmniejszenia ich liczby.<br />
+<br />
+Ustaw warto¶æ na 0, aby wy³±czyæ tê funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_blockmaxchars_title" date="1306832061" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba domy¶lnych znaków w jednym bloku]]></phrase>
+		<phrase name="setting_vbblog_blockmaximages_desc" date="1306832061" username="Mateusz" version="4.1.2"><![CDATA[Bloki zawieraj±ce wiêcej obrazków, emotikon, video, ni¿ okre¶lona tutaj warto¶æ zostan± odrzucone, a u¿ytkownik poinformowany o konieczno¶ci zmniejszenia ich liczby<br />
+<br />
+Ustaw warto¶æ na 0, aby wy³±czyæ tê funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_blockmaximages_title" date="1306832061" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba obrazków/video w jednym bloku]]></phrase>
+		<phrase name="setting_vbblog_blocks_desc" date="1306832061" username="Mateusz" version="4.1.2"><![CDATA[U¿ytkownicy mog± manipulowaæ blokami tre¶ci. Odznacz te bloki którymi nie mog± manipulowaæ.]]></phrase>
+		<phrase name="setting_vbblog_blocks_title" date="1306832061" username="Mateusz" version="4.1.2"><![CDATA[Mo¿liwo¶æ zarz±dzania blokami sidebara]]></phrase>
+		<phrase name="setting_vbblog_blogthispost_desc" date="1306832689" username="Mateusz" version="4.1.2"><![CDATA[W³±czaj±c tê opcjê zostanie dodana ikona pozwalaj±ca na skopiowanie zwarto¶ci posta do wpisu na blogu. U¿ytkownik ma prawo modyfikowaæ wpis, i nadal musi go zamie¶ciæ .]]></phrase>
+		<phrase name="setting_vbblog_blogthispost_title" date="1295644060" username="Mateusz" version="4.1.1"><![CDATA[Dodaj na blog]]></phrase>
+		<phrase name="setting_vbblog_commentmaxchars_desc" date="1306832689" username="Mateusz" version="4.1.2"><![CDATA[Komentarze zawieraj±ce wiêcej znaków ni¿ podana tutaj warto¶æ bêd± odrzucone, a u¿ytkownicy poproszeni o ich skrócenie.<br />
+<br />
+Ustaw 0, aby wy³±czyæ funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_commentmaxchars_title" date="1306832689" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba znaków w jednym komentarzu]]></phrase>
+		<phrase name="setting_vbblog_commentmaximages_desc" date="1306832689" username="Mateusz" version="4.1.2"><![CDATA[Komentarze zawieraj±ce wiêcej obrazków/emotikon/video, ni¿ podana tutaj warto¶æ bêd± odrzucone, a u¿ytkownicy poproszeni oz zmniejszenie ich ilo¶ci.<br />
+<br />
+Ustaw 0, aby wy³±czyæ funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_commentmaximages_title" date="1306832689" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba obrazków/video w jednym komentarzu]]></phrase>
+		<phrase name="setting_vbblog_commentmoderation_desc" date="1306832689" username="Mateusz" version="4.1.2"><![CDATA[Je¶li jest w³±czona, wszystkie nowe komentarze s± dodawane do oczekuj±cych na zatwierdzenie. Opcja mo¿e byæ równie¿ w³±czona w ustawieniach poszczególnych grup.]]></phrase>
+		<phrase name="setting_vbblog_commentmoderation_title" date="1295989104" username="Mateusz" version="4.1.1"><![CDATA[Moderacja komentarzy]]></phrase>
+		<phrase name="setting_vbblog_draft_desc" date="1306835386" username="Mateusz" version="4.1.2"><![CDATA[Mo¿esz ograniczyæ liczbê projektów wpisów jak± mog± posiadaæ u¿ytkownicy.
+<br/><br />Wpisz 0, aby wy³±czyæ limit.]]></phrase>
+		<phrase name="setting_vbblog_draft_title" date="1306835386" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba projektów wpisów]]></phrase>
+		<phrase name="setting_vbblog_entrymaxchars_desc" date="1295989972" username="Mateusz" version="4.1.1"><![CDATA[Wpisy które zawieraj± wiêcej znaków ni¿ zak³ada obecna tu warto¶æ bêd± odrzucone z informacj± o tym aby je skróciæ.<br />
+<br />
+Podaj 0 aby wy³±czyæ ta funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_entrymaxchars_title" date="1295989594" username="Mateusz" version="4.1.1"><![CDATA[Maksymalna liczba znaków we wpisie]]></phrase>
+		<phrase name="setting_vbblog_entrymaximages_desc" date="1306835552" username="Mateusz" version="4.1.2"><![CDATA[Wpisie zawieraj±ce wiêcej obrazków, emotikon, video ni¿ podana tutaj warto¶æ bêd± odrzucone, a u¿ytkownicy poproszeni o ich skrócenie.<br />
+<br />
+Ustaw 0, aby wy³±czyæ funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_entrymaximages_title" date="1295990629" username="Mateusz" version="4.1.1"><![CDATA[Maksymalna liczba obrazów/filmów we wpisie]]></phrase>
+		<phrase name="setting_vbblog_maxperpage_desc" date="1306835552" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba wpisów wy¶wietlana na jednej stronie.]]></phrase>
+		<phrase name="setting_vbblog_maxperpage_title" date="1306835552" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba wpisów wy¶wietlana na jednej stronie.]]></phrase>
+		<phrase name="setting_vbblog_maxratedblog_desc" date="1306835552" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ocenionych blogów wy¶wietlana na pierwszej stronie blogów.]]></phrase>
+		<phrase name="setting_vbblog_maxratedblog_title" date="1306835552" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ocenionych blogów]]></phrase>
+		<phrase name="setting_vbblog_maxratedentry_desc" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ocenionych wpisów pojawiaj±ca siê na pierwszej stronie bloga.]]></phrase>
+		<phrase name="setting_vbblog_maxratedentry_title" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ocenionych wpisów]]></phrase>
+		<phrase name="setting_vbblog_maxrecentcomment_desc" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ostatnich komentarzy pojawiaj±ca pierwszej stronie bloga.]]></phrase>
+		<phrase name="setting_vbblog_maxrecentcomment_title" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ostatnich komentarzy]]></phrase>
+		<phrase name="setting_vbblog_maxrecententry_desc" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ostatnich wpisów pojawiaj±ca pierwszej stronie bloga.]]></phrase>
+		<phrase name="setting_vbblog_maxrecententry_title" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba ostatnich wpisów]]></phrase>
+		<phrase name="setting_vbblog_maxtag_desc" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba tagów na wpis. ¯aden u¿ytkownik nie mo¿e dodaæ wiêcej tagów.<br />
+<br />
+0 wy³±cza limit.]]></phrase>
+		<phrase name="setting_vbblog_maxtag_title" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba tagów na wpis]]></phrase>
+		<phrase name="setting_vbblog_maxtagstarter_desc" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna ilo¶æ tagów na wpis, jak± mo¿e dodaæ jego autor. Warto¶æ ta nie mo¿e byæ wiêksza od "Maksymalnej liczby tagów na wpis".<br />
+<br />
+0 wy³±cza limit.]]></phrase>
+		<phrase name="setting_vbblog_maxtagstarter_title" date="1306836363" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba tagów na wpis, jak± mo¿e dodaæ jego autor.]]></phrase>
+		<phrase name="setting_vbblog_maxtaguser_desc" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna ilo¶æ tagów na wpis, jak± mog± dodaæ u¿ytkownicy inni ni¿ autor. Warto¶æ ta nie mo¿e byæ wiêksza od "Maksymalnej liczby tagów na wpis".<br />
+<br />
+0 wy³±cza limit.]]></phrase>
+		<phrase name="setting_vbblog_maxtaguser_title" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna ilo¶æ tagów na wpis, jak± mog± dodaæ u¿ytkownicy inni ni¿ autor]]></phrase>
+		<phrase name="setting_vbblog_nextprevlinks_desc" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[W³±czenie tej opcji dodaje tytu³y do linków  <em>Nastêpny</em> i <em>Poprzedni</em> znajduj±cych siê w ka¿dym wpisie. Zostan± dodane dwa zapytania na stronê.]]></phrase>
+		<phrase name="setting_vbblog_nextprevlinks_title" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[Pe³ne linki Nastêpny/ Poprzedni]]></phrase>
+		<phrase name="setting_vbblog_notifylinks_desc" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[Mo¿esz ograniczyæ liczbê linków powiadomieñ.]]></phrase>
+		<phrase name="setting_vbblog_notifylinks_title" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[Linki powiadomieñ Trackback / Pingback]]></phrase>
+		<phrase name="setting_vbblog_pagemaxchars_desc" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[W³asne strony zawieraj±ce wiêcej znaków ni¿ okre¶lona tu warto¶æ, zostan± odrzucone, a autor powiadomiony o konieczno¶ci zmniejszenia ich liczby.<br />
+<br />
+Ustaw 0, aby wy³±czyæ tê funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_pagemaxchars_title" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna ilo¶æ znaków dla w³asnej strony]]></phrase>
+		<phrase name="setting_vbblog_pagemaximages_desc" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[W³asne strony zawieraj±ce wiêcej obrazków, emotikon, video ni¿ okre¶lona tu warto¶æ, zostan± odrzucone, a autor powiadomiony o konieczno¶ci zmniejszenia ich liczby.<br />
+<br />
+Ustaw 0, aby wy³±czyæ tê funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_pagemaximages_title" date="1306837164" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna ilo¶æ obrazków/video dla w³asnej strony]]></phrase>
+		<phrase name="setting_vbblog_pending_desc" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Mo¿esz ograniczyæ liczbê oczekuj±cych wpisów jak± mo¿e mieæ ka¿dy z u¿ytkowników.
+<br/><br />Ustaw 0, aby wy³±czyæ tê funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_pending_title" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna ilo¶æ oczekuj±cych wpisów]]></phrase>
+		<phrase name="setting_vbblog_perpage_desc" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Domy¶la liczba wpisów wy¶wietlana na jednej stronie.]]></phrase>
+		<phrase name="setting_vbblog_perpage_title" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Domy¶lna liczba wpisów na stronê]]></phrase>
+		<phrase name="setting_vbblog_pingback_desc" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Ta opcja w³±cza odbiór powiadomieñ pingback przez vBulletin Blog.]]></phrase>
+		<phrase name="setting_vbblog_pingback_title" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[W³±cz Pingback Server]]></phrase>
+		<phrase name="setting_vbblog_postmoderation_desc" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Je¶li jest w³±czona, wszystkie nowe wpisy s± dodawane do oczekuj±cych na zatwierdzenie. Opcja mo¿e byæ równie¿ w³±czona w ustawieniach poszczególnych grup.]]></phrase>
+		<phrase name="setting_vbblog_postmoderation_title" date="1295988951" username="Mateusz" version="4.1.1"><![CDATA[Moderacja nowych wpisów]]></phrase>
+		<phrase name="setting_vbblog_ratingpost_desc" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Minimalna liczba g³osów któr± musi otrzymaæ wpis zanim pojawi siê jego ocena.]]></phrase>
+		<phrase name="setting_vbblog_ratingpost_title" date="1306837759" username="Mateusz" version="4.1.2"><![CDATA[Minimalna liczba ocen wpisu]]></phrase>
+		<phrase name="setting_vbblog_ratinguser_desc" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Minimalna liczba g³osów któr± musi otrzymaæ blog zanim pojawi siê jego ocena.]]></phrase>
+		<phrase name="setting_vbblog_ratinguser_title" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Minimalna liczba ocen bloga]]></phrase>
+		<phrase name="setting_vbblog_recentcommentcutoff_desc" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Zakres czasu dla "Ostaniach komentarzy" wy¶wietlanych na pierwsze stronie bloga.]]></phrase>
+		<phrase name="setting_vbblog_recentcommentcutoff_title" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Zakres czasu dla "Ostaniach komentarzy"]]></phrase>
+		<phrase name="setting_vbblog_recententrycutoff_desc" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Zakres czasu dla "Ostaniach wpisów" wy¶wietlanych na pierwsze stronie bloga.]]></phrase>
+		<phrase name="setting_vbblog_recententrycutoff_title" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Zakres czasu dla "Ostaniach wpisów"]]></phrase>
+		<phrase name="setting_vbblog_stat_cutoff_desc" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Zakres czasu dla statystyk bloga (wpisy, komentarze, odwiedzaj±cy), kiedy s± przechowywane.]]></phrase>
+		<phrase name="setting_vbblog_stat_cutoff_title" date="1306838159" username="Mateusz" version="4.1.2"><![CDATA[Zakres czasu dla statystyk bloga]]></phrase>
+		<phrase name="setting_vbblog_style_desc" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Mo¿esz zast±piæ domy¶lny styl wy¶wietlany na stronach blogów wybrany przez u¿ytkownika.]]></phrase>
+		<phrase name="setting_vbblog_style_title" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Zastêpowanie stylu na blogach]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_cachetime_desc" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Liczba czasu w minutach, kiedy dane chmury tagów s± buforowane, zanim zostanie ona ponownie utworzona.<br />
+<br />
+Warto¶æ 0 generuje chmurê przy ka¿dych odwiedzinach.]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_cachetime_title" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów: Czas buforowania]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_cachetype_desc" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów zbiera dane z wszystkich wpisów na blogach. U¿ytkownicy mog± nie mieæ dostêpu do niektórych z nich. Ta opcja pozwala na sprawdzenie ustawieñ u¿ytkownika przed wygenerowaniem dal niego chmury tagów.<br />]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_cachetype_title" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów: Sprawdzanie uprawnieñ]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_levels_desc" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Liczba <em>poziomów</em> dla chmury tagów.<br />
+<br />
+Domy¶lnie jest 5 poziomów nazwanych level1 to level5, z rozmiarami czcionki od 1 do 5.<br />
+<br />
+zwiêkszenie warto¶æ powy¿ej 5 wymaga zmian w szablonach.]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_levels_title" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów: Number of Levels]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_searchcloud_desc" date="1306839042" username="Mateusz" version="4.1.2"><![CDATA[Ta opcja pozwala ustaliæ czy chmura tagów ma byæ wy¶wietlana u do³u strony zaawansowanego wyszukiwania.<br />]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_searchcloud_title" date="1306839035" username="Mateusz" version="4.1.2"><![CDATA[W³±cz chmurê tagów wyszukiwania]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_searchhistory_desc" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[Liczba dni, na przechowywanie danych wyszukañ wykorzystywanych do tworzenia chmury tagów.<br />
+<br />
+0 oznacza korzystanie ze wszystkich danych.]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_searchhistory_title" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów: Historia (Dni)]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_tags_desc" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba tagów wy¶wietlana w chmurze tagów.]]></phrase>
+		<phrase name="setting_vbblog_tagcloud_tags_title" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[Chmura tagów: Liczba tagów]]></phrase>
+		<phrase name="setting_vbblog_tagforcelower_desc" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[Je¶li w³±czysz tê opcjê, "A" do "Z" bêd± zast±pione "a" do "z" w nazwach tagów. Inne znaki pozostan± nietkniête.]]></phrase>
+		<phrase name="setting_vbblog_tagforcelower_title" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[Wymu¶ tagi aby by³y pisane z ma³ych liter]]></phrase>
+		<phrase name="setting_vbblog_tagging_desc" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[Jest to opcja do globalnego wy³±czania i w³±czania systemu tagowania blogów. Mo¿esz wybraæ, które grupy u¿ytkowników mog± dodawaæ tagi za pomoc± ustawieñ danej grupy.]]></phrase>
+		<phrase name="setting_vbblog_tagging_title" date="1306839668" username="Mateusz" version="4.1.2"><![CDATA[W³±cz tagowanie blogów]]></phrase>
+		<phrase name="setting_vbblog_tagmaxlen_desc" date="1306840478" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba znaków w tagu. Mo¿e to byæ pomiêdzy 0 a 100.]]></phrase>
+		<phrase name="setting_vbblog_tagmaxlen_title" date="1306840478" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna d³ugo¶æ tagu]]></phrase>
+		<phrase name="setting_vbblog_tagminlen_desc" date="1306840478" username="Mateusz" version="4.1.2"><![CDATA[Minimalna liczba znaków w tagu. Mo¿e to byæ pomiêdzy 0 a 100.]]></phrase>
+		<phrase name="setting_vbblog_tagminlen_title" date="1306840478" username="Mateusz" version="4.1.2"><![CDATA[Minimalna d³ugo¶æ tagu]]></phrase>
+		<phrase name="setting_vbblog_url_desc" date="1295981698" username="Mateusz" version="4.1.1"><![CDATA[Opcjonalny adres URL dla Bloga.<br /><br />
+Je¶li jest ustawiony to nadpisuje adresy w obrêbie produktu "Blog"
+<br /><br />
+<b>Przyk³ady:</b><br />
+http://www.example.com/blog<br />
+forum<br /><br />]]></phrase>
+		<phrase name="setting_vbblog_url_title" date="1295981327" username="Mateusz" version="4.1.1"><![CDATA[Opcjonalny adres URL dla Bloga]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_border_widths_desc" date="1306840478" username="Mateusz" version="4.1.2"><![CDATA[Lista dozwolonych szeroko¶ci obramowañ. Podaj ka¿d± szeroko¶æ w osobnej linii.]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_border_widths_title" date="1306840478" username="Mateusz" version="4.1.2"><![CDATA[Dozwolone szeroko¶ci obramowañ.]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_font_sizes_desc" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Lita dozwolonych rozmiarów czcionek. Umie¶æ ka¿d± w osobnej linii.]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_font_sizes_title" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Dozwolone rozmiary czcionek]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_fonts_desc" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Lista dozwolonych czcionek. Podaj ka¿d± w osobnej linii.]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_fonts_title" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Dozwolone czcionki]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_padding_desc" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Lista dozwolonych rozmów marginesów. Podaj ka¿dy w osobnej linii.]]></phrase>
+		<phrase name="setting_vbblog_usercss_allowed_padding_title" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Dozwolone marginesy]]></phrase>
+		<phrase name="setting_vbblog_usermaxchars_desc" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba znaków w opisie bloga. Je¶li podana tu warto¶æ zostania przekroczona, to wiadomo¶æ zostanie odrzucona, a u¿ytkownik poproszony o skrócenie opisu.<br />
+<br />
+0 wy³±cza te funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_usermaxchars_title" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna ilo¶æ znaków w opisie bloga]]></phrase>
+		<phrase name="setting_vbblog_usermaximages_desc" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba obrazków, emotikon, video w opisie bloga. Je¶li podana tu warto¶æ zostania przekroczona, to wiadomo¶æ zostanie odrzucona, a u¿ytkownik poproszony o zmniejszenie ich ilo¶ci.<br />
+<br />
+0 wy³±cza te funkcjê.]]></phrase>
+		<phrase name="setting_vbblog_usermaximages_title" date="1306840850" username="Mateusz" version="4.1.2"><![CDATA[Maksymalna liczba obrazków/video w opisie bloga]]></phrase>
+		<phrase name="settinggroup_vbblog" date="1295649630" username="Mateusz" version="4.1.1"><![CDATA[vBulletin Blog: G³ówne opcje]]></phrase>
+		<phrase name="settinggroup_vbblog_blog" date="1306841904" username="Mateusz" version="4.1.2"><![CDATA[vBulletin Blog: Opcje wy¶wietlania stron]]></phrase>
+		<phrase name="settinggroup_vbblog_customize" date="1306841904" username="Mateusz" version="4.1.2"><![CDATA[vBulletin Blog: Opcje w³asnych ustawieñ]]></phrase>
+		<phrase name="settinggroup_vbblog_entry" date="1306841904" username="Mateusz" version="4.1.2"><![CDATA[vBulletin Blog: Opcje wpisów]]></phrase>
+		<phrase name="settinggroup_vbblog_intro" date="1306841904" username="Mateusz" version="4.1.2"><![CDATA[vBulletin Blog: Opcje strony intro]]></phrase>
+		<phrase name="settinggroup_vbblog_tag" date="1306841904" username="Mateusz" version="4.1.2"><![CDATA[vBulletin Blog: Opcje tagowania]]></phrase>
+	</phrasetype>
+	<phrasetype name="Who's Online" fieldname="wol">
+		<phrase name="editing_blog_comment" date="1306873783" username="Mateusz" version="4.1.2"><![CDATA[Edytuje komentarz na blogu]]></phrase>
+		<phrase name="editing_blog_entry" date="1306873783" username="Mateusz" version="4.1.2"><![CDATA[Edytuje wpis na blogu]]></phrase>
+		<phrase name="editing_blog_trackback" date="1306873783" username="Mateusz" version="4.1.2"><![CDATA[Edytuje Trackback na blogu]]></phrase>
+		<phrase name="viewing_blog" date="1345311656" username="Mateusz K" version="4.2.0"><![CDATA[Przegl±da blog]]></phrase>
+		<phrase name="viewing_blog_comments" date="1345311671" username="Mateusz K" version="4.2.0"><![CDATA[Przegl±da komentarze na blogu]]></phrase>
+		<phrase name="viewing_blog_control_panel" date="1345311682" username="Mateusz K" version="4.2.0"><![CDATA[Przegl±da panel kontrolny blogu]]></phrase>
+		<phrase name="viewing_blog_entry" date="1345311703" username="Mateusz K" version="4.2.0"><![CDATA[Przegl±da stronê blogu]]></phrase>
+		<phrase name="viewing_blog_home" date="1287310078" username="Mateusz" version="4.0.7"><![CDATA[Przegl±da stronê g³ówn± blogów]]></phrase>
+		<phrase name="viewing_blog_list" date="1345311717" username="Mateusz K" version="4.2.0"><![CDATA[Przegl±da listê blogów]]></phrase>
+		<phrase name="viewing_blog_members" date="1345311731" username="Mateusz K" version="4.2.0"><![CDATA[Przegl±da u¿ytkowników blogu]]></phrase>
+	</phrasetype>
+</language>
