@@ -12,6 +12,7 @@ Przed zainstalowaniem spolszczenia sprawdź jakiego kodowania znaków używasz n
 ### Posiadam inne kodowanie niż UTF-8
 Konieczna jest zmiana kodowania pliku.
 
+### Instrukcja instalacji
 * Pobierz najnowszą wersję spolszczenia
 * Zaloguj się do AdminCP
 * Języki i frazy | Languages & Phrases
