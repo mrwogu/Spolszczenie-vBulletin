@@ -13,7 +13,7 @@
 		<calformat2override />
 		<logdateoverride />
 		<locale />
-		<decimalsep><![CDATA[.]]></decimalsep>
+		<decimalsep><![CDATA[,]]></decimalsep>
 		<thousandsep><![CDATA[_]]></thousandsep>
 		<phrasegroupinfo><![CDATA[a:1:{s:8:"ckeditor";a:1:{s:11:"maxdateline";s:10:"1345457526";}}]]></phrasegroupinfo>
 	</settings>
