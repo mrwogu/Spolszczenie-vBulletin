@@ -11,7 +11,7 @@
 		<registereddateoverride><![CDATA[%e %h]]></registereddateoverride>
 		<calformat1override><![CDATA[%e %h %y]]></calformat1override>
 		<calformat2override><![CDATA[%e %h]]></calformat2override>
-		<logdateoverride><![CDATA[%d.%m.%Y, %H:%M:%s]]></logdateoverride>
+		<logdateoverride><![CDATA[%d.%m.%Y, %H:%M:%S]]></logdateoverride>
 		<locale><![CDATA[pl_PL]]></locale>
 		<decimalsep><![CDATA[,]]></decimalsep>
 		<thousandsep><![CDATA[_]]></thousandsep>
@@ -19,8 +19,8 @@
 	<phrasetype name="Access Masks" fieldname="accessmask">
 		<phrase name="access_denied" date="1380293783" username="WoG" version="5.0.2"><![CDATA[Dostęp zabroniony]]></phrase>
 		<phrase name="access_denied_x_users" date="1380293810" username="WoG" version="5.0.2"><![CDATA[Dostęp zabroniony: {1} użytkownik(ów)]]></phrase>
-		<phrase name="access_granted" date="1301497586" username="Mateusz" version="4.1.1"><![CDATA[Dostęp przyznany]]></phrase>
-		<phrase name="access_granted_x_users" date="1380293839" username="WoG" version="5.0.2"><![CDATA[Dostęp przyznany: {1} użytkownik(ów)]]></phrase>
+		<phrase name="access_granted" date="1401716895" username="WoG" version="5.1.0"><![CDATA[Dostęp przyznany]]></phrase>
+		<phrase name="access_granted_x_users" date="1401716900" username="WoG" version="5.1.0"><![CDATA[Dostęp przyznany: {1} użytkownik(ów)]]></phrase>
 		<phrase name="access_mask_manager" date="1380293855" username="WoG" version="5.0.2"><![CDATA[Menadżer masek dostępu]]></phrase>
 		<phrase name="access_masks_quick_editor" date="1380293872" username="WoG" version="5.0.2"><![CDATA[Szybki edytor masek dostępu]]></phrase>
 		<phrase name="coppa_perm_form_desc" date="1380294141" username="WoG" version="5.0.2"><![CDATA[Z powodu wymagań dotyczących wieku, będziemy musieli uzyskać zgodę od rodzica lub opiekuna zanim będzie można uzyskać dostęp do tej strony.]]></phrase>
@@ -34,7 +34,7 @@
 	<phrasetype name="Advertising" fieldname="advertising">
 		<phrase name="ad_html" date="1380294452" username="WoG" version="5.0.2"><![CDATA[Kod HTML reklamy]]></phrase>
 		<phrase name="ad_list_description" date="1380294691" username="WoG" version="5.0.2"><![CDATA[Wybierz z istniejącej listy {1} reklamę aby edytować lub utwórz nową {1} reklamę.]]></phrase>
-		<phrase name="ad_location" date="1301497811" username="Mateusz" version="4.1.1"><![CDATA[Lokalizacja reklamy]]></phrase>
+		<phrase name="ad_location" date="1401716910" username="WoG" version="5.1.0"><![CDATA[Lokalizacja reklamy]]></phrase>
 		<phrase name="add_first_post_content_ad" date="1380295129" username="WoG" version="5.0.2"><![CDATA[Dodaj reklamę w treści pierwszego postu]]></phrase>
 		<phrase name="add_last_post_content_ad" date="1380295147" username="WoG" version="5.0.2"><![CDATA[Dodaj reklamę w treści ostatniego postu]]></phrase>
 		<phrase name="add_new_ad_gadvertising" date="1380295161" username="WoG" version="5.0.2"><![CDATA[Dodaj nową reklamę]]></phrase>
@@ -492,6 +492,7 @@ Tej operacji nie można cofnąć!]]></phrase>
 		<phrase name="moderator_username" date="1301655790" username="Mateusz" version="4.1.1"><![CDATA[Nicki moderatora]]></phrase>
 		<phrase name="moderator_usernames" date="1301655790" username="Mateusz" version="4.1.1"><![CDATA[Nicki moderatorów]]></phrase>
 		<phrase name="modify" date="1301655790" username="Mateusz" version="4.1.1"><![CDATA[Modyfikuj]]></phrase>
+		<phrase name="move_gcpglobal" date="1401708896" username="WoG" version="5.1.0"><![CDATA[Przenieś]]></phrase>
 		<phrase name="no_one" date="1301655790" username="Mateusz" version="4.1.1"><![CDATA[Żaden]]></phrase>
 		<phrase name="notices_manager" date="1232218116" username="Mateusz" version="3.8.0"><![CDATA[Zarządzaj komunikatami]]></phrase>
 		<phrase name="order_by_date" date="1301655903" username="Mateusz" version="4.1.1"><![CDATA[Sortuj według daty]]></phrase>
@@ -1934,6 +1935,7 @@ Uwaga: Musisz mieć włączoną obsługę cookies!</p>
 		<phrase name="invalid_moderator_specified" date="1306099679" username="Mateusz" version="4.1.2"><![CDATA[Wybrano niewłaściwego moderatora]]></phrase>
 		<phrase name="invalid_option_specified" date="1306099679" username="Mateusz" version="4.1.2"><![CDATA[Wybrano niewłaściwy opcję]]></phrase>
 		<phrase name="invalid_page_specified" date="1306099679" username="Mateusz" version="4.1.2"><![CDATA[Wybrano niewłaściwą stronę]]></phrase>
+		<phrase name="invalid_page_url" date="1401708455" username="WoG" version="5.1.0"><![CDATA[Błędny URL strony. Jeżeli ten błąd pojawił się na stronie, która powinna istnieć, proszę skontaktować się z administratorem i przekazać informacje co spowodowało ten błąd.]]></phrase>
 		<phrase name="invalid_password_specified" date="1306099679" username="Mateusz" version="4.1.2"><![CDATA[Wybrano niewłaściwe hasło]]></phrase>
 		<phrase name="invalid_phrase_specified" date="1306099918" username="Mateusz" version="4.1.2"><![CDATA[Wybrano niewłaściwą frazę]]></phrase>
 		<phrase name="invalid_phrase_varname" date="1306099918" username="Mateusz" version="4.1.2"><![CDATA[Podana zmienna dla tej frazy jest nieprawidłowa. Możesz użyć tylko a-z, A-Z, 0-9, oraz _ (podkreślenie).]]></phrase>
@@ -2490,6 +2492,7 @@ Proszę zmienić hasło za pomocą <a href="profile.php?{1}do=editpassword">tej 
 		<phrase name="action" date="1191946887" username="Mateusz" version="3.6.8"><![CDATA[Akcja]]></phrase>
 		<phrase name="active_members" date="1316986165" username="Wojtek" version="4.1.6"><![CDATA[Aktywnych użytkowników]]></phrase>
 		<phrase name="activities" date="1380973999" username="WoG" version="5.0.4"><![CDATA[Aktywność]]></phrase>
+		<phrase name="add_a_folder" date="1401708730" username="WoG" version="5.1.0"><![CDATA[Dodaj folder]]></phrase>
 		<phrase name="add_a_poll_answer_here" date="1397648458" username="WoG" version="5.1.0"><![CDATA[Dodaj odpowiedź ankiety]]></phrase>
 		<phrase name="add_link" date="1397650429" username="WoG" version="5.1.0"><![CDATA[Dodaj link]]></phrase>
 		<phrase name="add_more_answer" date="1397648482" username="WoG" version="5.1.0"><![CDATA[Dodaj inną odpowiedź]]></phrase>
@@ -2555,6 +2558,7 @@ Mając włączony przycisk Caps Lock możesz wpisać hasło nieprawidłowo. Caps
 		<phrase name="comments" date="1306349188" username="Mateusz" version="4.1.2"><![CDATA[Komentarze]]></phrase>
 		<phrase name="community" date="1231523726" username="Mateusz" version="3.8.0"><![CDATA[Społeczeństwo]]></phrase>
 		<phrase name="community_links" date="1231545008" username="Mateusz" version="3.8.0"><![CDATA[Linki społecznościowe]]></phrase>
+		<phrase name="compose_new" date="1401708795" username="WoG" version="5.1.0"><![CDATA[Stwórz nową]]></phrase>
 		<phrase name="contact"><![CDATA[Kontakt]]></phrase>
 		<phrase name="contact_us" date="1208112217" username="Mateusz" version="3.7.0 Release Candidate 2"><![CDATA[Kontakt]]></phrase>
 		<phrase name="contacts" date="1208112217" username="Mateusz" version="3.7.0 Release Candidate 2"><![CDATA[Kontakty]]></phrase>
@@ -2616,6 +2620,8 @@ Uwaga! Wszystkie zmiany zostaną utracone.]]></phrase>
 		<phrase name="enter_photo_gallery_title" date="1397648359" username="WoG" version="5.1.0"><![CDATA[Wpisz tytuł galerii zdjęć]]></phrase>
 		<phrase name="enter_poll_question" date="1397648409" username="WoG" version="5.1.0"><![CDATA[Wpisz pytanie ankiety]]></phrase>
 		<phrase name="enter_reason_for_deleting" date="1397649459" username="WoG" version="5.1.0"><![CDATA[Opcjonalnie: Przedstaw ludziom powód skasowania]]></phrase>
+		<phrase name="enter_tags" date="1401717601" username="WoG" version="5.1.0"><![CDATA[Wpisz tagi]]></phrase>
+		<phrase name="enter_tags_desc" date="1401717585" username="WoG" version="5.1.0"><![CDATA[Wpisz tag i naciśnij <kbd>Enter</kbd>.]]></phrase>
 		<phrase name="enter_username_to_login_or_register" date="1306350093" username="Mateusz" version="4.1.2"><![CDATA[Podaj swoją nazwę użytkownika i hasło w przeznaczonych do tego polach i kliknij przycisk 'Zarejestruj' by stworzyć swój profil.]]></phrase>
 		<phrase name="enter_your_status_here" date="1380974708" username="WoG" version="5.0.4"><![CDATA[Wpisz tutaj swój status]]></phrase>
 		<phrase name="error_no_criteria" date="1380299823" username="WoG" version="5.0.2"><![CDATA[Proszę wprowadzić kryteria wyszukiwania.]]></phrase>
@@ -2694,7 +2700,7 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="in_progress" date="1197484080" username="Mateusz" version="3.6.8"><![CDATA[W toku]]></phrase>
 		<phrase name="in_x" date="1345637895" username="Wojtek" version="4.2.0"><![CDATA[w <a href="{1}">{2}</a>]]></phrase>
 		<phrase name="in_x_channel" date="1380975540" username="WoG" version="5.0.4"><![CDATA[w <a href="{1}" class="ellipsis">{2}</a>]]></phrase>
-		<phrase name="inbox"><![CDATA[Skrzynka odbiorcza]]></phrase>
+		<phrase name="inbox" date="1401708572" username="WoG" version="5.1.0"><![CDATA[Centrum wiadomości]]></phrase>
 		<phrase name="incoming_friend_requests" date="1306503130" username="Mateusz" version="4.1.2"><![CDATA[Zaproszenia do znajomych]]></phrase>
 		<phrase name="increase_size" date="1306503130" username="Mateusz" version="4.1.2"><![CDATA[Powiększ pole]]></phrase>
 		<phrase name="info" date="1306503130" username="Mateusz" version="4.1.2"><![CDATA[Informacja]]></phrase>
@@ -2726,6 +2732,7 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="last_picture_short" date="1306503360" username="Mateusz" version="4.1.2"><![CDATA[Ostanie]]></phrase>
 		<phrase name="last_post" date="1378396231" username="WoG" version="5.0.2"><![CDATA[Ostatni post]]></phrase>
 		<phrase name="last_post_by" date="1260719375" username="Mateusz" version="4.0.0 Release Candidate 2"><![CDATA[Autor ostatniego posta]]></phrase>
+		<phrase name="last_visit" date="1401717895" username="WoG" version="5.1.0"><![CDATA[Ostatnia wizyta]]></phrase>
 		<phrase name="last_visited_x_at_y" date="1209559964" username="Mateusz" version="3.7.0 Release Candidate 2"><![CDATA[Ostatnio zalogowany: {1} o <span class="time">{2}</span>]]></phrase>
 		<phrase name="last_week" date="1380404100" username="WoG" version="5.0.2"><![CDATA[Ostatni tydzień]]></phrase>
 		<phrase name="latest_activity" date="1378396158" username="WoG" version="5.0.2"><![CDATA[Ostatnia aktywność]]></phrase>
@@ -2751,6 +2758,7 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="may"><![CDATA[Maj]]></phrase>
 		<phrase name="media" date="1380973835" username="WoG" version="5.0.4"><![CDATA[Multimedia]]></phrase>
 		<phrase name="megabytes" date="1345637976" username="Wojtek" version="4.2.0"><![CDATA[MB]]></phrase>
+		<phrase name="member_name" date="1401717918" username="WoG" version="5.1.0"><![CDATA[Nazwa użytkownika]]></phrase>
 		<phrase name="members" date="1380404998" username="WoG" version="5.0.2"><![CDATA[Użytkownicy]]></phrase>
 		<phrase name="members_list"><![CDATA[Lista użytkowników]]></phrase>
 		<phrase name="members_only" date="1380975868" username="WoG" version="5.0.4"><![CDATA[Tylko użytkownicy]]></phrase>
@@ -2768,6 +2776,7 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="monthly"><![CDATA[Miesięcznie]]></phrase>
 		<phrase name="months"><![CDATA[Miesiące]]></phrase>
 		<phrase name="most_users_ever_online_was_x_y_at_z" date="1316986549" username="Wojtek" version="4.1.6"><![CDATA[Najwięcej aktywnych użytkowników ({1}) było {2} o godz. <span class="time">{3}</span>.]]></phrase>
+		<phrase name="move" date="1401708885" username="WoG" version="5.1.0"><![CDATA[Przenieś]]></phrase>
 		<phrase name="move_items" date="1197527284" username="Mateusz" version="3.6.8"><![CDATA[Przenieś elementy]]></phrase>
 		<phrase name="moved_thread_prefix"><![CDATA[Przeniesiony: ]]></phrase>
 		<phrase name="my_profile" date="1378395590" username="WoG" version="5.0.2"><![CDATA[Mój profil]]></phrase>
@@ -2778,11 +2787,13 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="networking" date="1260704699" username="Mateusz" version="4.0.0 Release Candidate 2"><![CDATA[Społeczność forum]]></phrase>
 		<phrase name="never"><![CDATA[Nigdy]]></phrase>
 		<phrase name="new" date="1306598765" username="Mateusz" version="4.1.2"><![CDATA[Nowość]]></phrase>
+		<phrase name="new_message" date="1401717973" username="WoG" version="5.1.0"><![CDATA[Nowa wiadomość]]></phrase>
 		<phrase name="new_page" date="1378395659" username="WoG" version="5.0.2"><![CDATA[Nowa strona]]></phrase>
 		<phrase name="new_posts" date="1306598765" username="Mateusz" version="4.1.2"><![CDATA[Nieprzeczytane posty]]></phrase>
 		<phrase name="new_posts_nav" date="1231523280" username="Mateusz" version="3.8.0"><![CDATA[Nowe posty]]></phrase>
 		<phrase name="new_topics" date="1378397002" username="WoG" version="5.0.2"><![CDATA[Nowe tematy]]></phrase>
 		<phrase name="newer" date="1306598811" username="Mateusz" version="4.1.2"><![CDATA[Nowsze]]></phrase>
+		<phrase name="newest_first" date="1401708971" username="WoG" version="5.1.0"><![CDATA[Najpierw nowsze]]></phrase>
 		<phrase name="next"><![CDATA[Następny]]></phrase>
 		<phrase name="next_page" date="1306598811" username="Mateusz" version="4.1.2"><![CDATA[Następna strona]]></phrase>
 		<phrase name="next_picture_short" date="1269138173" username="Mateusz" version="4.0.2"><![CDATA[Następny]]></phrase>
@@ -2810,7 +2821,10 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="not_logged_no_permission" date="1189255934" username="Mateusz" version="3.6.7"><![CDATA[Nie jesteś zalogowany lub nie masz dostępu do tej strony. Prawdopodobne powody to:]]></phrase>
 		<phrase name="notices" date="1232218081" username="Mateusz" version="3.8.0"><![CDATA[Komunikaty]]></phrase>
 		<phrase name="notification"><![CDATA[Powiadomienie]]></phrase>
+		<phrase name="notification_settings" date="1401709167" username="WoG" version="5.1.0"><![CDATA[Ustawienia powiadomień]]></phrase>
 		<phrase name="notification_type"><![CDATA[Rodzaj powiadomienia]]></phrase>
+		<phrase name="notifications" date="1401709104" username="WoG" version="5.1.0"><![CDATA[Powiadomienia]]></phrase>
+		<phrase name="notifications_lower" date="1401709095" username="WoG" version="5.1.0"><![CDATA[powiadomienia]]></phrase>
 		<phrase name="november"><![CDATA[Listopad]]></phrase>
 		<phrase name="now" date="1306598876" username="Mateusz" version="4.1.2"><![CDATA[teraz]]></phrase>
 		<phrase name="october"><![CDATA[Październik]]></phrase>
@@ -2820,6 +2834,7 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="okay"><![CDATA[OK]]></phrase>
 		<phrase name="old" date="1306598925" username="Mateusz" version="4.1.2"><![CDATA[Stare]]></phrase>
 		<phrase name="older" date="1306598925" username="Mateusz" version="4.1.2"><![CDATA[Starsze]]></phrase>
+		<phrase name="oldest_first" date="1401709041" username="WoG" version="5.1.0"><![CDATA[Najpierw starsze]]></phrase>
 		<phrase name="on" date="1378395412" username="WoG" version="5.0.2"><![CDATA[Włączony]]></phrase>
 		<phrase name="onbeforeunload_message_while_editing_post" date="1380403716" username="WoG" version="5.0.2"><![CDATA[Próbujesz opuścić stronę w trakcie edycji postu. Wszystkie dokonane zmiany w poście zostaną utracone jeżeli ich nie zapiszesz. jesteś pewny, że chcesz opuścić tę stronę?]]></phrase>
 		<phrase name="online" date="1306598925" username="Mateusz" version="4.1.2"><![CDATA[Online]]></phrase>
@@ -2874,7 +2889,7 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="post_user_note" date="1306599072" username="Mateusz" version="4.1.2"><![CDATA[Napisz notatkę o użytkowniku]]></phrase>
 		<phrase name="post_x" date="1345638091" username="Wojtek" version="4.2.0"><![CDATA[Post {1}]]></phrase>
 		<phrase name="posted_by" date="1206026627" username="Mateusz" version="3.7.0 Beta 6"><![CDATA[Dodane przez]]></phrase>
-		<phrase name="posts" date="1397650856" username="WoG" version="5.1.0"><![CDATA[Postów]]></phrase>
+		<phrase name="posts" date="1401708847" username="WoG" version="5.1.0"><![CDATA[Posty]]></phrase>
 		<phrase name="posts_lower" date="1397650847" username="WoG" version="5.1.0"><![CDATA[postów]]></phrase>
 		<phrase name="posttype_comment" date="1397649195" username="WoG" version="5.1.0"><![CDATA[Komentarz]]></phrase>
 		<phrase name="posttype_media" date="1380973839" username="WoG" version="5.0.4"><![CDATA[Multimedia]]></phrase>
@@ -2921,6 +2936,8 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="reply_prefix"><![CDATA[Odp:]]></phrase>
 		<phrase name="reputation" date="1189628395" username="Mateusz" version="3.6.7"><![CDATA[Reputacja]]></phrase>
 		<phrase name="reputation_disabled" date="1197528961" username="Mateusz" version="3.6.8"><![CDATA[ma wyłączoną reputację]]></phrase>
+		<phrase name="requests" date="1401709249" username="WoG" version="5.1.0"><![CDATA[Wnioski]]></phrase>
+		<phrase name="requests_lower" date="1401709258" username="WoG" version="5.1.0"><![CDATA[wnioski]]></phrase>
 		<phrase name="requests_to_join_your_social_groups" date="1306599547" username="Mateusz" version="4.1.2"><![CDATA[Podania o dołączenie do Twojej grupy]]></phrase>
 		<phrase name="reset" date="1269128816" username="Mateusz" version="4.0.2"><![CDATA[Reset]]></phrase>
 		<phrase name="reset_fields"><![CDATA[Wyczyść]]></phrase>
@@ -2941,6 +2958,7 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="search_titles_only" date="1287164563" username="Mateusz" version="4.0.7"><![CDATA[Szukaj tylko w tytułach]]></phrase>
 		<phrase name="second" date="1197529075" username="Mateusz" version="3.6.8"><![CDATA[Drugi]]></phrase>
 		<phrase name="see_more" date="1380975000" username="WoG" version="5.0.4"><![CDATA[Zobacz więcej]]></phrase>
+		<phrase name="select" date="1401708929" username="WoG" version="5.1.0"><![CDATA[Zaznacz]]></phrase>
 		<phrase name="select_from_photo_album" date="1397650342" username="WoG" version="5.1.0"><![CDATA[Wybierz z albumu zdjęć]]></phrase>
 		<phrase name="selected_threads" date="1306599665" username="Mateusz" version="4.1.2"><![CDATA[Wybrane wątki]]></phrase>
 		<phrase name="send"><![CDATA[Wyślij]]></phrase>
@@ -3034,8 +3052,9 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="topics_small" date="1378396188" username="WoG" version="5.0.2"><![CDATA[tematy]]></phrase>
 		<phrase name="total" date="1306602847" username="Mateusz" version="4.1.2"><![CDATA[Łącznie]]></phrase>
 		<phrase name="total_attachments" date="1306602847" username="Mateusz" version="4.1.2"><![CDATA[Łącznie załączników]]></phrase>
-		<phrase name="total_posts" date="1306602847" username="Mateusz" version="4.1.2"><![CDATA[Łącznie postów]]></phrase>
+		<phrase name="total_posts" date="1401717303" username="WoG" version="5.1.0"><![CDATA[Łącznie postów]]></phrase>
 		<phrase name="total_x_nav" date="1306602847" username="Mateusz" version="4.1.2"><![CDATA[Łącznie {1}]]></phrase>
+		<phrase name="trash" date="1401708768" username="WoG" version="5.1.0"><![CDATA[Kosz]]></phrase>
 		<phrase name="tuesday"><![CDATA[Wtorek]]></phrase>
 		<phrase name="type_your_comment_here" date="1380975086" username="WoG" version="5.0.4"><![CDATA[Wpisz tutaj swój komentarz]]></phrase>
 		<phrase name="unable_to_contact_server_please_try_again" date="1380381878" username="WoG" version="5.0.2"><![CDATA[Nie można połączyć się z serwerem. Proszę spróbować ponownie.<br /><br />Jeżeli ten błąd będzie się pojawiał należy skontaktować się z administratorem.]]></phrase>
@@ -3137,7 +3156,12 @@ Proszę spróbować ponownie.]]></phrase>
 		<phrase name="years" date="1189521648" username="Mateusz" version="3.6.7"><![CDATA[Lata]]></phrase>
 		<phrase name="yes" date="1380204869" username="WoG" version="5.0.2"><![CDATA[Tak]]></phrase>
 		<phrase name="yesterday"><![CDATA[Wczoraj]]></phrase>
+		<phrase name="you_can_also_choose_from_popular_taglist" date="1401717636" username="WoG" version="5.1.0"><![CDATA[Możesz również wybrać spośród listy popularnych tagów.]]></phrase>
+		<phrase name="you_can_also_choose_from_popular_tags_link" date="1401717651" username="WoG" version="5.1.0"><![CDATA[Możesz również wybrać spośród listy <span class="jsPseudoLink popular-tags-link">popularnych tagów</span>.]]></phrase>
 		<phrase name="you_have_a_pending_edit_unsaved" date="1380403622" username="WoG" version="5.0.2"><![CDATA[Aktualnie jest otwarta, niezapisana edycja. Proszę zapisać lub anulować przed kontynuacją.]]></phrase>
+		<phrase name="you_may_add_one_more_tag" date="1401717731" username="WoG" version="5.1.0"><![CDATA[Możesz dodać jeszcze <strong>jeden</strong> tag.]]></phrase>
+		<phrase name="you_may_add_x_more_tags" date="1401717709" username="WoG" version="5.1.0"><![CDATA[Możesz dodać jeszcze <strong>{1}</strong> tagów.]]></phrase>
+		<phrase name="you_may_add_x_tags" date="1401717688" username="WoG" version="5.1.0"><![CDATA[Możesz dodać <span>{1}</span> tagów do tematu.]]></phrase>
 		<phrase name="you_may_only_attach_x_files_per_post" date="1306604259" username="Mateusz" version="4.1.2"><![CDATA[Możesz załączyć tylko {1} plików na jeden post]]></phrase>
 		<phrase name="you_must_subscribe_to_post_comment" date="1380975214" username="WoG" version="5.0.4"><![CDATA[Musisz <span class="follow-btn {1} jsPseudoLink" data-node-id="{2}" data-owner-id="{3}">subskrybować</span> kanał <a href="{4}" class="channel-link">{5}</a> aby skomentować ten post.]]></phrase>
 		<phrase name="your_notifications" date="1260704370" username="Mateusz" version="4.0.0 Release Candidate 2"><![CDATA[Powiadomienia]]></phrase>
@@ -3685,6 +3709,10 @@ Możesz użyć następujących zmiennych w HTML:<br />
 		<phrase name="username_is_criteria" date="1380929627" username="WoG" version="5.0.2"><![CDATA[Nazwa użytkownika to {1}]]></phrase>
 		<phrase name="utc_universal_time" date="1380929600" username="WoG" version="5.0.2"><![CDATA[UTC / Czas uniwersalny]]></phrase>
 	</phrasetype>
+	<phrasetype name="" fieldname="pagemeta">
+		<phrase name="page_4ecbdac82f2c2760323361_metadesc" date="1401708690" username="WoG" version="5.1.0"><![CDATA[Centrum wiadomości]]></phrase>
+		<phrase name="page_4ecbdac82f2c2760323361_title" date="1401708675" username="WoG" version="5.1.0"><![CDATA[Centrum wiadomości]]></phrase>
+	</phrasetype>
 	<phrasetype name="Private Messaging" fieldname="pm">
 		<phrase name="all_messages" date="1269043703" username="Mateusz" version="4.0.2"><![CDATA[Wszystkie wiadomości]]></phrase>
 		<phrase name="bcc" date="1269595467" username="Mateusz" version="4.0.2"><![CDATA[Ukryte do wiadomości]]></phrase>
@@ -3889,6 +3917,7 @@ Każde z pól profilu należących do tej kategorii zostanie <em>{3}</em> ale <s
 		<phrase name="limit_selection" date="1306844272" username="Mateusz" version="4.1.2"><![CDATA[Limit selekcji<dfn>Maksymalna liczba opcji z pośród których może wybierać użytkownik.</dfn><dfn> Wpisz <b>0</b>Aby zezwolić im na wybór wszystkich opcji.</dfn>]]></phrase>
 		<phrase name="location_on_profile_page_dfn" date="1344516842" username="Mateusz K" version="4.2.0"><![CDATA[Lokalizacja na stronie profilu
 <dfn>Pole profilu zawsze będzie pokazany na karcie 'O mnie', lub innym dowolnym miejscu wybranym tutaj.</dfn>]]></phrase>
+		<phrase name="messaging" date="1401717872" username="WoG" version="5.1.0"><![CDATA[Wiadomości]]></phrase>
 		<phrase name="module_background" date="1344003117" username="Mateusz K" version="4.2.0"><![CDATA[Tło modułu]]></phrase>
 		<phrase name="module_border" date="1344003130" username="Mateusz K" version="4.2.0"><![CDATA[Obramowanie modułu]]></phrase>
 		<phrase name="module_link_color" date="1344003105" username="Mateusz K" version="4.2.0"><![CDATA[Kolor linku modułu]]></phrase>
@@ -4143,6 +4172,8 @@ Upewnij się, że w folderze <em>install</em> na Twoim serwerze jest obecny plik
 		<phrase name="found_x_duplicate_record_occurences" date="1306645482" username="Mateusz" version="4.1.2"><![CDATA[Znaleziono {1} zdublowanych rekordów]]></phrase>
 		<phrase name="index_length" date="1306645482" username="Mateusz" version="4.1.2"><![CDATA[Wielkość indeksu]]></phrase>
 		<phrase name="manual_query" date="1306645482" username="Mateusz" version="4.1.2"><![CDATA[Ręczne zapytanie<dfn>Możesz uruchomić tylko jedno zapytanie w jednym czasie. Skutków <b>nie można</b> cofnąć.</dfn>]]></phrase>
+		<phrase name="newest_first_gsql" date="1401708983" username="WoG" version="5.1.0"><![CDATA[Najpierw nowsze]]></phrase>
+		<phrase name="oldest_first_gsql" date="1401709031" username="WoG" version="5.1.0"><![CDATA[Najpierw starsze]]></phrase>
 		<phrase name="optimize_tables" date="1306645482" username="Mateusz" version="4.1.2"><![CDATA[Optymalizuj tabele]]></phrase>
 		<phrase name="overhead" date="1213744065" username="Mateusz" version="3.7.2"><![CDATA[Przeniesione]]></phrase>
 		<phrase name="query" date="1306645710" username="Mateusz" version="4.1.2"><![CDATA[Zapytanie]]></phrase>
@@ -4448,6 +4479,7 @@ Wybranie "Default" ustawi użytkownikowi uprawnienia zgodne z tymi jakie posiada
 		<phrase name="instant" date="1192798841" username="Mateusz" version="3.6.8"><![CDATA[Natychmiast]]></phrase>
 		<phrase name="invisible_mode_allows" date="1306846433" username="Mateusz" version="4.1.2"><![CDATA[Niewidoczny tryb pozwala Ci przeglądać forum bez ujawniania swojej obecności na bieżącej liście aktywnych użytkowników.]]></phrase>
 		<phrase name="join_social_groups" date="1231689868" username="Mateusz" version="3.8.0"><![CDATA[<strong>Dołącz do grupy</strong>]]></phrase>
+		<phrase name="last_visit_guser" date="1401717898" username="WoG" version="5.1.0"><![CDATA[Ostatnia wizyta]]></phrase>
 		<phrase name="leave_group" date="1192798938" username="Mateusz" version="3.6.8"><![CDATA[Opuść grupę]]></phrase>
 		<phrase name="let_other_visitors_know_url" date="1206232337" username="Mateusz" version="3.7.0 Release Candidate 1"><![CDATA[Jeżeli życzysz sobie, aby użytkownicy forum znali adres Twojego Forum czy strony WWW, wprowadź URL w pole poniżej.]]></phrase>
 		<phrase name="limit_vm_to_contacts_only" date="1205969015" username="Mateusz" version="3.7.0 Beta 6"><![CDATA[Ogranicz używanie systemu wpisów jedynie dla moderatorów oraz osób z Twojej Listy Kontaktów.]]></phrase>
@@ -4457,7 +4489,9 @@ Wybranie "Default" ustawi użytkownikowi uprawnienia zgodne z tymi jakie posiada
 		<phrase name="moderated_attachments" date="1306846960" username="Mateusz" version="4.1.2"><![CDATA[Załączniki objęte moderacją]]></phrase>
 		<phrase name="msn_messenger_handle"><![CDATA[MSN]]></phrase>
 		<phrase name="new_visitor_messages" date="1306847274" username="Mateusz" version="4.1.2"><![CDATA[Nowe wpisy w profilu]]></phrase>
+		<phrase name="newest_first_guser" date="1401708994" username="WoG" version="5.1.0"><![CDATA[Najpierw nowsze]]></phrase>
 		<phrase name="no_posts_found" date="1192799111" username="Mateusz" version="3.6.8"><![CDATA[Nie znaleziono postów.]]></phrase>
+		<phrase name="oldest_first_guser" date="1401709018" username="WoG" version="5.1.0"><![CDATA[Najpierw starsze]]></phrase>
 		<phrase name="option_to_hide_elements"><![CDATA[Możesz użyć tych opcji dla ujawnienia bądź ukrycia poszczególnych elementów postów, co usprawni Ci przeglądanie forum jeżeli dysponujesz wolniejszym łączem internetowym lub w przypadku, gdy chcesz zlikwidować zbędne Twoim zdaniem elementy postów.]]></phrase>
 		<phrase name="optional_information_will"><![CDATA[Informacje opcjonalne, widoczne dla wszystkich użytkowników forum]]></phrase>
 		<phrase name="or_enter_your_choice_here" date="1192799158" username="Mateusz" version="3.6.8"><![CDATA[Lub wprowadź swój wybór tutaj]]></phrase>
